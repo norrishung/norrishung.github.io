@@ -1,0 +1,213 @@
+@import 'compass/css3';
+@import 'reset';
+
+$font-surveyor: 'Surveyor SSm A', 'Surveyor SSm B', 'Georgia', serif;
+$font-whitney: 'Whitney SSm A', 'Whitney SSm B', 'Helvetica', sans-serif;
+
+* {
+    @include box-sizing(border-box);
+}
+
+@mixin respond-tablet {
+    @media only screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin respond-mobile {
+    @media only screen and (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin colspan($cols) {
+    width: #{$cols/12*100}#{"%"};
+    padding-right: 1em;
+    @include respond-tablet {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+@mixin clearfix {
+    &:after {
+        content: "."; 
+        visibility: hidden; 
+        display: block; 
+        height: 0; 
+        clear: both;
+    }
+}
+
+html {
+    width: 100%;
+    font-size: 10px;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 8em;
+    @include respond-tablet {
+        padding: 0 6em;
+    }
+    @include respond-mobile {
+        padding: 0 2em;
+    }
+}
+
+body {
+    width: 100%;
+    max-width: 850px;
+    margin: 6em auto;
+    font-size: 1.4rem;
+    font-family: $font-surveyor;
+    font-weight: 300;
+    color: #666666;
+    @include respond-mobile {
+        margin: 4em auto;
+    }
+}
+
+p {
+    line-height: 1.6em;
+    margin-bottom: 1.1em;
+    a {
+        color: #d62427;
+        text-decoration: none;
+    }
+}
+
+.slideshow {
+    @include transition(opacity .4s ease-out 0s);
+    @include display-flex;
+    @include align-items(center);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2em;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .96);
+    opacity: 0;
+    pointer-events: none;
+
+    .prev-button, .next-button, .close-button {
+        @include backface-visibility(none);
+        @include transition(opacity .2s ease-out);
+        z-index: 3;
+        position: absolute;
+        display: block;
+        text-decoration: none;
+        width: 30px;
+        height: 30px;
+        top: 5%;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 28px;
+        opacity: .3;
+        background-color: #ddd;
+        &:before {
+            color: #333;
+            font-family: $font-whitney;
+        }
+        &:hover {
+            opacity: .6;
+        }
+        &:active {
+            opacity: 1;
+        }
+        &.disabled {
+            opacity: .15;
+            cursor: default;
+            &:hover, &:active {
+                opacity: .15;
+            }
+        }
+    }
+    .close-button {
+        background-color: #aaa;
+        font-size: 1.4rem;
+        right: 40px;
+        &:before {
+            content: 'x';
+        }
+    }
+    .prev-button {
+        right: 135px;
+        &:before {
+            content: '<'
+        }   
+    }
+
+    .next-button {
+        right: 100px;
+        &:before {
+            content: '>';
+        }
+    }
+
+    .slide-count {
+        position: absolute;
+        top: 5%;
+        height: 30px;
+        text-align: right;
+        line-height: 28px;
+        right: 180px;
+        width: 100px;
+        font-size: 1.2rem;
+        font-family: $font-surveyor;
+    }
+
+    figure {
+        @include transition(transform .0s ease-in-out 0s);
+        @include flex(0 0 80%);
+        @include box-sizing(content-box);
+        @include translateX(0);
+        margin: 2em 10%;
+        &:first-child {
+            margin-left: 10%;
+        }
+        &:last-child {
+            margin-right: 10%;
+        }
+        img {
+            display: block;
+            width: auto;
+            height: auto;
+            margin: 0 auto;
+            max-width: calc(100%*8.5/12);
+            max-height: 400px;
+            padding-right: calc(100%*.5/12);
+            float: left;
+        }
+        figcaption {
+            float: left;
+            width: calc(100%*3/12);
+            p {
+                font-size: 1.2rem;
+                line-height: 1.4em; 
+                font-family: $font-whitney;  
+            }
+        }
+        @include respond-tablet {
+            img {
+                max-width: 100%;
+                margin-bottom: 2em;
+                float: none;
+            }
+            figcaption {
+                float: none;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.slideshow-mode {
+    .slideshow {
+        opacity: 1;
+        pointer-events: all;
+        figure {
+            @include transition-duration(.4s);
+        }
+    }
+}

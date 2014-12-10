@@ -1,0 +1,55 @@
+@import 'main';
+
+html {
+    background-color: #f9fafa;
+    background-image: url('../img/bg_norris.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+header {
+    margin-bottom: 4em;
+    background: url('../img/home/logo.svg');
+    position: relative;
+    left: -10px;
+    background-size: 100% auto;
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: block;
+    width: 250px;
+    height: 23px;
+    h1 {
+        visibility: hidden;
+    }    
+}
+
+.main-content {
+    @include display-flex();
+    @include justify-content(space-between);
+    @include respond-tablet {
+        display: block;
+    }
+
+}
+
+
+.descriptors {
+    @include colspan(4);
+    font-family: $font-whitney;
+    font-weight: 300;
+    color: #999999;
+    margin-bottom: 4em;
+    em {
+        color: #333333;
+    }
+}
+
+.timeline {
+    @include colspan(7);
+    p {
+        font-family: $font-surveyor;
+        font-weight: 300;
+    }
+}

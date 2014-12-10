@@ -1,0 +1,109 @@
+@import 'main';
+
+$color-teal: #009b9d;
+
+body {
+    font-family: $font-whitney;
+    font-size: 1.4rem;
+    line-height: 1.2em;
+    margin-top: 8em;
+    color: #333;
+    @include respond-mobile {
+        margin-top: 4em;
+    }
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    margin-bottom: 2em;
+    img.logo {
+        margin-top: 1em;
+        display: block;
+    }
+}
+.teaser {
+    @include colspan(7);
+    float: left;
+    font-size: 2.2rem;
+    font-style: italic;
+}
+.roles {
+    @include colspan(4);
+    float: left;
+    li {
+        margin-bottom: 1em;
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.detail {
+    color: #888;
+}
+
+.media {
+    @include colspan(7);
+    figure {
+        margin-bottom: 2em;
+        img {
+            width: auto;
+            max-width: 100%;
+            box-shadow: 0 0 3px rgba(0,0,0, .25);
+            margin-bottom: .5em;
+        }
+        figcaption {
+            @include transition(opacity .2s ease-out);
+            pointer-events: none;
+            opacity: 0;
+            font-size: 1.2rem;
+            color: #aaa;
+            font-weight: 500;
+            font-style: italic;
+        }
+        &:hover {
+            figcaption {
+                opacity: 1;
+                pointer-events: all;
+            }
+        }
+    }
+}
+
+.main-section {
+    margin: 2em 0;
+    @include clearfix;
+    h2 {
+        border-top: 1px solid #eee;
+        font-weight: 300;
+        color: $color-teal;
+        font-size: 3.4rem;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        padding: 2em 0 1em 0;
+    }
+    h3 {
+        font-weight: 600;
+        font-color: #111;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: .5em;
+    }
+    > p {
+        @include colspan(7)
+    }
+    .sub-section {
+        @include display-flex;
+        @include justify-content(space-between);
+        padding: 2.5em 0;
+        .content {
+            @include colspan(4);
+            @include order(2);
+            padding: 0;
+        }
+        .media {
+            @include colspan(7);
+            @include order(1);
+        }
+    }
+}

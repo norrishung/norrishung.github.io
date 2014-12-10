@@ -1,0 +1,243 @@
+@import 'main';
+
+$color-teal: #009b9d;
+
+body {
+    font-family: $font-whitney;
+    font-size: 1.5rem;
+    margin-top: 8em;
+    color: #444;
+    @include respond-mobile {
+        margin-top: 4em;
+    }
+}
+
+header {
+    margin-bottom: 2em;
+    .subtitle {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+    }
+    img.logo {
+        margin-top: 1em;
+        display: block;
+    }
+}
+
+section.intro {
+    @include colspan(12);
+    @include columns(2);
+    @include column-gap(4em);
+
+    @include respond-tablet {
+        @include columns(1);
+    }
+}
+
+hr {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: 0;
+    height: 1px;
+    background-color: #f1f1f1;
+}
+
+em {
+    color: $color-teal;
+    font-weight: 500;
+}
+
+.passage {
+    padding-top: 4em;
+    padding-bottom: 4em;
+
+    @include respond-tablet {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    > p {
+        width: calc(100%*8/12);
+        margin-left: calc(100%*2/12);
+        @include respond-tablet {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+
+    h2 {
+        position: relative;
+        padding-top: 2em;
+        padding-bottom: 3em;
+        text-align: center;
+        font-family: $font-surveyor;
+        font-size: 2.4rem;
+        color: $color-teal;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        overflow: visible;
+        width: 100%;
+        &:after {
+            content: '';
+            display: block;
+            border-bottom: 1px solid $color-teal;
+            width: calc(100%*2/12);
+            margin: 0 auto;
+            height: 1px;
+            margin-top: .7em;
+        }
+        @include respond-tablet {
+            padding-bottom: 1.5em;
+        }
+    } 
+
+    h3 {
+        color: #333;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.6rem;
+        padding-top: 3em;
+        padding-bottom: 2em;
+    }
+
+    .media+h3 {
+        padding-top: 4em;
+    }
+
+    h3+.media {
+        figure {
+            margin-top: 2em;
+        }
+    }
+}
+
+.media {
+    @include clearfix;
+
+    &:hover {
+        figure img {
+            opacity: 1;
+        }
+        
+    }
+    &.full-bleed {
+        width: auto;
+        margin-left: -8.3%;
+        margin-right: -8.3%;
+        @include respond-tablet {
+            margin: 0;
+        }
+    }
+
+    figure {
+        margin-top: 4em;
+        margin-bottom: 4em;
+        &:last-child {
+            margin-bottom: 1em;
+        }
+        img {
+            @include transition(opacity .5s ease-out);
+            opacity: .4;
+            width: auto;
+            &:hover {
+                cursor: pointer;
+            }
+            &.active {
+                opacity: 1;
+            }
+        }
+        figcaption {
+            font-family: $font-surveyor;
+            color: #888;
+            font-size: 1.2rem;
+            line-height: 1.4em;
+            &:before {
+                content: '';
+                display: block;
+                width: 100px;
+                border-top: 1px solid #ccc;
+                margin: .8em 0;
+            }
+        }
+
+        &.width-one-whole {
+            img {
+                max-width: 100%;
+            }
+            figcaption {
+                padding-top: 1em;
+            }
+        }
+        &.caption-right, &.caption-left {
+            overflow: auto;
+            @include display-flex();
+            @include justify-content(space-between);
+            @include align-items(flex-start);
+            img {
+                @include colspan(6);
+                height: auto;
+                margin-bottom: 1.5em;
+            }
+            figcaption {
+                @include colspan(5);
+            }
+            @include respond-tablet {
+                display: block;
+            }
+        }
+        &.caption-left {
+            img {
+                @include order(2);
+            }
+            figcaption {
+                @include order(1);
+            }
+        }
+    }
+
+    blockquote {
+        float: left;
+        width: calc(100%*5/12);
+        margin-top: 1em;
+        margin-bottom: 2em;
+        margin-right: calc(100%*1/12);
+        font-size: 1.2rem;
+        p {
+            position: relative;
+            font-family: $font-surveyor;
+            quotes: "\201C""\201D""\2018""\2019";
+            &:before, &:after {
+                position: absolute;
+                font-size: 1.5em;
+                font-weight: 500;
+            }
+            &:before {
+                top: .1em;
+                left: -.7em;
+                content: open-quote;
+                margin-right: .1em;
+            }
+            &:after {
+                content: close-quote;
+                margin-left: .1em;
+           }
+        }
+        cite {
+            display: block;
+            width: 100%;
+            color: $color-teal;
+            text-align: right;
+           .cite-name {
+                font-weight: 500;
+           } 
+           &:before {
+                content: "- ";
+           }
+        }
+    }
+}
