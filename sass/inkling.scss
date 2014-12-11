@@ -91,10 +91,11 @@ header {
         text-transform: uppercase;
         padding: 1.5em 0 1em 0;
         &.pinned-top {
-            @include background-image(linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 0) 100%));
+            // @include background-image(linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 0) 100%));
+            background: #fff;
             position: fixed;
-            top: 0;
             width: 100%;
+            top: 0;
             margin-left: -5px;
             margin-right: -5px;
             padding-right: 5px;
