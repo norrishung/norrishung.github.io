@@ -174,29 +174,20 @@ p {
             width: auto;
             height: auto;
             margin: 0 auto;
-            max-width: calc(100%*8.5/12);
+            max-width: 100%;
+            margin-bottom: 2em;
             max-height: 400px;
             padding-right: calc(100%*.5/12);
-            float: left;
         }
         figcaption {
-            float: left;
-            width: calc(100%*3/12);
+            background-color: #eee;
+            display: inline-block;
+            padding: .5em .7em;
             p {
                 font-size: 1.2rem;
                 line-height: 1.4em; 
                 font-family: $font-whitney;  
-            }
-        }
-        @include respond-tablet {
-            img {
-                max-width: 100%;
-                margin-bottom: 2em;
-                float: none;
-            }
-            figcaption {
-                float: none;
-                width: 100%;
+                margin-bottom: 0;
             }
         }
     }

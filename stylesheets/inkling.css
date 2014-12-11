@@ -251,42 +251,31 @@ p a {
   width: auto;
   height: auto;
   margin: 0 auto;
-  max-width: calc(100%*8.5/12);
+  max-width: 100%;
+  margin-bottom: 2em;
   max-height: 400px;
   padding-right: calc(100%*.5/12);
-  float: left;
 }
 /* line 182, ../sass/_main.scss */
 .slideshow figure figcaption {
-  float: left;
-  width: calc(100%*3/12);
+  background-color: #eee;
+  display: inline-block;
+  padding: .5em .7em;
 }
-/* line 185, ../sass/_main.scss */
+/* line 186, ../sass/_main.scss */
 .slideshow figure figcaption p {
   font-size: 1.2rem;
   line-height: 1.4em;
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", sans-serif;
-}
-@media only screen and (max-width: 768px) {
-  /* line 192, ../sass/_main.scss */
-  .slideshow figure img {
-    max-width: 100%;
-    margin-bottom: 2em;
-    float: none;
-  }
-  /* line 197, ../sass/_main.scss */
-  .slideshow figure figcaption {
-    float: none;
-    width: 100%;
-  }
+  margin-bottom: 0;
 }
 
-/* line 206, ../sass/_main.scss */
+/* line 197, ../sass/_main.scss */
 .slideshow-mode .slideshow {
   opacity: 1;
   pointer-events: all;
 }
-/* line 209, ../sass/_main.scss */
+/* line 200, ../sass/_main.scss */
 .slideshow-mode .slideshow figure {
   -moz-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
@@ -307,86 +296,94 @@ body {
   /* line 5, ../sass/inkling.scss */
   body {
     margin-top: 4em;
+    font-size: 1.3rem;
   }
 }
 
-/* line 17, ../sass/inkling.scss */
+/* line 18, ../sass/inkling.scss */
 header {
   margin-bottom: 2em;
 }
-/* line 19, ../sass/inkling.scss */
+/* line 20, ../sass/inkling.scss */
 header img.logo {
   margin-top: 1em;
   display: block;
 }
 
-/* line 24, ../sass/inkling.scss */
+/* line 25, ../sass/inkling.scss */
 .teaser {
   width: 58.33333%;
   padding-right: 1em;
   float: left;
   font-size: 2.2rem;
   font-style: italic;
+  margin-bottom: 2em;
 }
 @media only screen and (max-width: 768px) {
-  /* line 24, ../sass/inkling.scss */
+  /* line 25, ../sass/inkling.scss */
   .teaser {
     width: 100%;
     padding-right: 0;
   }
 }
+@media only screen and (max-width: 768px) {
+  /* line 25, ../sass/inkling.scss */
+  .teaser {
+    font-size: 1.8rem;
+  }
+}
 
-/* line 30, ../sass/inkling.scss */
+/* line 35, ../sass/inkling.scss */
 .roles {
   width: 33.33333%;
   padding-right: 1em;
   float: left;
 }
 @media only screen and (max-width: 768px) {
-  /* line 30, ../sass/inkling.scss */
+  /* line 35, ../sass/inkling.scss */
   .roles {
     width: 100%;
     padding-right: 0;
   }
 }
-/* line 33, ../sass/inkling.scss */
+/* line 38, ../sass/inkling.scss */
 .roles li {
   margin-bottom: 1em;
 }
-/* line 35, ../sass/inkling.scss */
+/* line 40, ../sass/inkling.scss */
 .roles li p {
   margin-bottom: 0;
 }
 
-/* line 41, ../sass/inkling.scss */
+/* line 46, ../sass/inkling.scss */
 .detail {
   color: #888;
 }
 
-/* line 45, ../sass/inkling.scss */
+/* line 50, ../sass/inkling.scss */
 .media {
   width: 58.33333%;
   padding-right: 1em;
 }
 @media only screen and (max-width: 768px) {
-  /* line 45, ../sass/inkling.scss */
+  /* line 50, ../sass/inkling.scss */
   .media {
     width: 100%;
     padding-right: 0;
   }
 }
-/* line 47, ../sass/inkling.scss */
+/* line 52, ../sass/inkling.scss */
 .media figure {
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
-/* line 49, ../sass/inkling.scss */
+/* line 54, ../sass/inkling.scss */
 .media figure img {
   width: auto;
   max-width: 100%;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
-  margin-bottom: .5em;
+  margin-bottom: .3em;
 }
-/* line 55, ../sass/inkling.scss */
+/* line 60, ../sass/inkling.scss */
 .media figure figcaption {
   -moz-transition: opacity 0.2s ease-out;
   -o-transition: opacity 0.2s ease-out;
@@ -399,13 +396,19 @@ header img.logo {
   font-weight: 500;
   font-style: italic;
 }
-/* line 65, ../sass/inkling.scss */
+/* line 70, ../sass/inkling.scss */
 .media figure:hover figcaption {
   opacity: 1;
   pointer-events: all;
 }
+@media only screen and (max-width: 768px) {
+  /* line 50, ../sass/inkling.scss */
+  .media {
+    margin-top: 2em;
+  }
+}
 
-/* line 73, ../sass/inkling.scss */
+/* line 81, ../sass/inkling.scss */
 .main-section {
   margin: 2em 0;
 }
@@ -417,17 +420,41 @@ header img.logo {
   height: 0;
   clear: both;
 }
-/* line 76, ../sass/inkling.scss */
+/* line 84, ../sass/inkling.scss */
 .main-section h2 {
   border-top: 1px solid #eee;
   font-weight: 300;
   color: #009b9d;
   font-size: 3.4rem;
+  line-height: 1.2em;
   letter-spacing: .1em;
   text-transform: uppercase;
-  padding: 2em 0 1em 0;
+  padding: 1.5em 0 1em 0;
 }
-/* line 85, ../sass/inkling.scss */
+/* line 93, ../sass/inkling.scss */
+.main-section h2.pinned-top {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iOTAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(90%, #ffffff), color-stop(100%, rgba(255, 255, 255, 0)));
+  background-image: -moz-linear-gradient(#ffffff 0%, #ffffff 90%, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(#ffffff 0%, #ffffff 90%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(#ffffff 0%, #ffffff 90%, rgba(255, 255, 255, 0) 100%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+@media only screen and (max-width: 768px) {
+  /* line 84, ../sass/inkling.scss */
+  .main-section h2 {
+    font-size: 2.8rem;
+    padding: 1em 0 1em 0;
+  }
+}
+/* line 108, ../sass/inkling.scss */
 .main-section h3 {
   font-weight: 600;
   font-color: #111;
@@ -435,19 +462,19 @@ header img.logo {
   letter-spacing: 1px;
   margin-bottom: .5em;
 }
-/* line 92, ../sass/inkling.scss */
+/* line 115, ../sass/inkling.scss */
 .main-section > p {
   width: 58.33333%;
   padding-right: 1em;
 }
 @media only screen and (max-width: 768px) {
-  /* line 92, ../sass/inkling.scss */
+  /* line 115, ../sass/inkling.scss */
   .main-section > p {
     width: 100%;
     padding-right: 0;
   }
 }
-/* line 95, ../sass/inkling.scss */
+/* line 118, ../sass/inkling.scss */
 .main-section .sub-section {
   display: -webkit-flex;
   display: flex;
@@ -455,7 +482,7 @@ header img.logo {
   justify-content: space-between;
   padding: 2.5em 0;
 }
-/* line 99, ../sass/inkling.scss */
+/* line 122, ../sass/inkling.scss */
 .main-section .sub-section .content {
   width: 33.33333%;
   padding-right: 1em;
@@ -464,13 +491,13 @@ header img.logo {
   padding: 0;
 }
 @media only screen and (max-width: 768px) {
-  /* line 99, ../sass/inkling.scss */
+  /* line 122, ../sass/inkling.scss */
   .main-section .sub-section .content {
     width: 100%;
     padding-right: 0;
   }
 }
-/* line 104, ../sass/inkling.scss */
+/* line 127, ../sass/inkling.scss */
 .main-section .sub-section .media {
   width: 58.33333%;
   padding-right: 1em;
@@ -478,9 +505,40 @@ header img.logo {
   order: 1;
 }
 @media only screen and (max-width: 768px) {
-  /* line 104, ../sass/inkling.scss */
+  /* line 127, ../sass/inkling.scss */
   .main-section .sub-section .media {
     width: 100%;
     padding-right: 0;
   }
+}
+@media only screen and (max-width: 768px) {
+  /* line 118, ../sass/inkling.scss */
+  .main-section .sub-section {
+    display: block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 81, ../sass/inkling.scss */
+  .main-section {
+    margin: 1.5em 0;
+  }
+}
+/* line 141, ../sass/inkling.scss */
+.main-section.hidden {
+  margin: 0;
+  padding: 0;
+}
+/* line 144, ../sass/inkling.scss */
+.main-section.hidden h2 {
+  border-top: none;
+  margin: .5em 0;
+  padding: 0;
+}
+/* line 149, ../sass/inkling.scss */
+.main-section.hidden p {
+  display: none;
+}
+/* line 152, ../sass/inkling.scss */
+.main-section.hidden .sub-section {
+  display: none;
 }

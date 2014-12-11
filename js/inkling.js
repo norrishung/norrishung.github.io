@@ -1,7 +1,22 @@
 $(document).ready(function() {
-    // scrolling(window, focusImage);
+    scrolling(window, fixHeader);
     var slideshow = makeSlideshow();
 });
+
+function fixHeader(e) {
+    var screenTop = $(document).scrollTop();
+    $('h2:not(.pinned-top)').each(function(index, header) {
+        var headerTop = $(header).position().top;
+        var pinnedHeader = $(header).parent().find('.pinned-top');
+
+        if(headerTop < screenTop && !pinnedHeader.length) {
+            $(header).parent().append($('<h2 class="pinned-top">').html($(header).html()));
+        }
+        if(headerTop > screenTop && pinnedHeader.length > 0) {
+            $(header).parent().find('.pinned-top').remove();
+        }
+    })
+}
 
 
 //Focuses images when they come into screen center.

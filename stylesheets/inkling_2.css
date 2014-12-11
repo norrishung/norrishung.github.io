@@ -252,42 +252,31 @@ p a {
   width: auto;
   height: auto;
   margin: 0 auto;
-  max-width: calc(100%*8.5/12);
+  max-width: 100%;
+  margin-bottom: 2em;
   max-height: 400px;
   padding-right: calc(100%*.5/12);
-  float: left;
 }
 /* line 182, ../sass/_main.scss */
 .slideshow figure figcaption {
-  float: left;
-  width: calc(100%*3/12);
+  background-color: #eee;
+  display: inline-block;
+  padding: .5em .7em;
 }
-/* line 185, ../sass/_main.scss */
+/* line 186, ../sass/_main.scss */
 .slideshow figure figcaption p {
   font-size: 1.2rem;
   line-height: 1.4em;
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", sans-serif;
-}
-@media only screen and (max-width: 768px) {
-  /* line 192, ../sass/_main.scss */
-  .slideshow figure img {
-    max-width: 100%;
-    margin-bottom: 2em;
-    float: none;
-  }
-  /* line 197, ../sass/_main.scss */
-  .slideshow figure figcaption {
-    float: none;
-    width: 100%;
-  }
+  margin-bottom: 0;
 }
 
-/* line 206, ../sass/_main.scss */
+/* line 197, ../sass/_main.scss */
 .slideshow-mode .slideshow {
   opacity: 1;
   pointer-events: all;
 }
-/* line 209, ../sass/_main.scss */
+/* line 200, ../sass/_main.scss */
 .slideshow-mode .slideshow figure {
   -moz-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
