@@ -6,14 +6,14 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="{{ page.css | prepend: '/css/'}}"> 
+  <link rel="stylesheet" href="{{ page.css | prepend: '/css/''}}"> 
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/78326/653206/css/fonts.css" />
 
   <!-- Scripts -->
-  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="{{site.url}}/js/jquery.js"></script>
   {% if page.js %}
   {% for script in page.js %}
-  <script type="text/javascript" src="{{ script | prepend: "/js/"}}"></script>
+  <script type="text/javascript" src="{{ script | prepend: '/js/'}}"></script>
   {% endfor %}
   {% endif %}
 </head>
