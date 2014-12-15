@@ -8,6 +8,7 @@ body {
     line-height: 1.2em;
     margin-top: 8em;
     color: #333;
+    margin-bottom: 2000px;
     @include respond-mobile {
         margin-top: 4em;
         font-size: 1.3rem;
@@ -15,32 +16,66 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-header {
-    margin-bottom: 2em;
+.main-header {
+    margin-bottom: 6em;
     img.logo {
         margin-top: 1em;
         display: block;
     }
 }
-.teaser {
-    @include colspan(7);
-    float: left;
-    font-size: 2.2rem;
-    font-style: italic;
-    margin-bottom: 2em;
-    @include respond-tablet {
-        font-size: 1.8rem;
-    }
-}
-.roles {
-    @include colspan(4);
-    float: left;
-    li {
-        margin-bottom: 1em;
-        p {
-            margin-bottom: 0;
+
+.description {
+    margin-bottom: 6em;
+    @include clearfix;
+    .teaser {
+        @include colspan(7);
+        float: left;
+        font-size: 2.2rem;
+        font-style: italic;
+        margin-bottom: 2em;
+        @include respond-tablet {
+            font-size: 1.8rem;
         }
     }
+    .roles {
+        @include colspan(4);
+        float: left;
+        li {
+            margin-bottom: 1em;
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+h2 {
+    border-top: 1px solid #eee;
+    font-weight: 300;
+    color: $color-teal;
+    font-size: 3.4rem;
+    line-height: 1.2em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: 1.5em 0 1em 0;
+    @include respond-tablet {
+        font-size: 2.8rem;
+        padding: 1em 0 1em 0;
+    }
+    &.pinned-top {
+        position: fixed;
+        top: 0;
+        display: inline-block;
+        background: #fff;
+        box-shadow: 0 0 2px rgba(0,0,0,.1);
+    }
+}
+h3 {
+    font-weight: 600;
+    font-color: #111;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: .5em;
 }
 
 .detail {
@@ -78,44 +113,23 @@ header {
     }
 }
 
+.pinned-bottom {
+    position: absolute;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .main-section {
-    margin: 2em 0;
+    position: relative;
+    margin: 0 0;
     @include clearfix;
-    h2 {
-        border-top: 1px solid #eee;
-        font-weight: 300;
-        color: $color-teal;
-        font-size: 3.4rem;
-        line-height: 1.2em;
-        letter-spacing: .1em;
-        text-transform: uppercase;
-        padding: 1.5em 0 1em 0;
-        &.pinned-top {
-            // @include background-image(linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 0) 100%));
-            background: #fff;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            margin-left: -5px;
-            margin-right: -5px;
-            padding-right: 5px;
-            padding-left: 5px;
-        }
-        @include respond-tablet {
-            font-size: 2.8rem;
-            padding: 1em 0 1em 0;
-        }
-    }
-    h3 {
-        font-weight: 600;
-        font-color: #111;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-bottom: .5em;
-    }
+
     > p {
         @include colspan(7)
     }
+
     .sub-section {
         @include display-flex;
         @include justify-content(space-between);

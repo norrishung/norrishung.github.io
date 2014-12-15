@@ -10,7 +10,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 permalink: /posts/:title/
 gems:
-    - jekyll-compass
+- jekyll-compass
 
 # Build settings
 markdown: kramdown

@@ -1,23 +1,45 @@
 $(document).ready(function() {
-    scrolling(window, fixHeader);
+    // scrolling(window, fixHeader);
     var slideshow = makeSlideshow();
 });
 
 function fixHeader(e) {
     var screenTop = $(document).scrollTop();
-    $('h2:not(.pinned-top)').each(function(index, header) {
-        var headerTop = $(header).position().top;
-        var pinnedHeader = $(header).parent().find('.pinned-top');
-
-        if(headerTop < screenTop && !pinnedHeader.length) {
-            $(header).parent().append($('<h2 class="pinned-top">').html($(header).html()));
+    $('.main-section > h2:not(.pinned-top)').each(function(index, header) {
+        var headerTop = $(header).position().top + $(header).parent().position().top;
+        var pinnedHeader = $(header).parent().find('.pinned-top, .pinned-bottom');
+        if(pinnedHeader.length > 0) {
+           var pinnedHeaderTop = $(header).parent().position().top + $(pinnedHeader).position().top;
+           var pinnedHeaderBottom = screenTop + $(pinnedHeader).outerHeight(); 
         }
-        if(headerTop > screenTop && pinnedHeader.length > 0) {
-            $(header).parent().find('.pinned-top').remove();
+
+        var sectionTop = $(header).parent().position().top
+        var sectionBottom = sectionTop + $(header).parent().height();
+
+        console.log(headerTop, screenTop, pinnedHeader.length, sectionBottom, pinnedHeaderBottom);
+
+
+        //Stick title to screen top when it reaches screen top
+        if(headerTop < screenTop && !pinnedHeader.length) {
+            $(header).parent().append('<h2 class="pinned-top">' + $(header).html() + '</h2>');
+        }
+
+        //Stick title to bottom of section when it reaches bottom of section
+        if(sectionBottom < pinnedHeaderBottom && pinnedHeader.length > 0) {
+            $(pinnedHeader).removeClass('pinned-top').addClass('pinned-bottom');
+        }
+
+        //Move title back to screen top when pinned header goes below screen top
+        if(pinnedHeaderTop > screenTop && sectionTop < screenTop) {
+            $(pinnedHeader).removeClass('pinned-bottom').addClass('pinned-top');
+        }
+
+        //Remove pinned header when section goes below screen top.
+        if(pinnedHeaderTop > screenTop && sectionTop > screenTop) {
+            $(pinnedHeader).remove();
         }
     })
 }
-
 
 //Focuses images when they come into screen center.
 function focusImage(e) {
