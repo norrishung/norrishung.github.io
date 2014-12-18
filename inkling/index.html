@@ -7,7 +7,7 @@ js:
 ---
 <article>
   <header class="main-header">
-    <h1><img src="img/inkling/inkling_logo.svg" class="logo" alt="Inkling"/></h1>
+    <h1><img src="img/inkling_logo.svg" class="logo" alt="Inkling"/></h1>
   </header>
   <aside class="description">
       <p class="teaser">From 2011-2014, I worked at Inkling to help to reimagine the book and publishing system for the digital age.</p>
@@ -27,45 +27,55 @@ js:
   </aside>
   <section class="main-section">
     <h2>Building Content</h2>
-    <p>Each digital book was a tight collaboration between a content architect, a technical lead, a design lead, an editorial lead, the publisher, and a production team in India.</p>
+    <p>For the first year and a half, I built interactive digital content for the Inkling platform. Each digital book was a tight collaboration between a content architect, a technical lead, a design lead, an editorial lead, the publisher, and a production team in India.</p>
     <section class="sub-section">
       <section class="content">
         <h3>Design</h3>
-        <p>My role as a content designer was to translate a diverse range of complex print layouts to responsive web layouts that accurately captured the intent of the content.</p>
-        <p class="detail"><em>Tools used:</em>  Illustrator, Photoshop</p>
+        <p>My role as a design lead was to translate a diverse range of complex print layouts to responsive web layouts that accurately captured the intent of the content. Working with media rich text allowed me to refine my typography skills in establishing type hierachies, balanced page templates, and flexible grid structures.</p>
+        <p>Our continual goal was the push the envelope of what beautiful digital content could be.</p>
+
+        <ul class="skills">
+          <li>Illustrator</li>
+          <li>Photoshop</li>
+        </ul>
       </section>
       <aside class="media">
-        <figure>
-          <img src="img/inkling/gilroy.png" alt="">
+        <figure class="no-shadow">
+          <img src="img/gilroy.png" alt="">
           <figcaption>
             <p>Sample sections from Gilroy&apos;s Atlas of Anatomy on iPad view.</p>
           </figcaption>
         </figure>
-        <figure>
-          <img src="img/inkling/berenson.png" alt="">
+        <figure class="no-shadow">
+          <img src="img/berenson.png" alt="">
           <figcaption>
-            <p>Sample sections from Gilroy&apos;s Atlas of Anatomy on iPad view.</p>
+            <p>Sample sections from Berenson's Business Statistics on iPad view.</p>
           </figcaption>
         </figure>
       </aside>
     </section>
     <section class="sub-section">
       <section class="content">
-        <h3>Coding</h3>
-        <p>As a content developer, I would translate design mocks into HTML/CSS pattern snippet for each type of element in the book. I would work with the design lead to stress-test their layouts and make sure that we both understood how the design would respond across different devices.</p>
-        <p>I also built various custom javascript based widgets for high-end titles.</p>
+        <h3>Development</h3>
+        <p>As a tech lead, I would translate design mocks into HTML/CSS. Since every book we built was essentially a complex website with dozens of page templates and commonly reused patterns, utilizing the power of SASS partials, variables, and mixins was crucial. I would work with the design lead to stress-test their layouts and make sure that we both understood how the design would respond across different devices.</p>
+        <p>Occasionally, I would also work on custom embedded JavaScript widgets on high-touch titles.</p>
+        <ul class="skills">
+          <li>HTML5</li>
+          <li>SASS</li>
+          <li>JavaScript</li>
+        </ul>
       </section>
       <aside class="media">
-        <figure>
-          <img src="img/inkling/frommers.png" alt="">
+        <figure class="no-shadow">
+          <img src="img/frommers.png" alt="">
           <figcaption>
-            <p><em>Frommer&apos;s Day by Day</em> series in mobile view.</p>
+            <p>Sample cards from Frommer&apos;s Day by Day series in across different device widths.</p>
           </figcaption>
         </figure>
-        <figure>
-          <img src="img/inkling/campbell.png" alt="">
+        <figure class="no-shadow">
+          <img src="img/campbell.png" alt="">
           <figcaption>
-            <p><em>Frommer&apos;s Day by Day</em> series in mobile view.</p>
+            <p>A sample of some of the different card templates and content patterns used in Campbell Biology</p>
           </figcaption>
         </figure>
       </aside>
@@ -73,44 +83,68 @@ js:
   </section>
   <section class="main-section">
     <h2>Building Tools</h2>
-    <p><em>I built web tools in my spare time to solve problems.</em> Working on dozens of book over the first year, I began to wonder whether I could do anything to make the process easier for other team members. What started off as hacking projects ended up becoming incredibly useful tools that are still used internally or were incorporated into Inkling's publisher software, Habitat.</p>
+    <p><em>I built web tools in my spare time to solve problems.</em> Working on dozens of book over the first year, I began to wonder whether I could do anything to make the process easier for other team members. What started off as hacking projects ended up becoming incredibly useful tools still used in the compnay today.</p>
     <section class="sub-section">
       <section class="content">
         <h3>Poptip Viewer</h3>
-        <p>Poptip viewer is a tool that visualized every poptip in the book next to the term that it was associated with. This transformed a task that took an entire day to sometime that took less than an hour. This feature was so useful that it was eventually incorporated into Habitat, Inkling’s publishing software.</p>
+        <p>Poptip viewer is a tool that visualized every poptip (think interactive footnotes) in the book next to the term that it was associated with. This transformed a task that took an entire day to sometime that took less than an hour. This feature was so useful that it was eventually incorporated into Habitat, Inkling’s publishing software.</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
       </section>
       <aside class="media">
         <figure>
-          <img src="img/inkling/poptip_viewer.png" alt="">
+          <img src="img/poptip_viewer.png" alt="">
+          <figcaption>
+            <p>A screenshot of Poptip Viewer. All of the poptips in a title would be collated onto a single screen and organized by chapter for easy proofing.</p>
+          </figcaption>
         </figure>
       </aside>
     </section>
     <section class="sub-section">
       <section class="content">
         <h3>Traverser</h3>
-        <p>Traverser is a tool that allowed editors to quickly find and check every link in the book. Every time a link was highlighted, a preview of the content it linked to would show up in an adjacent panel. This turned days worth of work to hours.</p>
+        <p>Traverser is a tool that allowed editors to quickly find and check every link in the book. Every time a link was highlighted, a preview of the content it linked to would show up in an adjacent panel. Users could then quickly navigate between links using keyboard shortcuts. This turned days worth of work to hours.</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
       </section>
       <aside class="media">
         <figure class="caption-right">
-          <img src="img/inkling/traverser.png" alt="">
+          <img src="img/traverser.png" alt="">
+          <figcaption>
+            <p>Traverser in action. A link is highlighted on the left and the destination of the link highlighted on the right. The tool would not only show you the linked page but the linked element itself.</p>
+          </figcaption>
         </figure>
       </aside>
     </section>
     <section class="sub-section">
       <section class="content">
         <h3>Sassafras</h3>
-        <p>Sassafrass is a tool to help detect potential problems by providing a bird’s eye view of the CSS code and the frequency at how different selectors were used. This helped to detect many issues in third-party code such as excessive use of important tags, incorrect usage of z-index or absolute positioning, missing browser prefixes, and use of deprecated or experimental CSS selectors.</p>
+        <p>Sassafrass is a tool to help detect potential problems by providing a bird’s eye view of the CSS code and the frequency at how different selectors were used. This helped to detect many issues in third-party code such as excessive use of important tags, incorrect usage of z-index or absolute positioning, missing browser prefixes, and use of deprecated or experimental CSS selectors. Users could then tap into the specifical SASS partial in order to address the issue.</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
       </section>
       <aside class="media">
         <figure>
-          <img src="img/inkling/sassafras.png" alt="">
+          <img src="img/sassafras.png" alt="">
+          <figcaption>
+            <p>All of the CSS declarations across an entire title. Items in red highlighted potential issues. The SASS partial where the issue originated is displayed on the right.</p>
+          </figcaption>
         </figure>
       </aside>
     </section>
   </section>
   <section class="main-section">
     <h2>Building a Platform</h2>
-    <p>In early 2013, Inkling launched Habitat, a publishing platform to allow anyone else to create their own Inkling books. I led the Content Platform and Strategy team to ensure outside content developers could easily build the content they wanted within out platform.</p>
+    <p>In early 2013, Inkling launched Habitat, a publishing platform to allow anyone else to create their own Inkling books. I led the Content Platform and Strategy team to ensure outside content developers could easily build the content they wanted within our platform.</p>
     <section class="sub-section">
       <section class="content">
         <h3>Inkling Base</h3>
@@ -118,7 +152,7 @@ js:
       </section>
       <aside class="media">
         <figure>
-          <img src="img/inkling/sassafras.png" alt="">
+          <img src="img/pattern_library.png" alt="">
         </figure>
       </aside>
     </section>
@@ -126,24 +160,30 @@ js:
       <section class="content">
         <h3>Content Conversions</h3>
         <p>Publishers were eager to begin new projects in Habitat but they also had a huge backlog of titles they wanted to digitize. Our team created flexible SASS design templates as well as custom scripts to convert XML/INDD book files into HTML content. Our team also led the initiative to make our content EPUB3 compatible.</p>
-        <p>Our team led the project to help Elsevier digitize over 700 titles within half a year. Having never produced more than 50 books at a time previously, this was a huge achievement for the company.</p>
+        <p>As one example, our team led the project to help Elsevier digitize over 700 titles within half a year. Having never produced more than 50 books at a time previously, this was a huge achievement for the company. What partially enabled this was producing a single flexible front-end template that utilized SASS variables to easily customize the look of every each book. It also involved closely studying their XML content structure and writing a script that reliably outputted the desired HTML structure.</p>
       </section>
       <aside class="media">
         <figure>
-          <img src="img/inkling/elsevier.png" alt="">
+          <img src="img/elsevier.png" alt="">
+          <figcaption>
+            <p>A partial list of the 700+ Elsevier titles that we digitized.</p>
+          </figcaption>
         </figure>
       </aside>
     </section>
     <section class="sub-section">
-      <aside class="media">
-        <figure>
-          <img src="img/inkling/sassafras.png" alt="">
-        </figure>
-      </aside>
       <section class="content">
         <h3>New Content Capabilities</h3>
-        <p>We also focused on collaborating with the engineering teams to enable new capabilities such as LaTeX equation authoring, semantic markup and enrichment (RDFa and Microdata), and incorporating custom javascript widgets.</p>
+        <p>Another part of the responsibility of our team was to make sure our content utilized the latest web standards to achieve features that our clients needed. We constantl'y collaborated with the engineering teams to enable new capabilities such as LaTeX equation authoring, semantic markup and enrichment (RDFa and Microdata), structured search, and custom interactive JavaScript widgets.</p>
       </section>
+      <aside class="media">
+        <figure>
+          <img src="img/modernist.png" alt="">
+          <figcaption>
+            <p>A page from Modernist Cuisine that incorporated a recipe yield converter widget.</p>
+          </figcaption>
+        </figure>
+      </aside>
     </section>
   </section>
 </article>

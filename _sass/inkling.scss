@@ -38,7 +38,8 @@ body {
     }
     .roles {
         @include colspan(4);
-        float: left;
+        margin-top: .7em;
+        float: right;
         li {
             margin-bottom: 1em;
             p {
@@ -77,6 +78,17 @@ h3 {
     margin-bottom: .5em;
 }
 
+.skills {
+    li {
+        display: inline-block;
+        margin-right: .3em;
+        padding: .5em .7em;
+        background-color: #eee;
+        color: #555;
+        font-size: 1.2rem;
+    }
+}
+
 .detail {
     color: #888;
 }
@@ -106,9 +118,14 @@ h3 {
                 pointer-events: all;
             }
         }
+        &.no-shadow {
+            img {
+                box-shadow: none;
+            }
+        }
     }
     @include respond-tablet {
-        margin-top: 2em;
+        margin-top: 3em;
     }
 }
 
@@ -149,7 +166,7 @@ h3 {
     }
 
     @include respond-tablet {
-        margin: 1.5em 0;
+        padding: 1.5em 0 ;
     }
 
     &.hidden {

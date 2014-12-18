@@ -348,7 +348,8 @@ body {
 .description .roles {
   width: 33.33333%;
   padding-right: 1em;
-  float: left;
+  margin-top: .7em;
+  float: right;
 }
 @media only screen and (max-width: 768px) {
   /* line 39, ../_sass/inkling.scss */
@@ -357,16 +358,16 @@ body {
     padding-right: 0;
   }
 }
-/* line 42, ../_sass/inkling.scss */
+/* line 43, ../_sass/inkling.scss */
 .description .roles li {
   margin-bottom: 1em;
 }
-/* line 44, ../_sass/inkling.scss */
+/* line 45, ../_sass/inkling.scss */
 .description .roles li p {
   margin-bottom: 0;
 }
 
-/* line 51, ../_sass/inkling.scss */
+/* line 52, ../_sass/inkling.scss */
 h2 {
   border-top: 1px solid #eee;
   font-weight: 300;
@@ -378,13 +379,13 @@ h2 {
   padding: 1.5em 0 1em 0;
 }
 @media only screen and (max-width: 768px) {
-  /* line 51, ../_sass/inkling.scss */
+  /* line 52, ../_sass/inkling.scss */
   h2 {
     font-size: 2.8rem;
     padding: 1em 0 1em 0;
   }
 }
-/* line 64, ../_sass/inkling.scss */
+/* line 65, ../_sass/inkling.scss */
 h2.pinned-top {
   position: fixed;
   top: 0;
@@ -393,7 +394,7 @@ h2.pinned-top {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
-/* line 72, ../_sass/inkling.scss */
+/* line 73, ../_sass/inkling.scss */
 h3 {
   font-weight: 600;
   font-color: #111;
@@ -402,35 +403,45 @@ h3 {
   margin-bottom: .5em;
 }
 
-/* line 80, ../_sass/inkling.scss */
+/* line 82, ../_sass/inkling.scss */
+.skills li {
+  display: inline-block;
+  margin-right: .3em;
+  padding: .5em .7em;
+  background-color: #eee;
+  color: #555;
+  font-size: 1.2rem;
+}
+
+/* line 92, ../_sass/inkling.scss */
 .detail {
   color: #888;
 }
 
-/* line 84, ../_sass/inkling.scss */
+/* line 96, ../_sass/inkling.scss */
 .media {
   width: 58.33333%;
   padding-right: 1em;
 }
 @media only screen and (max-width: 768px) {
-  /* line 84, ../_sass/inkling.scss */
+  /* line 96, ../_sass/inkling.scss */
   .media {
     width: 100%;
     padding-right: 0;
   }
 }
-/* line 86, ../_sass/inkling.scss */
+/* line 98, ../_sass/inkling.scss */
 .media figure {
   margin-bottom: 1.5em;
 }
-/* line 88, ../_sass/inkling.scss */
+/* line 100, ../_sass/inkling.scss */
 .media figure img {
   width: auto;
   max-width: 100%;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
   margin-bottom: .3em;
 }
-/* line 94, ../_sass/inkling.scss */
+/* line 106, ../_sass/inkling.scss */
 .media figure figcaption {
   -moz-transition: opacity 0.2s ease-out;
   -o-transition: opacity 0.2s ease-out;
@@ -443,19 +454,23 @@ h3 {
   font-weight: 500;
   font-style: italic;
 }
-/* line 104, ../_sass/inkling.scss */
+/* line 116, ../_sass/inkling.scss */
 .media figure:hover figcaption {
   opacity: 1;
   pointer-events: all;
 }
+/* line 122, ../_sass/inkling.scss */
+.media figure.no-shadow img {
+  box-shadow: none;
+}
 @media only screen and (max-width: 768px) {
-  /* line 84, ../_sass/inkling.scss */
+  /* line 96, ../_sass/inkling.scss */
   .media {
-    margin-top: 2em;
+    margin-top: 3em;
   }
 }
 
-/* line 115, ../_sass/inkling.scss */
+/* line 132, ../_sass/inkling.scss */
 .pinned-bottom {
   position: absolute;
   background: #fff;
@@ -464,7 +479,7 @@ h3 {
   right: 0;
 }
 
-/* line 123, ../_sass/inkling.scss */
+/* line 140, ../_sass/inkling.scss */
 .main-section {
   position: relative;
   margin: 0 0;
@@ -477,19 +492,19 @@ h3 {
   height: 0;
   clear: both;
 }
-/* line 128, ../_sass/inkling.scss */
+/* line 145, ../_sass/inkling.scss */
 .main-section > p {
   width: 58.33333%;
   padding-right: 1em;
 }
 @media only screen and (max-width: 768px) {
-  /* line 128, ../_sass/inkling.scss */
+  /* line 145, ../_sass/inkling.scss */
   .main-section > p {
     width: 100%;
     padding-right: 0;
   }
 }
-/* line 132, ../_sass/inkling.scss */
+/* line 149, ../_sass/inkling.scss */
 .main-section .sub-section {
   display: -webkit-flex;
   display: flex;
@@ -497,7 +512,7 @@ h3 {
   justify-content: space-between;
   padding: 2.5em 0;
 }
-/* line 136, ../_sass/inkling.scss */
+/* line 153, ../_sass/inkling.scss */
 .main-section .sub-section .content {
   width: 33.33333%;
   padding-right: 1em;
@@ -506,13 +521,13 @@ h3 {
   padding: 0;
 }
 @media only screen and (max-width: 768px) {
-  /* line 136, ../_sass/inkling.scss */
+  /* line 153, ../_sass/inkling.scss */
   .main-section .sub-section .content {
     width: 100%;
     padding-right: 0;
   }
 }
-/* line 141, ../_sass/inkling.scss */
+/* line 158, ../_sass/inkling.scss */
 .main-section .sub-section .media {
   width: 58.33333%;
   padding-right: 1em;
@@ -520,40 +535,40 @@ h3 {
   order: 1;
 }
 @media only screen and (max-width: 768px) {
-  /* line 141, ../_sass/inkling.scss */
+  /* line 158, ../_sass/inkling.scss */
   .main-section .sub-section .media {
     width: 100%;
     padding-right: 0;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 132, ../_sass/inkling.scss */
+  /* line 149, ../_sass/inkling.scss */
   .main-section .sub-section {
     display: block;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 123, ../_sass/inkling.scss */
+  /* line 140, ../_sass/inkling.scss */
   .main-section {
-    margin: 1.5em 0;
+    padding: 1.5em 0;
   }
 }
-/* line 155, ../_sass/inkling.scss */
+/* line 172, ../_sass/inkling.scss */
 .main-section.hidden {
   margin: 0;
   padding: 0;
 }
-/* line 158, ../_sass/inkling.scss */
+/* line 175, ../_sass/inkling.scss */
 .main-section.hidden h2 {
   border-top: none;
   margin: .5em 0;
   padding: 0;
 }
-/* line 163, ../_sass/inkling.scss */
+/* line 180, ../_sass/inkling.scss */
 .main-section.hidden p {
   display: none;
 }
-/* line 166, ../_sass/inkling.scss */
+/* line 183, ../_sass/inkling.scss */
 .main-section.hidden .sub-section {
   display: none;
 }

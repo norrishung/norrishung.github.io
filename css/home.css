@@ -286,13 +286,12 @@ p a {
 /* line 3, ../_sass/home.scss */
 html {
   background-color: #f9fafa;
-  background-image: url("../img/bg_norris.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
 }
 
-/* line 12, ../_sass/home.scss */
+/* line 11, ../_sass/home.scss */
 header {
   margin-bottom: 4em;
   background: url("../img/home/logo.svg");
@@ -305,12 +304,12 @@ header {
   width: 250px;
   height: 23px;
 }
-/* line 23, ../_sass/home.scss */
+/* line 22, ../_sass/home.scss */
 header h1 {
   visibility: hidden;
 }
 
-/* line 28, ../_sass/home.scss */
+/* line 27, ../_sass/home.scss */
 .main-content {
   display: -webkit-flex;
   display: flex;
@@ -318,13 +317,13 @@ header h1 {
   justify-content: space-between;
 }
 @media only screen and (max-width: 768px) {
-  /* line 28, ../_sass/home.scss */
+  /* line 27, ../_sass/home.scss */
   .main-content {
     display: block;
   }
 }
 
-/* line 38, ../_sass/home.scss */
+/* line 37, ../_sass/home.scss */
 .descriptors {
   width: 33.33333%;
   padding-right: 1em;
@@ -334,30 +333,30 @@ header h1 {
   margin-bottom: 4em;
 }
 @media only screen and (max-width: 768px) {
-  /* line 38, ../_sass/home.scss */
+  /* line 37, ../_sass/home.scss */
   .descriptors {
     width: 100%;
     padding-right: 0;
   }
 }
-/* line 44, ../_sass/home.scss */
+/* line 43, ../_sass/home.scss */
 .descriptors em {
   color: #333333;
 }
 
-/* line 49, ../_sass/home.scss */
+/* line 48, ../_sass/home.scss */
 .timeline {
   width: 58.33333%;
   padding-right: 1em;
 }
 @media only screen and (max-width: 768px) {
-  /* line 49, ../_sass/home.scss */
+  /* line 48, ../_sass/home.scss */
   .timeline {
     width: 100%;
     padding-right: 0;
   }
 }
-/* line 51, ../_sass/home.scss */
+/* line 50, ../_sass/home.scss */
 .timeline p {
   font-family: "Surveyor SSm A", "Surveyor SSm B", "Georgia", serif;
   font-weight: 300;
