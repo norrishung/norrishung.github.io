@@ -1,0 +1,36 @@
+@import 'main';
+
+
+.main-header {
+    margin: 3em 0;
+    text-align: center;
+    .logo {
+        margin: 0 auto;
+    }
+}
+
+article {
+
+    color: #111;
+
+    > p {
+        margin: 1em auto;
+        @include colspan(8);
+        text-align: center;
+    }
+
+    figure {
+        margin: 4em -20px;
+        width: auto;
+        img {
+            max-width: 100%;
+        }
+        @include respond-mobile {
+            margin: 2em 0;
+        }
+    }
+
+    b {
+        font-weight: 700;
+    }
+}
