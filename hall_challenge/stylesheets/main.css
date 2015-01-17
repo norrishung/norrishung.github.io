@@ -116,25 +116,29 @@ body {
 .view-sidebar .button-container div[class*='button'] {
   -webkit-flex: 0 0 60px;
   flex: 0 0 60px;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   text-align: center;
   border: 1px solid #eee;
-  background-color: #fafafa;
+  background-color: rgba(240, 240, 240, 0.3);
   color: #888;
   font-size: 1rem;
   text-transform: uppercase;
   padding: .5em .7rem;
   border-radius: 2px;
 }
-/* line 27, ../sass/_sidebar-view.scss */
+/* line 28, ../sass/_sidebar-view.scss */
 .view-sidebar .button-container div[class*='button']:hover {
-  background-color: #eee;
+  background-color: #f0f0f0;
   color: #555;
 }
-/* line 34, ../sass/_sidebar-view.scss */
+/* line 35, ../sass/_sidebar-view.scss */
 .view-sidebar .list__contact {
   margin: 2em 0;
 }
-/* line 36, ../sass/_sidebar-view.scss */
+/* line 37, ../sass/_sidebar-view.scss */
 .view-sidebar .list__contact li {
   display: -webkit-flex;
   display: flex;
@@ -142,16 +146,21 @@ body {
   justify-content: space-between;
   -webkit-align-items: center;
   align-items: center;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   position: relative;
   height: 35px;
   padding: .5em .5em;
+  background-color: 200, 200, 200, 0;
   color: #555;
 }
-/* line 45, ../sass/_sidebar-view.scss */
+/* line 47, ../sass/_sidebar-view.scss */
 .view-sidebar .list__contact li:not(:last-child) {
   border-bottom: 1px solid #eee;
 }
-/* line 49, ../sass/_sidebar-view.scss */
+/* line 51, ../sass/_sidebar-view.scss */
 .view-sidebar .list__contact li .button__remove-contact {
   display: none;
   height: 20px;
@@ -164,21 +173,21 @@ body {
   padding: 0 .5em;
   text-transform: uppercase;
 }
-/* line 60, ../sass/_sidebar-view.scss */
+/* line 62, ../sass/_sidebar-view.scss */
 .view-sidebar .list__contact li .button__remove-contact:before {
   content: 'x';
   font-size: .6rem;
   line-height: 20px;
 }
-/* line 65, ../sass/_sidebar-view.scss */
+/* line 67, ../sass/_sidebar-view.scss */
 .view-sidebar .list__contact li .button__remove-contact:hover {
-  background-color: #ccc;
+  background-color: 200, 200, 200, 1;
 }
-/* line 70, ../sass/_sidebar-view.scss */
+/* line 72, ../sass/_sidebar-view.scss */
 .view-sidebar .list__contact li:hover {
   background-color: #fafafa;
 }
-/* line 72, ../sass/_sidebar-view.scss */
+/* line 74, ../sass/_sidebar-view.scss */
 .view-sidebar .list__contact li:hover .button__remove-contact {
   display: inline-block;
 }
@@ -222,12 +231,6 @@ body {
 
 /* line 1, ../sass/_dialogues.scss */
 .dialogues-container {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  align-items: center;
   -moz-transition: all 0.25s ease-out;
   -o-transition: all 0.25s ease-out;
   -webkit-transition: all 0.25s ease-out;
@@ -239,27 +242,40 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(50, 50, 50, 0.9);
+  text-align: center;
+  background-color: rgba(30, 30, 30, 0.5);
 }
-/* line 15, ../sass/_dialogues.scss */
+/* line 13, ../sass/_dialogues.scss */
 .dialogues-container.show {
   opacity: 1;
   pointer-events: all;
 }
-/* line 20, ../sass/_dialogues.scss */
+/* line 18, ../sass/_dialogues.scss */
 .dialogues-container section[class*='dialogue'] {
-  display: none;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -175px;
+  margin-top: 20px;
+  opacity: 0;
+  pointer-events: none;
   width: 350px;
   background: #fff;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
   padding: 30px;
   border: 1px solid #eee;
 }
-/* line 27, ../sass/_dialogues.scss */
+/* line 32, ../sass/_dialogues.scss */
 .dialogues-container section[class*='dialogue'].show {
-  display: block;
+  margin-top: 40px;
+  opacity: 1;
+  pointer-events: all;
 }
-/* line 31, ../sass/_dialogues.scss */
+/* line 38, ../sass/_dialogues.scss */
 .dialogues-container section[class*='dialogue'] input {
   font-size: 1.6rem;
   padding: .3em .5em;
@@ -267,17 +283,17 @@ body {
   border: 1px solid #eee;
   width: 100%;
 }
-/* line 39, ../sass/_dialogues.scss */
+/* line 46, ../sass/_dialogues.scss */
 .dialogues-container section[class*='dialogue'] button {
   margin-top: 1em;
 }
-/* line 43, ../sass/_dialogues.scss */
+/* line 50, ../sass/_dialogues.scss */
 .dialogues-container section[class*='dialogue'] h2 {
   font-size: 1.6rem;
   margin-bottom: 1em;
   font-weight: bold;
 }
-/* line 49, ../sass/_dialogues.scss */
+/* line 56, ../sass/_dialogues.scss */
 .dialogues-container section[class*='dialogue'] textarea {
   -moz-appearance: none;
   -webkit-appearance: none;

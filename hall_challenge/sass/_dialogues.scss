@@ -1,7 +1,4 @@
 .dialogues-container {
-    @include display-flex();
-    @include justify-content(center);
-    @include align-items(center);
     @include transition(all .25s ease-out);
     opacity: 0;
     pointer-events: none;
@@ -10,7 +7,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(50, 50, 50, .9);
+    text-align: center;
+    background-color: rgba(30, 30, 30, .5);
 
     &.show {
         opacity: 1;
@@ -18,14 +16,23 @@
     }
 
     section[class*='dialogue'] {
-        display: none;
+        @include transition(all .25s ease-out);
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -175px;
+        margin-top: 20px;
+        opacity: 0;
+        pointer-events: none;
         width: 350px;
         background: #fff;
         box-shadow: 0px 2px 3px rgba(0,0,0,.15);
         padding: 30px;
         border: 1px solid #eee;
         &.show {
-            display: block;
+            margin-top: 40px;
+            opacity: 1;
+            pointer-events: all;
         }
 
         input {
