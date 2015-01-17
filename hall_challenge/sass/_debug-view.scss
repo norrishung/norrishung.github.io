@@ -1,0 +1,12 @@
+.view-debug {
+    @include flex(0 0 250px);
+    border-left: 1px solid #eee;
+    padding: 40px 20px;
+    overflow: auto;
+    p {
+        font-family: $font-monospace;
+        font-size: 1.2rem;
+        margin-bottom: .5em;
+        color: red;
+    }
+}
