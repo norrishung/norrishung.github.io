@@ -1,0 +1,53 @@
+@import 'main';
+
+
+.main-header {
+    margin: 3em 0;
+    text-align: center;
+    .logo {
+        margin: 0 auto;
+    }
+}
+
+article {
+
+    font-size: 1.6rem;
+    line-height: 1.4em;
+    font-family: $font-whitney;
+
+    color: #111;
+
+    > p {
+        margin: 1em auto;
+        @include colspan(8);
+        text-align: left;
+    }
+
+    > ol {
+        margin: 1em auto;
+        @include colspan(8);
+        text-align: left;
+        list-style-type: decimal;
+        li {
+            margin-bottom: 1em;
+            margin-left: 2.5em;
+            margin-right: 2.5em;
+        }
+    }
+
+    figure {
+        margin: 4em -20px;
+        width: auto;
+        box-shadow: 0px 0px 3px rgba(0,0,0,.2);
+        img {
+            max-width: 100%;
+        }
+        @include respond-mobile {
+            margin: 2em 0;
+        }
+    }
+
+    b {
+        font-weight: 700;
+    }
+}
