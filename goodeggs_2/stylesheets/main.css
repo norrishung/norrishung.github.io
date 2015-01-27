@@ -1,0 +1,542 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 14, ../sass/main.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 18, ../sass/main.scss */
+html {
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", sans-serif;
+  font-size: 10px;
+}
+
+/* line 23, ../sass/main.scss */
+body {
+  font-size: 1.4em;
+  min-width: 900px;
+  -webkit-user-select: none;
+}
+
+/* line 29, ../sass/main.scss */
+input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: 0px;
+}
+
+/* line 36, ../sass/main.scss */
+.main-container .main-header {
+  position: fixed;
+  min-width: 900px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+/* line 48, ../sass/main.scss */
+.main-nav {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 7px 40px;
+}
+/* line 54, ../sass/main.scss */
+.main-nav h1 {
+  -webkit-flex: 0 0 150px;
+  flex: 0 0 150px;
+  text-indent: -9999px;
+  display: block;
+  background-image: url("../img/goodeggs_logo.svg");
+  background-repeat: no-repeat;
+  height: 50px;
+}
+/* line 62, ../sass/main.scss */
+.main-nav .site-nav {
+  font-family: "Surveyor SSm A", "Surveyor SSm B", "Georgia", serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 200;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  margin: 0 2em;
+}
+/* line 70, ../sass/main.scss */
+.main-nav .site-nav li {
+  height: 100%;
+  -webkit-flex: 1 0 auto;
+  flex: 1 0 auto;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  margin: 0 1em;
+  opacity: .6;
+  position: relative;
+}
+/* line 77, ../sass/main.scss */
+.main-nav .site-nav li.selected {
+  font-weight: 600;
+  opacity: 1;
+}
+/* line 80, ../sass/main.scss */
+.main-nav .site-nav li.selected:before {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: -28px;
+  left: 50%;
+  margin-left: -10px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #d3e2e1;
+}
+/* line 94, ../sass/main.scss */
+.main-nav .site-nav li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+/* line 98, ../sass/main.scss */
+.main-nav .site-nav li:first-child {
+  margin-left: 0em;
+}
+/* line 101, ../sass/main.scss */
+.main-nav .site-nav li:last-child {
+  margin-right: 0em;
+}
+/* line 106, ../sass/main.scss */
+.main-nav .search-bar {
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+/* line 108, ../sass/main.scss */
+.main-nav .search-bar input {
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 200;
+  padding: .7em;
+  width: 100%;
+  border-radius: 5px;
+}
+/* line 117, ../sass/main.scss */
+.main-nav .account-nav {
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  margin: 0 0 0 3em;
+  font-size: 1.2rem;
+}
+/* line 122, ../sass/main.scss */
+.main-nav .account-nav li {
+  margin: 0 1.5em;
+}
+/* line 124, ../sass/main.scss */
+.main-nav .account-nav li:first-child {
+  margin-left: 0em;
+}
+/* line 127, ../sass/main.scss */
+.main-nav .account-nav li:last-child {
+  margin-right: 0em;
+}
+/* line 130, ../sass/main.scss */
+.main-nav .account-nav li.basket {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #333;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  line-height: 1.35em;
+}
+/* line 132, ../sass/main.scss */
+.main-nav .account-nav li.basket:before {
+  content: '';
+  position: absolute;
+  top: -11px;
+  left: -9px;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url("../img/icons/icon_basket.svg");
+  background-repeat: no-repeat;
+}
+
+/* line 157, ../sass/main.scss */
+.secondary-nav {
+  background-color: #d3e2e1;
+  padding: 0 40px;
+}
+/* line 160, ../sass/main.scss */
+.secondary-nav ul {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 1.1rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #333;
+  margin-bottom: .2em;
+}
+/* line 168, ../sass/main.scss */
+.secondary-nav ul li {
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-align: center;
+  opacity: .6;
+  min-width: 40px;
+  padding: 1.4em 0;
+}
+/* line 174, ../sass/main.scss */
+.secondary-nav ul li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+/* line 178, ../sass/main.scss */
+.secondary-nav ul li.selected {
+  opacity: 1;
+  font-weight: 600;
+  border-bottom: 3px solid #333;
+}
+/* line 183, ../sass/main.scss */
+.secondary-nav ul li:first-child {
+  margin-left: 0em;
+}
+/* line 186, ../sass/main.scss */
+.secondary-nav ul li:last-child {
+  margin-right: 0em;
+}
+/* line 190, ../sass/main.scss */
+.secondary-nav ul li[class*="category"] .icon {
+  margin: 0 auto;
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-bottom: .5em;
+  background-repeat: no-repeat;
+}
+/* line 200, ../sass/main.scss */
+.secondary-nav ul li[class*="category"].category-produce .icon {
+  background: url("../img/icons/icon_produce.svg");
+}
+/* line 205, ../sass/main.scss */
+.secondary-nav ul li[class*="category"].category-diary .icon {
+  background: url("../img/icons/icon_diary.svg");
+}
+/* line 210, ../sass/main.scss */
+.secondary-nav ul li[class*="category"].category-bakery .icon {
+  background: url("../img/icons/icon_bakery.svg");
+}
+/* line 215, ../sass/main.scss */
+.secondary-nav ul li[class*="category"].category-meat .icon {
+  background: url("../img/icons/icon_meat.svg");
+}
+/* line 220, ../sass/main.scss */
+.secondary-nav ul li[class*="category"].category-pantry .icon {
+  background: url("../img/icons/icon_pantry.svg");
+}
+/* line 225, ../sass/main.scss */
+.secondary-nav ul li[class*="category"].category-snacks .icon {
+  background: url("../img/icons/icon_snacks.svg");
+}
+/* line 230, ../sass/main.scss */
+.secondary-nav ul li[class*="category"].category-drinks .icon {
+  background: url("../img/icons/icon_drinks.svg");
+}
+/* line 235, ../sass/main.scss */
+.secondary-nav ul li[class*="category"].category-floral .icon {
+  background: url("../img/icons/icon_floral.svg");
+}
+/* line 240, ../sass/main.scss */
+.secondary-nav ul li[class*="category"].category-produce .icon {
+  background: url("../img/icons/icon_produce.svg");
+}
+/* line 245, ../sass/main.scss */
+.secondary-nav ul li[class*="category"].category-gifts .icon {
+  background: url("../img/icons/icon_gifts.svg");
+}
+/* line 250, ../sass/main.scss */
+.secondary-nav ul li[class*="category"].category-prepared .icon {
+  background: url("../img/icons/icon_prepared.svg");
+}
+/* line 255, ../sass/main.scss */
+.secondary-nav ul li[class*="category"].category-bundles .icon {
+  background: url("../img/icons/icon_bundles.svg");
+}
+
+/* line 264, ../sass/main.scss */
+.main-content {
+  position: relative;
+  padding: 3em 40px 0 40px;
+  margin-top: 150px;
+}
+/* line 268, ../sass/main.scss */
+.main-content .secondary-categories {
+  position: absolute;
+  width: 160px;
+  font-size: 1.2rem;
+  margin-top: 1em;
+  color: #364241;
+}
+/* line 274, ../sass/main.scss */
+.main-content .secondary-categories li {
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  opacity: .6;
+  padding: .5em;
+}
+/* line 278, ../sass/main.scss */
+.main-content .secondary-categories li.selected {
+  font-weight: 600;
+  opacity: 1;
+}
+/* line 282, ../sass/main.scss */
+.main-content .secondary-categories li:hover {
+  opacity: 1;
+  cursor: pointer;
+  background-color: #d3e2e1;
+}
+/* line 289, ../sass/main.scss */
+.main-content .grocery-view {
+  position: absolute;
+  top: 3em;
+  right: 40px;
+  left: 220px;
+  overflow: auto;
+  color: #364241;
+}
+/* line 296, ../sass/main.scss */
+.main-content .grocery-view header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 1em;
+}
+/* line 301, ../sass/main.scss */
+.main-content .grocery-view header h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+/* line 307, ../sass/main.scss */
+.main-content .grocery-view header .options {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: .5em;
+}
+/* line 310, ../sass/main.scss */
+.main-content .grocery-view header .options li {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 1rem;
+  font-weight: 500;
+}
+/* line 315, ../sass/main.scss */
+.main-content .grocery-view header .options li:not(:first-child) {
+  margin-left: 4em;
+}
+/* line 322, ../sass/main.scss */
+.main-content .grocery-view .grocery-items {
+  padding-top: 2em;
+}
+/* line 325, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul {
+  overflow: auto;
+}
+/* line 327, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item {
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  float: left;
+  width: 32%;
+  min-width: 200px;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}
+/* line 335, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item:nth-of-type(3n) {
+  margin-right: 0;
+}
+/* line 338, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .image-container {
+  position: relative;
+}
+/* line 340, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .image-container .grocery-image {
+  width: 100%;
+  display: block;
+}
+/* line 344, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .image-container .basket-actions {
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+/* line 358, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .image-container .basket-actions .buttons {
+  font-size: 3rem;
+  font-weight: 200;
+}
+/* line 361, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .image-container .basket-actions .buttons .button-add, .main-content .grocery-view .grocery-items ul .grocery-item .image-container .basket-actions .buttons .button-minus {
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  float: left;
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  line-height: 30px;
+  margin-right: 10px;
+}
+/* line 370, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .image-container .basket-actions .buttons .button-add:hover, .main-content .grocery-view .grocery-items ul .grocery-item .image-container .basket-actions .buttons .button-minus:hover {
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+/* line 389, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .details {
+  background-color: #f5f5f5;
+  padding: 15px;
+}
+/* line 392, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .details .producer {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-bottom: .5em;
+}
+/* line 397, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .details h3 {
+  font-family: "Surveyor SSm A", "Surveyor SSm B", "Georgia", serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.3em;
+  height: 3em;
+}
+/* line 404, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .details .footer {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+/* line 407, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .details .footer .price-per-unit {
+  float: right;
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+/* line 411, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .details .footer .price-per-unit .price {
+  font-weight: 600;
+}
+/* line 413, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item .details .footer .price-per-unit .price .cents {
+  vertical-align: top;
+  font-size: .7em;
+}
+/* line 421, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item:hover {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+/* line 423, ../sass/main.scss */
+.main-content .grocery-view .grocery-items ul .grocery-item:hover .basket-actions {
+  opacity: 1;
+}
