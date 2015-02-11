@@ -1,5 +1,8 @@
 .section-see {
     @include image-2x('../assets', 'video-still', 'jpg', auto, 100%);
+    background-color: #000;
+    background-position: center center;
+    background-repeat: no-repeat;
     height: 400px;
     overflow: hidden;
 
@@ -17,9 +20,6 @@
     }
     
     video {
-        background-color: #000;
-        background-position: center center;
-        background-repeat: no-repeat;
         bottom: 0;
         height: 100%;
         left: 0;
