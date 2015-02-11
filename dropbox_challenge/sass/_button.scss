@@ -1,0 +1,35 @@
+.button {
+    border: 1px solid $blue;
+    border-radius: 3px;
+    color: $blue;
+    display: inline-block;
+    font-size: rem(14px);
+    padding: .5em .7em;
+    text-decoration: none;
+    &:hover {
+        background-color: #f5f5f5;
+    }
+}
+
+.button-large {
+    font-size: rem(17px);
+    margin: 1.5em 0;
+    padding: .7em 0;
+    width: 100%;
+    max-width: 240px;
+}
+
+.button-white {
+    background-color: #fff;
+    border: 2px solid $dark-blue;
+}
+
+.button-blue {
+    background-color: $blue;
+    border: 0px;
+    box-shadow: 0 1px 2px rgba(#000, .5);
+    color: #fff;
+    &:hover {
+        background-color: $dark-blue;
+    }
+}

@@ -1,0 +1,27 @@
+/* Colors */
+$blue: #007EE5;
+$light-blue: #B0CEE7;
+$dark-blue: #0B56BC;
+$dark-grey: #4C545A;
+$light-grey: #8899A7;
+
+/* Typography */
+$font-open-sans: "Open Sans", "Helvetica", "Arial", sans-serif;
+
+$base-font-size: 10px;
+$heading-1-size: 37px;
+$heading-2-size: 22px;
+$body-type-size: 15px;
+$ui-type-size: 13px;
+
+/* Grid */
+$column-width: 55px;
+$gutter-width: 30px;
+$total-columns: 12;
+
+/* Media Queries */
+$mobile: 480px;
+$tablet: 640px;
+
+/* Animation Timing Functions */
+$ease-out-back: cubic-bezier(0.175, 0.885, 0.320, 1.275)

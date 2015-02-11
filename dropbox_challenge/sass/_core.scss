@@ -1,0 +1,46 @@
+/* Core Styles */
+* {
+    @include box-sizing(border-box);
+}
+
+html {
+    font-family: $font-open-sans;
+    font-size: $base-font-size;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    line-height: 1.4em;
+    margin: .5em 0 1em 0;
+}
+
+h1 {
+    font-size: rem($heading-1-size);
+    font-weight: 300;
+}
+
+h2 {
+    font-size: rem($heading-2-size);
+}
+
+h3 {
+    font-size: rem($heading-2-size);
+}
+
+p {
+    font-size: rem($body-type-size);
+    line-height: 1.4em;
+    a {
+        border-bottom: 1px solid #fff;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

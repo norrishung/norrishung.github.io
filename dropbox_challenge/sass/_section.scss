@@ -1,0 +1,24 @@
+.section {
+    color: $light-grey;
+    padding: 2em $gutter-width/2 4em $gutter-width/2;
+    position: relative;
+    text-align: center;
+    > h2, > p {
+        @include span-columns(6);
+        @include no-float();
+        margin: {
+            left: auto;
+             right: auto;
+        }
+
+        @include media($tablet) {
+            @include span-columns(12);
+        }
+    }
+
+    .button-learn-more {
+        clear: both;
+        display: inline-block;
+        margin: 2em auto;
+    }
+}
