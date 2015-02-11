@@ -106,10 +106,10 @@
                 }
             }
 
-
             @include media($mobile) {
                 @include span-columns(12);   
             }
+
             p a {
                 border-color: $light-blue;
                 &:hover {
