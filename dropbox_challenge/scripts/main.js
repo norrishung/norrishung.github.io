@@ -7,7 +7,6 @@ $(document).ready(function() {
     //If why-section is already on screen, start animation after 200px of scrolling
     if(isOnScreen($('.section-why'))) {
       $(document).scroll(function(evt) {
-        console.log($(document).scrollTop() )
         if($(document).scrollTop() > 200) {
           $('.section-why').addClass('visible');
         }
