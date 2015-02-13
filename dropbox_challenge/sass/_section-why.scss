@@ -54,7 +54,7 @@
 
     &.visible {
         .illustration {
-            @include animation(bounce-in-from-left .5s 0 1 $ease-out-back);
+            @include animation(bounce-in-from-left .5s 1 $ease-out-back);
             @include animation-fill-mode(forwards);
             &.illustration-devices {
                 @include animation-delay(0s);
