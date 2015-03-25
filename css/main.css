@@ -218,32 +218,15 @@ p {
   margin-bottom: 1.5em; }
 
 a {
-  display: inline;
-  position: relative;
-  text-decoration: none;
-  color: #ed1c24; }
-  a:visited {
-    color: #ed1c24; }
-  a::before {
-    -webkit-transition: opacity 0.1s ease-out;
-    -moz-transition: opacity 0.1s ease-out;
-    transition: opacity 0.1s ease-out;
-    content: '';
-    position: absolute;
-    bottom: -1px;
-    height: 1px;
-    width: 100%;
-    background-color: #ed1c24;
-    opacity: 0; }
-  a:hover::before {
-    opacity: 1; }
+  color: inherit;
+  text-decoration: underline; }
 
 article ul {
   margin-bottom: 1.5em;
   list-style-position: inside;
   margin-left: 1em; }
   article ul li {
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     text-indent: -1em; }
 
 * {
@@ -408,11 +391,29 @@ figure figcaption {
     color: #ed1c24;
     margin-left: 2em;
     text-transform: lowercase;
-    font-size: 1em; }
+    font-size: 1em;
+    display: inline;
+    position: relative;
+    text-decoration: none; }
     @media screen and (max-width: 640px) {
       .site-header .header-content .main-nav a, .main-header .header-content .main-nav a {
         margin-left: 0;
         margin-right: 2em; } }
+    .site-header .header-content .main-nav a:visited, .main-header .header-content .main-nav a:visited {
+      color: #ed1c24; }
+    .site-header .header-content .main-nav a::before, .main-header .header-content .main-nav a::before {
+      -webkit-transition: opacity 0.1s ease-out;
+      -moz-transition: opacity 0.1s ease-out;
+      transition: opacity 0.1s ease-out;
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      height: 1px;
+      width: 100%;
+      background-color: #ed1c24;
+      opacity: 0; }
+    .site-header .header-content .main-nav a:hover::before, .main-header .header-content .main-nav a:hover::before {
+      opacity: 1; }
 
 .site-header {
   max-width: 64.28571em;
@@ -861,15 +862,14 @@ figure figcaption {
     font-style: italic;
     font-size: 2em;
     margin-right: 2em;
-    text-transform: lowercase; }
+    text-transform: lowercase;
+    text-decoration: none; }
     @media screen and (max-width: 640px) {
       .portfolio__nav a {
         font-size: 1.57143em; } }
     @media screen and (max-width: 480px) {
       .portfolio__nav a {
         font-size: 1.28571em; } }
-    .portfolio__nav a::before {
-      display: none; }
     .portfolio__nav a:hover {
       color: #cccccc; }
     .portfolio__nav a.selected {
@@ -949,8 +949,8 @@ figure figcaption {
       text-transform: uppercase;
       letter-spacing: .1em;
       font-weight: 500;
-      margin-top: 2em;
-      margin-bottom: 1em; }
+      margin-top: 2.5em;
+      margin-bottom: 1.5em; }
       .project .project-writing h2:first-child {
         margin-top: 0; }
     .project .project-writing h3 {
@@ -1037,6 +1037,16 @@ figure figcaption {
     float: none; }
     .post article:last-child {
       margin-right: 0; }
+  .post h2 {
+    color: #ed1c24;
+    font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 500;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em; }
   .post figure {
     float: left;
     display: block;
