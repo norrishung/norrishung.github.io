@@ -365,6 +365,17 @@ figure figcaption {
 .mockup-shadow {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1); }
 
+.project-tags, .portfolio .portfolio-item .portfolio-item__tags {
+  list-style-type: none; }
+  .project-tags li, .portfolio .portfolio-item .portfolio-item__tags li {
+    float: left;
+    border: 1px solid #e6e6e6;
+    padding: .3em .5em;
+    color: #666;
+    margin-right: .5em;
+    font-size: 0.85714em;
+    margin-bottom: .5em; }
+
 .site-header .logo::before, .main-header .logo::before {
   display: none; }
 .site-header .logo::after, .main-header .logo::after {
@@ -757,16 +768,6 @@ figure figcaption {
         color: #444; }
         .portfolio .portfolio-item .portfolio-item__title a::before {
           background-color: #444; }
-    .portfolio .portfolio-item .portfolio-item__tags {
-      list-style-type: none; }
-      .portfolio .portfolio-item .portfolio-item__tags li {
-        float: left;
-        border: 1px solid #e6e6e6;
-        padding: .3em .5em;
-        color: #666;
-        margin-right: .5em;
-        font-size: 0.85714em;
-        margin-bottom: .5em; }
     .portfolio .portfolio-item .portfolio-item__image {
       float: left;
       display: block;
@@ -903,20 +904,15 @@ figure figcaption {
     margin-right: 2.12766%;
     width: 48.93617%;
     margin-right: 0;
-    float: none; }
+    float: none;
+    margin-bottom: 4em; }
     .project header:last-child {
       margin-right: 0; }
-    .project header .project-title {
-      color: #444;
-      font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
-      font-size: 2.85714em;
-      line-height: 1.2em;
-      font-weight: 300;
-      margin-top: 1em;
-      margin-bottom: 1em; }
-      @media screen and (max-width: 640px) {
-        .project header .project-title {
-          font-size: 2.14286em; } }
+    .project header::before, .project header::after {
+      content: "";
+      display: table; }
+    .project header::after {
+      clear: both; }
     @media screen and (max-width: 640px) {
       .project header {
         float: left;
@@ -925,6 +921,18 @@ figure figcaption {
         width: 100%; }
         .project header:last-child {
           margin-right: 0; } }
+    .project header .project-title {
+      color: #444;
+      font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
+      font-size: 2.85714em;
+      line-height: 1.2em;
+      font-weight: 300;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      margin-bottom: .5em; }
+      @media screen and (max-width: 640px) {
+        .project header .project-title {
+          font-size: 2.14286em; } }
   .project .project-writing {
     float: left;
     display: block;
@@ -1027,6 +1035,16 @@ figure figcaption {
       @media screen and (max-width: 640px) {
         .post header .post-title {
           font-size: 2.14286em; } }
+    @media screen and (max-width: 640px) {
+      .post header {
+        float: left;
+        display: block;
+        margin-right: 2.12766%;
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 0em; }
+        .post header:last-child {
+          margin-right: 0; } }
   .post article {
     float: left;
     display: block;
@@ -1037,6 +1055,15 @@ figure figcaption {
     float: none; }
     .post article:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 640px) {
+      .post article {
+        float: left;
+        display: block;
+        margin-right: 2.12766%;
+        width: 100%;
+        margin-left: 0%; }
+        .post article:last-child {
+          margin-right: 0; } }
   .post h2 {
     color: #ed1c24;
     font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
