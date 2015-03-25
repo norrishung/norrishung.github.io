@@ -1,30 +1,243 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Norris Hung</title>
+    <description>Norris Hung is a designer and front-end developer based in San Francisco. He strives to simplify and humanize by making products more usable and  content more understandable.
+</description>
+    <link>http://www.norrishung.com/</link>
+    <atom:link href="http://www.norrishung.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 24 Mar 2015 19:45:40 -0700</pubDate>
+    <lastBuildDate>Tue, 24 Mar 2015 19:45:40 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Jazz Brewing</title>
+        <description>&lt;p&gt;Jazz was born out of a frustration of the current available of brewing software out there. As with many niche markets, the leading software was developed by a passionate individual but lacked the technical or design expertise to build a product with a great experience. It serves many homebrewers well but we asked ourselves - what would a well crafted and modern brewing product look like?&lt;/p&gt;
+
+&lt;p&gt;Jazz is an ongoing project between Lere Williams, Greg Wahnon, and I.&lt;/p&gt;
+
+&lt;h2 id=&quot;process&quot;&gt;Process&lt;/h2&gt;
+&lt;p&gt;“People don’t want drills. They want holes” is a great quote I once heard. Instead of focusing on the software, I first set out to understand what brewers were trying to do. I interviewed a couple of fellow homebrewers to seek and understand the different steps of brewing and the frustrations they had at each step. I found that brewing starts way before the actual brewing - it starts with getting inspiration and trying to figure out what ingredients were available to them and goes all the way to evaluation and taking notes on the beer after its finished. With an understanding of the landscape, we set up to brainstorm different ways in which technology could help with each stage of the process. We then worked to scope a feature set for an MVP. From there, I started working on wireframes and user flows. High fidelity mockups were created and used to guide the development of the software.&lt;/p&gt;
+
+&lt;p&gt;We are currently in the process of developing an MVP which we can then bring out users at homebrewer club meetings to test. Their feedback will continue to be incorporated into our thinking.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Mar 2015 07:50:30 -0700</pubDate>
+        <link>http://www.norrishung.com/interface/2015/03/18/project-jazz.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/interface/2015/03/18/project-jazz.html</guid>
+        
+        <category>UX/UI Design</category>
+        
+        <category>Front-End Development</category>
+        
+        
+        <category>interface</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Mindshare</title>
+        <description>&lt;p&gt;Mindshare is a mobile/web app that helps you discover what your friends love reading online. It is a continually evolving project between Lere Williams and myself.&lt;/p&gt;
+
+&lt;p&gt;The project was born out of the frustration that we spend more time sifting through junk than reading worthwhile articles and essays. Most current content sites generally rely on algorithms (Facebook Paper), community upvoting (Hacker News), or editorial curation (Bold Italic) in order to help their audience find articles they like reading. While these succeed to varying degrees, we believe there is an open space for a service dedicated to aggregating only articles that your friends have enjoyed.&lt;/p&gt;
+
+&lt;p&gt;My role on the project includes UX/UI design and front-end code including styling, templating, and client javascript.&lt;/p&gt;
+
+&lt;p&gt;Mindshare is built with Meteor, CoffeeScript, and Sass. It also includes a Chrome extension that allows users to easily share articles from the browser. Webfonts provided by Hoefler &amp;amp; Co.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Mar 2015 07:50:30 -0700</pubDate>
+        <link>http://www.norrishung.com/interface/2015/03/18/mindshare.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/interface/2015/03/18/mindshare.html</guid>
+        
+        <category>UX/UI Design</category>
+        
+        <category>Front-End Development</category>
+        
+        
+        <category>interface</category>
+        
+      </item>
+    
+      <item>
+        <title>Feats of Strength Brewing</title>
+        <description>&lt;p&gt;Feats of Strength Brewing is a beer-making collaboration between Lere Williams, Greg Wahnon, and I. After brewing together for two years, we decided our beer and audience were finally deserving of something that looked more professional. Instead of simply slapping on a pretty label, I pushed for a more considered approach to define a brand that reflected ourselves and the way we brewed.&lt;/p&gt;
+
+&lt;h2 id=&quot;process&quot;&gt;Process&lt;/h2&gt;
+&lt;p&gt;Taking inspiration from &lt;a href=&quot;http://www.cooper.com/journal/2012/5/elevating_the_brand_and_visual&quot;&gt;Cooper’s Experience Workshop&lt;/a&gt;, we started off by jotting down as many concepts and words as we could think of when we thought of brand values. With a wall full of these ideas, we took votes on the ones that resonated with us, ones that we strongly disagreed with, and ones worth discussing. From there, we were able to create thematic groupings that we wanted to embody and wanted to stay away from. We found that the wall of of rejected ideas were just as informative at shaping the brand as the wall of approved ideas. &lt;/p&gt;
+
+&lt;p&gt;From there, I moved on choosing typography pairings, colors, and finally imagery and, from that, created three different design directions. We narrowed down to the direction we liked most and created physical prototypes of various layouts. The final choice was finalized and sent to printers.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-result&quot;&gt;The Result&lt;/h2&gt;
+&lt;p&gt;The values we came up with were “made to share”, “quintessentially modern but with a nod to tradition”, “restrained”, and “scientific precision”. Values to stay away from were “trendy”, “farm to table”, “sterile”, and “audacious”. Typefaces Brandon Text and Caslon were chosen to provide the contrast between modern and traditional. Brandon Text, being a geometic typface also spoke precision and science. A lighter color palette was choosen to make the design feel warm and approachable. The use of historical woodcut brewing illustrations in the background gives the label a textural complexity and a clear nod the tradition of brewing.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Feb 2015 06:50:30 -0800</pubDate>
+        <link>http://www.norrishung.com/identity/2015/02/22/feats-of-strength.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/identity/2015/02/22/feats-of-strength.html</guid>
+        
+        <category>Visual Design</category>
+        
+        <category>Branding</category>
+        
+        
+        <category>identity</category>
+        
+      </item>
+    
+      <item>
+        <title>Traverser</title>
+        <description>&lt;p&gt;At Inkling I built web tools in my spare time to solve problems. Working on dozens of book over the first year, I began to wonder whether I could do anything to make the process easier for other team members. What started off as hacking projects ended up becoming incredibly useful tools still used in the company today.&lt;/p&gt;
+
+&lt;p&gt;At Inkling, I built various tools to help content editors do their jobs more easily. Traverser was a tool that helped editors proof links in digital books. Users could quickly navigate between links using keyboard shortcuts. This turned days worth of work to hours.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Jan 2014 06:50:30 -0800</pubDate>
+        <link>http://www.norrishung.com/interface/2014/01/04/traverser.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/interface/2014/01/04/traverser.html</guid>
+        
+        <category>UX/UI Design</category>
+        
+        <category>Front-End Development</category>
+        
+        
+        <category>interface</category>
+        
+      </item>
+    
+      <item>
+        <title>Poptip Viewer</title>
+        <description>&lt;p&gt;At Inkling I built web tools in my spare time to solve problems. Working on dozens of book over the first year, I began to wonder whether I could do anything to make the process easier for other team members. What started off as hacking projects ended up becoming incredibly useful tools still used in the company today.&lt;/p&gt;
+
+&lt;p&gt;One day, I was watching an editor proof content within glossary poptips. To do so, she scrolled through every page of the book tapping on each term to check if the definition matched. I watched her do this day in and day out and I thought there must be a better way. I spent the a couple of days prototyping a tool that visualized every poptip in the book next to the term that it was associated with. This transformed a task that took an entire day to something that took an hour. This feature was so useful that it was eventually incorporated into Habitat.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Jan 2014 06:50:30 -0800</pubDate>
+        <link>http://www.norrishung.com/interface/2014/01/02/poptip-viewer.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/interface/2014/01/02/poptip-viewer.html</guid>
+        
+        <category>UX/UI Design</category>
+        
+        <category>Front-End Development</category>
+        
+        
+        <category>interface</category>
+        
+      </item>
+    
+      <item>
+        <title>Frommer&#39;s Day by Day</title>
+        <description>&lt;p&gt;Frommer’s brand travel guides are among the most respected in the world. At Inkling, we were approached to create the digital versions of their Day By Day series guidebooks. Over the course of 8 months, we created 14 digital guidebooks that included interactive maps, local weather dashboards, slideshows, and detailed place of interest poptips.&lt;/p&gt;
+
+&lt;p&gt;As the technical lead on this project, I was responsible for defining and maintainable a scalable HTML/CSS framework for the entire series. I worked closely with the design lead to translate design mocks into responsive web layouts and stress-test them to make sure we both understood how the designs would respond across devices and text flow/image size edge cases. I was also resposible for building out a style guide in which our production team in India would use to build every page of the book and lead communciation with them when problems arose.&lt;/p&gt;
+
+&lt;p&gt;Since every book we built was essentially a complex website with dozens of page templates and commonly reused patterns, utilizing the power of SASS partials, variables, and mixins was crucial.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Mar 2013 07:50:30 -0700</pubDate>
+        <link>http://www.norrishung.com/content/2013/03/13/frommers.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/content/2013/03/13/frommers.html</guid>
+        
+        <category>HTML5</category>
+        
+        <category>CSS3</category>
+        
+        <category>Sass</category>
+        
+        <category>JavaScript</category>
+        
+        
+        <category>content</category>
+        
+      </item>
+    
+      <item>
+        <title>Gilroy&#39;s Atlas of Anatomy</title>
+        <description>&lt;p&gt;My role as a designer at Inkling was to translate a diverse range of complex print layouts to responsive web layouts that accurately captured the intent of the content. Working with media rich text allowed me to refine my typography skills in establishing type hierachies, balanced page templates, and flexible grid structures. Our continual goal was the push the envelope of what beautiful digital content could be.&lt;/p&gt;
+
+&lt;p&gt;While most textbooks were straightforward to design, Gilroy’s Atlas of Anatomy presented unique challenges because this book was made entirely of images laid out on large format pages. Talking with the publisher, we realized that the ability to compare images and tables on the same print spread was crucial to the function of the atlas. As the design lead for this project, I focused on three main usability points:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;reduce the visual noise as much as possible to let the images speak for themselves.&lt;/li&gt;
+  &lt;li&gt;allow for comparision of images at different levels&lt;/li&gt;
+  &lt;li&gt;utilize the interactivity of digital media to help students gain comprehension of the material.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 15 Aug 2012 07:50:30 -0700</pubDate>
+        <link>http://www.norrishung.com/content/2012/08/15/gilroy.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/content/2012/08/15/gilroy.html</guid>
+        
+        <category>Visual Design</category>
+        
+        <category>HTML5</category>
+        
+        <category>CSS3</category>
+        
+        <category>Sass</category>
+        
+        
+        <category>content</category>
+        
+      </item>
+    
+      <item>
+        <title>Campbell&#39;s Biology</title>
+        <description>&lt;p&gt;As the technical lead on this project, I was responsible for defining and maintainable a scalable HTML/CSS framework for the entire series. I worked closely with the design lead to translate design mocks into responsive web layouts and stress-test them to make sure we both understood how the designs would respond across devices and text flow/image size edge cases. I was also resposible for building out a style guide in which our production team in India would use to build every page of the book and lead communciation with them when problems arose.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Apr 2012 07:50:30 -0700</pubDate>
+        <link>http://www.norrishung.com/content/2012/04/02/campbell.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/content/2012/04/02/campbell.html</guid>
+        
+        <category>HTML5</category>
+        
+        <category>CSS3</category>
+        
+        
+        <category>content</category>
+        
+      </item>
+    
+      <item>
+        <title>Stages of Nitrogen Loss in Food Production</title>
+        <description>&lt;p&gt;Many times, I find myself thinking about what the numbers actually are when reading about environmental claims. I’ve decided to start making information graphics illustrating answers to these questions. This first graphic follows the trail of industrially produced nitrogen and the inefficiencies in the process.&lt;/p&gt;
+
+&lt;p&gt;I began with a static infographic below but I realized that it was not correctly illustrating the scope of the problem. As a result, I recreated the piece as an interactive graphic. As I wanted to lean more towards a graphic than an piece of interactive media, I tried to keep the complexity down and for it to neatly return back to its original form at the end.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Aug 2010 07:50:30 -0700</pubDate>
+        <link>http://www.norrishung.com/data/2010/08/03/nitrogen-loss.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/data/2010/08/03/nitrogen-loss.html</guid>
+        
+        <category>Design</category>
+        
+        <category>Flash</category>
+        
+        
+        <category>data</category>
+        
+      </item>
+    
+      <item>
+        <title>Visualizing Proteomic Data</title>
+        <description>&lt;p&gt;My research project at Brown University involved trying to dissect the inner-workings of human t-cells – the shepherds of our immune system. By mutating individual proteins inside the cell and measuring the effect on the thousands of other proteins around it, we hoped to discover something new about how our bodies fight diseases. In an certain aspect, my research was exciting because the technology required to generate this magnitude and this type of data was developed only years ago. On the other hand, this type of data analysis is often overwhelming because tools to work with this data effectively are still lacking. In addition to my role as a researcher in lab, I also helped develop a visual system to analyze and present our data.&lt;/p&gt;
+
+&lt;p&gt;When brainstorming on how to design graphics, I set out with a few questions in mind:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What information will be necessary for the graphics be sufficiently self-explanatory?&lt;/li&gt;
+  &lt;li&gt;How can I reduce visual noise?&lt;/li&gt;
+  &lt;li&gt;How can I make the data more understandable?&lt;/li&gt;
+  &lt;li&gt;When publishing our results, I found that it was confusing to simply report tables of numbers. By showing numbers as colors, readers could visually identify a single profile of a protein and its activity pattern.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition, by overlaying our data over existing solved pathway structures, it helped readers to orientate themselves as well as make sense of our data. I was unsatisfied with how existing pathway structures were designed. Some were unnecessarily complex (by trying to show too many unimportant details) while others were too simply and left out crucial details. I came up with my own system of pathway diagrams that focused on emphasizing important points and reducing the “spaghetti factor” (confusion caused by too many intersecting lines).&lt;/p&gt;
+
+&lt;p&gt;Because our research was not just about producing findings, but also to describe a novel method of conducting experiments, it was important for us to clearly lay out each step of our experiment – and to break down how different steps relate to different components of the experiment (SILAC quantitation vs label-free quantitation).&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Mar 2009 07:50:30 -0700</pubDate>
+        <link>http://www.norrishung.com/data/2009/03/18/salomon-lab.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/data/2009/03/18/salomon-lab.html</guid>
+        
+        <category>Visual Design</category>
+        
+        
+        <category>data</category>
+        
+      </item>
+    
   </channel>
 </rss>
