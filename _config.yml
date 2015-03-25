@@ -1,7 +1,7 @@
 # Site settings
 title: Norris Hung
 email: norrishung@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Norris Hung is a designer and front-end developer based in San Francisco.
   He strives to simplify and humanize by making products more usable and 
   content more understandable.
