@@ -1,0 +1,125 @@
+.slideshow {
+    @include transition(opacity .4s ease-out 0s);
+    @include display(flex);
+    @include align-items(flex-start);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10% 2em;
+    overflow: hidden;
+    background-color: rgba(#fff, 1);
+    opacity: 0;
+    pointer-events: none;
+
+    .prev-button, .next-button, .close-button {
+        @include backface-visibility(none);
+        @include transition(opacity .2s ease-out);
+        z-index: 3;
+        position: absolute;
+        display: block;
+        text-decoration: none;
+        width: 30px;
+        height: 30px;
+        top: 5%;
+        font-size: $detail-type-size;
+        font-weight: 500;
+        text-align: center;
+        line-height: 28px;
+        opacity: .3;
+        background-color: #ddd;
+        &:before {
+            color: #333;
+            font-family: $font-whitney;
+        }
+        &:hover {
+            opacity: .6;
+        }
+        &:active {
+            opacity: 1;
+        }
+        &.disabled {
+            opacity: .15;
+            cursor: default;
+            &:hover, &:active {
+                opacity: .15;
+            }
+        }
+    }
+    .close-button {
+        background-color: #aaa;
+        font-size: $detail-type-size;
+        right: 40px;
+        &:before {
+            content: 'x';
+        }
+    }
+    .prev-button {
+        right: 75px;
+        bottom: 5%;
+        top: auto;
+        &:before {
+            content: '<'
+        }   
+    }
+
+    .next-button {
+        right: 40px;
+        bottom: 5%;
+        top: auto;
+        &:before {
+            content: '>';
+        }
+    }
+
+    .slide-count {
+        position: absolute;
+        top: 5%;
+        height: 30px;
+        text-align: right;
+        line-height: 28px;
+        right: 125px;
+        bottom: 5%;
+        top: auto;
+        width: 100px;
+        font-size: $detail-type-size;
+        font-family: $font-whitney;
+    }
+
+    figure {
+        @include transition(transform .0s ease-in-out 0s);
+        @include flex(0 0 70%);
+        @include transform(translateX(0));
+        @extend .mockup-browser;
+        margin: 0% 21% 0% 7%;
+        img {
+            display: block;
+            width: auto;
+            height: auto;
+            margin: 0;
+            max-width: 100%;
+        }
+        figcaption {
+            display: inline-block;
+            padding: .5em .7em;
+            position: absolute;
+            p {
+                font-size: $detail-type-size;
+                line-height: 1.4em; 
+                font-family: $font-whitney;  
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.slideshow-mode {
+    .slideshow {
+        opacity: 1;
+        pointer-events: all;
+        figure {
+            @include transition-duration(.4s);
+        }
+    }
+}

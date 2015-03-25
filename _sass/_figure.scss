@@ -1,0 +1,120 @@
+figure {
+    .images {
+        @include display(flex);
+        @include justify-content(space-around);
+        position: relative;
+    }
+    figcaption {
+        @include flex(0 0 100%);
+        display: block;
+        bottom: -2.5em;
+        width: 100%;
+        color: $medium-grey;
+        font-style: italic;
+        font-family: $font-mercury;
+        font-weight: 300;
+        font-size: $detail-type-size;
+        padding-top: 1em;
+    }
+}
+
+.image-container {
+    @include flex(1 1 auto);
+    display: block;
+    position: relative;
+    width: 100%;
+    img {
+        max-width: 100%;
+        display: block;
+        width: auto;
+    } 
+}
+
+.mockup-browser {
+    box-shadow: 0 0 1px rgba(0,0,0,.1);
+    border: 2px solid $bg-light-grey;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    width: 100%;
+
+    &:only-of-type {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        background-color: $bg-light-grey;
+        display: block;
+        height: 20px;
+        left: -2px;
+        right: -2px;
+        top: -20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    &::after {
+        display: block;
+        position: absolute;
+        content: '';
+        top: -12px;
+        left: 10px;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: #f44;
+        box-shadow: 0 0 0 2px #f44, 1em 0 0 2px #9b3, 2em 0 0 2px #fb5;
+    }
+}
+
+.mockup-mobile, .mockup-tablet {
+    box-shadow: 0 0 1px rgba(0,0,0,.15);
+    max-width: 150px;
+    position: relative;
+    border: 4px solid $bg-light-grey;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-radius: 8px;
+    background-color: $bg-light-grey;
+    margin-right: 5%;
+    &:last-of-type {
+        margin-right: 0;
+    }
+    img {
+        margin: {
+            top: 25%;
+            bottom: 25%;
+        }
+    }
+}
+
+.mockup-tablet {
+    max-width: 300px;
+    img {
+        margin: {
+            top: 10%;
+            bottom: 10%;
+        }
+    }
+}
+
+.mockup-browser + .mockup-mobile, .mockup-tablet + .mockup-mobile {
+    position: absolute;
+    width: 15%;
+    bottom: 0;
+    right: 0;
+}
+
+.mockup-browser + .mockup-tablet {
+    position: absolute;
+    width: 30%;
+    bottom: 2%;
+    right: 3%;
+}
+
+.mockup-shadow {
+    box-shadow: 0 0 1px rgba(0,0,0,.1);
+}

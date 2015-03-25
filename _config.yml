@@ -1,0 +1,37 @@
+# Site settings
+title: Norris Hung
+email: norrishung@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Norris Hung is a designer and front-end developer based in San Francisco.
+  He strives to simplify and humanize by making products more usable and 
+  content more understandable.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.norrishung.com" # the base hostname & protocol for your site
+twitter_username: norrishung
+github_username:  norrishung
+gems: [bourbon, neat, mini_magick]
+
+# Build settings
+markdown: kramdown
+
+#Responsive Image Settings
+picture:
+    source: "img/_fullsize"
+    output: "img/generated"
+    markup: "picture"
+    presets:
+        default:
+            ppi: [1, 2, 3]
+            source_desktop:
+                media: "(min-width: 640px)"
+                width: 500
+            source_tablet:
+                media: "(min-width: 480px)"
+                width: 300
+            source_mobile:
+                media: "(min-width: 100px)"
+                width: 400
+            source_default:
+                media:"(min-width: 40em)"
+                width: "500"
+

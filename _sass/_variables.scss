@@ -1,0 +1,32 @@
+// Colors
+$bg-light-grey: #e6e6e6;
+$bg-medium-grey: #ddd;
+$dark-grey: #444;
+$medium-grey: #666;
+$light-grey: #ccc;
+$tan: #f7f4ed;
+$red: #ed1c24;
+
+// Typography
+$font-whitney: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+$font-mercury: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
+
+$h1-type-size: em(40);
+$h2-type-size: em(14);
+$h3-type-size: em(16);
+$body-type-size: em(14);
+$detail-type-size: em(12);
+
+// Grid Settings
+$column: 90px;
+$gutter: 30px;
+$grid-columns: 12;
+$max-width: em(900);
+$visual-grid: false;
+
+// Media Queries
+$mobile: 480px;
+$tablet: 640px;
+
+// Animation Timing Functions
+$ease-out-back: cubic-bezier(0.175, 0.885, 0.320, 1.275);

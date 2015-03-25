@@ -1,0 +1,43 @@
+@mixin clearfix() {
+    &::before,
+    &::after {
+      content: "";
+      display: table;
+    }
+     
+    &::after {
+      clear: both;
+    }
+}
+
+@mixin media($media) {
+    @media screen and (max-width: #{$media}) {
+        @content;
+    }
+}
+
+@mixin main-padding() {
+    padding: 0 40px;
+    @include media($tablet) {
+        padding: {
+            left: 30px;
+            right: 30px;
+        }
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: $font-whitney;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: $dark-grey;
+}

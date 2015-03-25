@@ -1,0 +1,25 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+//Non-display Styles
+@import 'bourbon/bourbon';
+@import 'variables';
+@import 'neat/neat';
+@import 'fonts';
+@import 'animations';
+
+// Core Styles
+@import 'typography';
+@import 'layout';
+
+// Component Specific Styles
+@import 'figure';
+
+// Layout Specific Styles
+@import 'header';
+@import 'footer';
+@import 'home';
+@import 'about';
+@import 'project';
+@import 'post';
