@@ -195,7 +195,7 @@ html {
   -webkit-animation-iteration-count: 1;
   -moz-animation-iteration-count: 1;
   animation-iteration-count: 1; }
-.css-animation .home .logo, .css-animation .home .main-nav, .css-animation .home .portfolio, .css-animation .home h1, .css-animation .home .site-footer {
+.css-animation .home .logo, .css-animation .home .main-nav, .css-animation .home .portfolio, .css-animation .home .title, .css-animation .home .site-footer {
   opacity: 0;
   -webkit-animation: fadeIn 1.5s ease-out;
   -moz-animation: fadeIn 1.5s ease-out;
@@ -210,25 +210,6 @@ html {
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
 
-p {
-  color: #444;
-  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-  font-size: 1em;
-  line-height: 1.5em;
-  margin-bottom: 1.5em; }
-
-a {
-  color: inherit;
-  text-decoration: underline; }
-
-article ul {
-  margin-bottom: 1.5em;
-  list-style-position: inside;
-  margin-left: 1em; }
-  article ul li {
-    margin-bottom: .5em;
-    text-indent: -1em; }
-
 * {
   margin: 0;
   padding: 0; }
@@ -241,6 +222,62 @@ body {
   font-size: 14px;
   line-height: 1.5em;
   color: #444; }
+
+h1 {
+  color: #444;
+  font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
+  font-size: 2.85714em;
+  line-height: 1.2em;
+  font-weight: 300;
+  margin-top: 1em;
+  margin-bottom: 1em; }
+  @media screen and (max-width: 640px) {
+    h1 {
+      font-size: 2.14286em; } }
+
+h2 {
+  color: #ed1c24;
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 500;
+  margin-bottom: 1.5em; }
+  h2:not(:first-child) {
+    margin-top: 2.5em; }
+
+h3 {
+  color: #111;
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+  font-size: 1.14286em;
+  line-height: 1.2em;
+  font-weight: 500;
+  margin-bottom: 1em; }
+
+p {
+  color: #444;
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em; }
+  p:not(:last-child) {
+    margin-bottom: 1.5em; }
+
+a {
+  color: inherit;
+  text-decoration: underline; }
+
+blockquote {
+  padding: 0 1em;
+  font-style: italic; }
+
+article ul {
+  margin-bottom: 1.5em;
+  list-style-position: inside;
+  margin-left: 1em; }
+  article ul li {
+    margin-bottom: .5em;
+    text-indent: -1em; }
 
 figure .images {
   display: -webkit-box;
@@ -386,7 +423,7 @@ figure figcaption {
   background-image: url("/img/nh_logo.svg");
   background-repeat: no-repeat;
   background-size: 100% auto; }
-.site-header .header-content h1, .main-header .header-content h1 {
+.site-header .header-content .title, .main-header .header-content .title {
   margin-top: 0;
   margin-bottom: .5em;
   padding: 0;
@@ -481,20 +518,20 @@ figure figcaption {
         width: 74.46809%; }
         .site-header .header-content:last-child {
           margin-right: 0; } }
-    .site-header .header-content h1 {
+    .site-header .header-content p {
       float: left;
       display: block;
       margin-right: 2.5641%;
       width: 48.71795%; }
-      .site-header .header-content h1:last-child {
+      .site-header .header-content p:last-child {
         margin-right: 0; }
       @media screen and (max-width: 640px) {
-        .site-header .header-content h1 {
+        .site-header .header-content p {
           float: left;
           display: block;
           margin-right: 2.85714%;
           width: 100%; }
-          .site-header .header-content h1:last-child {
+          .site-header .header-content p:last-child {
             margin-right: 0; } }
     .site-header .header-content .main-nav {
       float: left;
@@ -548,7 +585,7 @@ figure figcaption {
     float: left;
     display: block;
     margin-right: 2.12766%;
-    width: 23.40426%;
+    width: 14.89362%;
     padding-right: 1em;
     color: #666; }
     .site-footer .copyright:last-child {
@@ -565,7 +602,7 @@ figure figcaption {
     float: left;
     display: block;
     margin-right: 2.12766%;
-    width: 74.46809%;
+    width: 82.97872%;
     font-style: italic; }
     .site-footer .colophon:last-child {
       margin-right: 0; }
@@ -637,20 +674,20 @@ figure figcaption {
         width: 74.46809%; }
         .main-header .header-content:last-child {
           margin-right: 0; } }
-    .main-header .header-content h1 {
+    .main-header .header-content .title {
       float: left;
       display: block;
       margin-right: 3.22581%;
       width: 48.3871%; }
-      .main-header .header-content h1:last-child {
+      .main-header .header-content .title:last-child {
         margin-right: 0; }
       @media screen and (max-width: 640px) {
-        .main-header .header-content h1 {
+        .main-header .header-content .title {
           float: left;
           display: block;
           margin-right: 2.85714%;
           width: 100%; }
-          .main-header .header-content h1:last-child {
+          .main-header .header-content .title:last-child {
             margin-right: 0; } }
     .main-header .header-content .main-nav {
       float: left;
@@ -957,8 +994,9 @@ figure figcaption {
       text-transform: uppercase;
       letter-spacing: .1em;
       font-weight: 500;
-      margin-top: 2.5em;
       margin-bottom: 1.5em; }
+      .project .project-writing h2:not(:first-child) {
+        margin-top: 2.5em; }
       .project .project-writing h2:first-child {
         margin-top: 0; }
     .project .project-writing h3 {
@@ -1035,6 +1073,8 @@ figure figcaption {
       @media screen and (max-width: 640px) {
         .post header .post-title {
           font-size: 2.14286em; } }
+    .post header .post-meta {
+      font-style: italic; }
     @media screen and (max-width: 640px) {
       .post header {
         float: left;
@@ -1072,8 +1112,9 @@ figure figcaption {
     text-transform: uppercase;
     letter-spacing: .1em;
     font-weight: 500;
-    margin-top: 2.5em;
     margin-bottom: 1.5em; }
+    .post h2:not(:first-child) {
+      margin-top: 2.5em; }
   .post figure {
     float: left;
     display: block;
@@ -1101,3 +1142,43 @@ figure figcaption {
       padding-top: 1em; }
   .post p {
     margin: 1.5em 0; }
+
+.blog {
+  max-width: 64.28571em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 40px; }
+  .blog::before, .blog::after {
+    content: "";
+    display: table; }
+  .blog::after {
+    clear: both; }
+  .blog::before, .blog::after {
+    content: "";
+    display: table; }
+  .blog::after {
+    clear: both; }
+  @media screen and (max-width: 640px) {
+    .blog {
+      padding-left: 30px;
+      padding-right: 30px; } }
+  .blog ul, .blog header {
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 65.95745%;
+    margin-left: 17.02128%; }
+    .blog ul:last-child, .blog header:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 640px) {
+      .blog ul, .blog header {
+        float: left;
+        display: block;
+        margin-right: 2.12766%;
+        width: 100%;
+        margin-left: 0%; }
+        .blog ul:last-child, .blog header:last-child {
+          margin-right: 0; } }
+    .blog ul li, .blog header li {
+      list-style-type: none;
+      margin-bottom: 4em; }
