@@ -188,40 +188,6 @@ html {
     -ms-transform: translate3D(0, 0, 0);
     -o-transform: translate3D(0, 0, 0);
     transform: translate3D(0, 0, 0); } }
-.css-animation .home .intro {
-  -webkit-animation: fadeInFromBottom 1s ease-out;
-  -moz-animation: fadeInFromBottom 1s ease-out;
-  animation: fadeInFromBottom 1s ease-out;
-  -webkit-animation-iteration-count: 1;
-  -moz-animation-iteration-count: 1;
-  animation-iteration-count: 1; }
-.css-animation .home .logo, .css-animation .home .main-nav, .css-animation .home .portfolio, .css-animation .home .title, .css-animation .home .site-footer {
-  opacity: 0;
-  -webkit-animation: fadeIn 1.5s ease-out;
-  -moz-animation: fadeIn 1.5s ease-out;
-  animation: fadeIn 1.5s ease-out;
-  -webkit-animation-iteration-count: 1;
-  -moz-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-delay: 1.5s;
-  -moz-animation-delay: 1.5s;
-  animation-delay: 1.5s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards; }
-
-* {
-  margin: 0;
-  padding: 0; }
-
-body {
-  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-  margin: 0 auto;
-  padding: 0;
-  font-size: 14px;
-  line-height: 1.5em;
-  color: #444; }
-
 h1 {
   color: #444;
   font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
@@ -230,7 +196,7 @@ h1 {
   font-weight: 300;
   margin-top: 1em;
   margin-bottom: 1em; }
-  @media screen and (max-width: 640px) {
+  @media screen and (min-width: 640px) {
     h1 {
       font-size: 2.14286em; } }
 
@@ -239,12 +205,8 @@ h2 {
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
   font-size: 1em;
   line-height: 1.2em;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 1.5em; }
-  h2:not(:first-child) {
-    margin-top: 2.5em; }
 
 h3 {
   color: #111;
@@ -258,9 +220,8 @@ p {
   color: #444;
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
   font-size: 1em;
-  line-height: 1.5em; }
-  p:not(:last-child) {
-    margin-bottom: 1.5em; }
+  line-height: 1.5em;
+  margin-bottom: 1.5em; }
 
 a {
   color: inherit;
@@ -277,6 +238,22 @@ article ul {
   article ul li {
     margin-bottom: .5em;
     text-indent: -1em; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #444; }
 
 figure .images {
   display: -webkit-box;
@@ -517,20 +494,20 @@ figure figcaption {
         width: 74.46809%; }
         .site-header .header-content:last-child {
           margin-right: 0; } }
-    .site-header .header-content p {
+    .site-header .header-content .title {
       float: left;
       display: block;
       margin-right: 2.5641%;
       width: 48.71795%; }
-      .site-header .header-content p:last-child {
+      .site-header .header-content .title:last-child {
         margin-right: 0; }
       @media screen and (max-width: 640px) {
-        .site-header .header-content p {
+        .site-header .header-content .title {
           float: left;
           display: block;
           margin-right: 2.85714%;
           width: 100%; }
-          .site-header .header-content p:last-child {
+          .site-header .header-content .title:last-child {
             margin-right: 0; } }
     .site-header .header-content .main-nav {
       float: left;
@@ -794,6 +771,7 @@ figure figcaption {
           .portfolio .portfolio-item .portfolio-item__content:last-child {
             margin-right: 0; } }
     .portfolio .portfolio-item .portfolio-item__title {
+      margin-top: 0;
       color: #111;
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
       font-size: 1.14286em;
@@ -809,9 +787,9 @@ figure figcaption {
       display: block;
       margin-right: 2.12766%;
       width: 48.93617%;
-      -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      -moz-transition: -moz-transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      -moz-transition: -moz-transform 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: transform 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       -webkit-transform: scale(1);
       -moz-transform: scale(1);
       -ms-transform: scale(1);
@@ -821,11 +799,11 @@ figure figcaption {
       .portfolio .portfolio-item .portfolio-item__image:last-child {
         margin-right: 0; }
       .portfolio .portfolio-item .portfolio-item__image:hover {
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        -o-transform: scale(1.1);
-        transform: scale(1.1); }
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05); }
       @media screen and (max-width: 480px) {
         .portfolio .portfolio-item .portfolio-item__image {
           float: left;
@@ -990,12 +968,8 @@ figure figcaption {
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
       font-size: 1em;
       line-height: 1.2em;
-      text-transform: uppercase;
-      letter-spacing: .1em;
-      font-weight: 500;
+      font-weight: 600;
       margin-bottom: 1.5em; }
-      .project .project-writing h2:not(:first-child) {
-        margin-top: 2.5em; }
       .project .project-writing h2:first-child {
         margin-top: 0; }
     .project .project-writing h3 {
@@ -1030,6 +1004,77 @@ figure figcaption {
           margin-right: 0; } }
     .project .project-images figure {
       margin-bottom: 6em; }
+
+.blog {
+  max-width: 64.28571em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 40px; }
+  .blog::before, .blog::after {
+    content: "";
+    display: table; }
+  .blog::after {
+    clear: both; }
+  @media screen and (max-width: 640px) {
+    .blog {
+      padding-left: 30px;
+      padding-right: 30px; } }
+  .blog::before, .blog::after {
+    content: "";
+    display: table; }
+  .blog::after {
+    clear: both; }
+  .blog header {
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 65.95745%;
+    margin-left: 17.02128%;
+    margin-bottom: 2em; }
+    .blog header:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 640px) {
+      .blog header {
+        float: left;
+        display: block;
+        margin-right: 2.12766%;
+        width: 100%;
+        margin-left: 0%; }
+        .blog header:last-child {
+          margin-right: 0; } }
+    .blog header h1 {
+      color: #444;
+      font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
+      font-size: 2.85714em;
+      line-height: 1.2em;
+      font-weight: 300;
+      margin-top: 1em;
+      margin-bottom: 1em; }
+      @media screen and (max-width: 640px) {
+        .blog header h1 {
+          font-size: 2.14286em; } }
+  .blog ul {
+    list-style-type: none;
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 65.95745%;
+    margin-left: 17.02128%; }
+    .blog ul:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 640px) {
+      .blog ul {
+        float: left;
+        display: block;
+        margin-right: 2.12766%;
+        width: 100%;
+        margin-left: 0%; }
+        .blog ul:last-child {
+          margin-right: 0; } }
+    .blog ul li {
+      margin-bottom: 4em; }
+      .blog ul li:last-of-type {
+        margin-bottom: 0; }
 
 .post {
   max-width: 64.28571em;
@@ -1072,8 +1117,6 @@ figure figcaption {
       @media screen and (max-width: 640px) {
         .post header .post-title {
           font-size: 2.14286em; } }
-    .post header .post-meta {
-      font-style: italic; }
     @media screen and (max-width: 640px) {
       .post header {
         float: left;
@@ -1108,12 +1151,8 @@ figure figcaption {
     font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
     font-size: 1em;
     line-height: 1.2em;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 1.5em; }
-    .post h2:not(:first-child) {
-      margin-top: 2.5em; }
   .post figure {
     float: left;
     display: block;
@@ -1141,43 +1180,3 @@ figure figcaption {
       padding-top: 1em; }
   .post p {
     margin: 1.5em 0; }
-
-.blog {
-  max-width: 64.28571em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 40px; }
-  .blog::before, .blog::after {
-    content: "";
-    display: table; }
-  .blog::after {
-    clear: both; }
-  .blog::before, .blog::after {
-    content: "";
-    display: table; }
-  .blog::after {
-    clear: both; }
-  @media screen and (max-width: 640px) {
-    .blog {
-      padding-left: 30px;
-      padding-right: 30px; } }
-  .blog ul, .blog header {
-    float: left;
-    display: block;
-    margin-right: 2.12766%;
-    width: 65.95745%;
-    margin-left: 17.02128%; }
-    .blog ul:last-child, .blog header:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 640px) {
-      .blog ul, .blog header {
-        float: left;
-        display: block;
-        margin-right: 2.12766%;
-        width: 100%;
-        margin-left: 0%; }
-        .blog ul:last-child, .blog header:last-child {
-          margin-right: 0; } }
-    .blog ul li, .blog header li {
-      list-style-type: none;
-      margin-bottom: 4em; }

@@ -23,12 +23,12 @@
     <header class="site-header">
   <a href="/" class="logo"></a>
   <section class="header-content">
-    <p class="title">Norris Hung, <i>Designer &amp; Developer</i></p>
+    <p class="title">norris hung, <i>designer &amp; developer</i></p>
     <nav class="main-nav">
-  <a href="/writing">Writing</a>
-  <a href="/reading">Reading</a>
-  <a href="/about">About</a>
-</nav>
+      <a href="/writing">Writing</a>
+      <a href="/reading">Reading</a>
+      <a href="/about">About</a>
+    </nav>
   </section>
 </header>
 
@@ -42,35 +42,35 @@
   <article class="post-content">
     <p>A lot has happened since I built the last iteration of my portfolio in 2011. Looking back at it, I see a time capsule of web development four years ago. Web typography was still just taking off with Cufon and sIFR were the de facto methods of custom typefaces. Wordpress was your only option for a blogging platform. Pixels were still something you can discern on a screen and websites were built for a single dominant width.</p>
 
-<p>Fast forward to present day and the playing field has completely changed. @font-face has taken off and <a href="https://typekit.com/">font</a> <a href="http://www.webtype.com/">hosting</a> <a href="http://www.typography.com/">services</a> offer robust and legal means of beautiful web typography. The mobile market explosion has mean that <a href="http://alistapart.com/article/responsive-web-design">responsive web design</a> is the only way to work these days. Retina screens are a thing and we now have to hack our way around <a href="http://alistapart.com/article/responsive-images-in-practice">responsive images</a>. Static site generators have become a popular means of serving up performant websites. Transitions and animations have helped to make the web more fluid and interactive. And, of course, pre-processors like <a href="http://sass-lang.com/">Sass</a> and <a href="http://lesscss.org/">LESS</a> exist (how did we ever work without them?).</p>
+<p>Fast forward to present day and the playing field has completely changed. @font-face has taken off and <a href="https://typekit.com/&quot;">font</a> <a href="http://www.webtype.com/&quot;">hosting</a> <a href="http://www.typography.com/&quot;">services</a> offer robust and legal means of beautiful web typography. The mobile market explosion has mean that <a href="http://alistapart.com/article/responsive-web-design&quot;">responsive web design</a> is the only way to work these days. Retina screens are a thing and we now have to hack our way around <a href="http://alistapart.com/article/responsive-images-in-practice&quot;">responsive images</a>. Static site generators have become a popular means of serving up performant websites. Transitions and animations have helped to make the web more fluid and interactive. And, of course, pre-processors like <a href="http://sass-lang.com/&quot;">Sass</a> and <a href="http://lesscss.org/&quot;">LESS</a> exist (how did we ever work without them?).</p>
 
-<p>I’ve been keeping up with a lot of these changes at my previous job at <a href="https://www.inkling.com/">Inkling</a> and was delighted to finally have the time and opportunity to update my portfolio to modern web standards. I wanted to share some of my decisions here.</p>
+<p>I’ve been keeping up with a lot of these changes at my previous job at <a href="https://www.inkling.com/&quot;">Inkling</a> and was delighted to finally have the time and opportunity to update my portfolio to modern web standards. I wanted to share some of my decisions here.</p>
 
 <h2 id="website-platform">Website Platform</h2>
 
-<p>For the last 4 iterations of my portfolio, I used Wordpress. It served me well over the years but I decided I finally needed to ditch it as it offered way more power and way less performance for what I needed in my personal site. I found that for my basic purposes, <a href="http://jekyllrb.com/">Jekyll</a> provided all the functionality I needed and it also allowed me to host my website on GitHub. I have found it super intuitive to use and way more performant.</p>
+<p>For the last 4 iterations of my portfolio, I used Wordpress. It served me well over the years but I decided I finally needed to ditch it as it offered way more power and way less performance for what I needed in my personal site. I found that for my basic purposes, <a href="http://jekyllrb.com/&quot;">Jekyll</a> provided all the functionality I needed and it also allowed me to host my website on GitHub. I have found it super intuitive to use and way more performant.</p>
 
 <h2 id="responsive-images">Responsive Images</h2>
 
-<p>With more and more views coming in from mobile devices over cellular data, the size of images are a <a href="http://timkadlec.com/2013/06/why-we-need-responsive-images/">huge concern</a> both in terms of data transfer speed and processing power of those devices. This is especially true when you also take into account retina screen optimized images. Luckily, there are responsive image solutions with <code>srcset</code> and <code>&lt;picture&gt;</code> element and, while these are still far from widespread support, polyfills exist so that we can use them today.</p>
+<p>With more and more views coming in from mobile devices over cellular data, the size of images are a <a href="http://timkadlec.com/2013/06/why-we-need-responsive-images/&quot;">huge concern</a> both in terms of data transfer speed and processing power of those devices. This is especially true when you also take into account retina screen optimized images. Luckily, there are responsive image solutions with <code>srcset</code> and <code>&lt;picture&gt;</code> element and, while these are still far from widespread support, polyfills exist so that we can use them today.</p>
 
-<p>For my current portfolio, I utilized the <a href="https://github.com/scottjehl/picturefill">picturefill.js</a> and the <a href="https://github.com/robwierzbowski/jekyll-picture-tag">Jekyll Picture Tag</a> plugin. It was amazing how easy it was to set up and, as Jekyll was compiling my site, my jaw dropped at how much time I would have had to spend creating all the image size variations by hand. The most satisfying aspect was noticing how much it improved site loading speed across devices.</p>
+<p>For my current portfolio, I utilized the <a href="https://github.com/scottjehl/picturefill&quot;">picturefill.js</a> and the <a href="https://github.com/robwierzbowski/jekyll-picture-tag&quot;">Jekyll Picture Tag</a> plugin. It was amazing how easy it was to set up and, as Jekyll was compiling my site, my jaw dropped at how much time I would have had to spend creating all the image size variations by hand. The most satisfying aspect was noticing how much it improved site loading speed across devices.</p>
 
 <h2 id="hosting">Hosting</h2>
 
-<p>Instead of going with custom hosting, I decided to host my website on <a href="https://pages.github.com/">GitHub Pages</a> this time around. I was already using it for version control and it made sense to keep it all in one place, especially since it supports Jekyll. The one trade off with Github Pages is that it doesn’t allow third party Jekyll plug-ins which meant that I couldn’t rely on GitHub’s server-side Jekyll compiler to generate my site. As a small inconvenience, I am now hosting my source website in one repo and rsyncing it to my compiled website in another. It’s a little frustrating but totally worth the responsive images.</p>
+<p>Instead of going with custom hosting, I decided to host my website on <a href="https://pages.github.com/&quot;">GitHub Pages</a> this time around. I was already using it for version control and it made sense to keep it all in one place, especially since it supports Jekyll. The one trade off with Github Pages is that it doesn’t allow third party Jekyll plug-ins which meant that I couldn’t rely on GitHub’s server-side Jekyll compiler to generate my site. As a small inconvenience, I am now hosting my source website in one repo and rsyncing it to my compiled website in another. It’s a little frustrating but totally worth the responsive images.</p>
 
 <h2 id="styling">Styling</h2>
 
-<p>I do all of my work in Sass these days and I can’t imagine having to ever write vanilla CSS again. The use of partials, variables, and mixins have allowed me to keep my CSS DRY and well-structured. Of course it’s important to keep in mind what your compiled CSS looks like and to make sure you don’t go overboard with selector nesting. For this purpose, I use my former colleague Tom Genoni’s <a href="http://cssdig.com/">css-dig</a> chrome extension to keep myself in check.</p>
+<p>I do all of my work in Sass these days and I can’t imagine having to ever write vanilla CSS again. The use of partials, variables, and mixins have allowed me to keep my CSS DRY and well-structured. Of course it’s important to keep in mind what your compiled CSS looks like and to make sure you don’t go overboard with selector nesting. For this purpose, I use my former colleague Tom Genoni’s <a href="http://cssdig.com/&quot;">css-dig</a> chrome extension to keep myself in check.</p>
 
 <p>Everything is built responsively so that the website should be a pleasure to read no matter what device you are on. CSS animations and transitions help to make interactions more smooth and obvious.</p>
 
-<p>In terms of browser prefixing and a flexible grid system, I opted in for <a href="http://bourbon.io/">Bourbon</a> and <a href="http://neat.bourbon.io/">Neat</a> from the guys at <a href="https://thoughtbot.com/">Thoughtbot</a>. It’s an elegant and lightweight library that does what I need and doesn’t come with the rest of the cruft. Bourbon also plays better with Jekyll’s built in compiler than Compass does.</p>
+<p>In terms of browser prefixing and a flexible grid system, I opted in for <a href="http://bourbon.io/&quot;">Bourbon</a> and <a href="http://neat.bourbon.io/&quot;">Neat</a> from the guys at <a href="https://thoughtbot.com/&quot;">Thoughtbot</a>. It’s an elegant and lightweight library that does what I need and doesn’t come with the rest of the cruft. Bourbon also plays better with Jekyll’s built in compiler than Compass does.</p>
 
 <h2 id="web-typography">Web Typography</h2>
 
-<p>I’ve always been in love with the typefaces from <a href="http://www.typography.com/">Hoefler &amp; Co</a>. I’ve used their typefaces in a lot of my print work and work at Inkling and finally decided to bite the bullet to personally pay for their webfont service. The typefaces used are <a href="http://www.typography.com/fonts/mercury-text/overview/">Mercury</a> and <a href="http://www.typography.com/fonts/whitney/overview/">Whitney</a> - a pairing I’m absolutely obsessed with right now. My only complaint with this service is that you certainly have to sacrifice a bit of performance for beauty.</p>
+<p>I’ve always been in love with the typefaces from <a href="http://www.typography.com/&quot;">Hoefler &amp; Co</a>. I’ve used their typefaces in a lot of my print work and work at Inkling and finally decided to bite the bullet to personally pay for their webfont service. The typefaces used are <a href="http://www.typography.com/fonts/mercury-text/overview/&quot;">Mercury</a> and <a href="http://www.typography.com/fonts/whitney/overview/&quot;">Whitney</a> - a pairing I’m absolutely obsessed with right now. My only complaint with this service is that you certainly have to sacrifice a bit of performance for beauty.</p>
 
 <p>Phew. That’s it for now and I’m pretty proud of the technology stack that I’ve used to build this website. There’s no sign that the industry of web development is slowing down and I can’t wait to see what will change in the next four years. Personally, I’m hoping to see more of a convergence between web design and native app designs. I believe natively digital conceptual models like Material Design are here to stay and the capabilities of web design will need to catch up.</p>
 

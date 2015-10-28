@@ -5,14 +5,6 @@ $(document).ready(function() {
     //Go to correct section of portfolio
     changeTab();
 
-    //Initial animations if accessing base homepage.
-    //Default to interface section of portfolio
-    if(window.location.hash.length == 0) {
-
-        $('html').addClass("css-animation");
-        window.location.hash = '#interface';
-    }
-
     //Add event listeners for portfolio buttons
     $('.portfolio__nav a').click(function(e) {
         e.preventDefault();
