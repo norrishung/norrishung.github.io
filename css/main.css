@@ -248,7 +248,6 @@ html {
 
 body {
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
   margin: 0 auto;
   padding: 0;
   font-size: 14px;
