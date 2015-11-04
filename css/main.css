@@ -193,7 +193,11 @@ html {
   padding: 0; }
 
 html {
-  line-height: 1.7em; }
+  line-height: 1.7em;
+  font-size: 14px; }
+  @media screen and (min-width: 640px) {
+    html {
+      font-size: 16px; } }
 
 body {
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
