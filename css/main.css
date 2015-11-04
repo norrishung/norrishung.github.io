@@ -188,30 +188,44 @@ html {
     -ms-transform: translate3D(0, 0, 0);
     -o-transform: translate3D(0, 0, 0);
     transform: translate3D(0, 0, 0); } }
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  line-height: 1.7em; }
+
+body {
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: 0;
+  color: #444; }
+
 h1 {
   color: #444;
-  font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
-  font-size: 2.85714em;
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+  font-size: 2.5rem;
   line-height: 1.2em;
   font-weight: 300;
   margin-top: 1em;
   margin-bottom: 1em; }
   @media screen and (min-width: 640px) {
     h1 {
-      font-size: 2.14286em; } }
+      font-size: 1.875em; } }
 
 h2 {
   color: #ed1c24;
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.2em;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 1.5em; }
 
 h3 {
   color: #111;
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-  font-size: 1.14286em;
+  font-size: 1rem;
   line-height: 1.2em;
   font-weight: 500;
   margin-bottom: 1em; }
@@ -219,8 +233,8 @@ h3 {
 p {
   color: #444;
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: 1rem;
+  line-height: 1.7em;
   margin-bottom: 1.5em; }
 
 a {
@@ -231,28 +245,13 @@ blockquote {
   padding: 0 1em;
   font-style: italic; }
 
-article ul {
+article ul, article ol {
   margin-bottom: 1.5em;
   list-style-position: inside;
   margin-left: 1em; }
-  article ul li {
+  article ul li, article ol li {
     margin-bottom: .5em;
     text-indent: -1em; }
-
-* {
-  margin: 0;
-  padding: 0; }
-
-html {
-  font-size: 10px; }
-
-body {
-  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-  margin: 0 auto;
-  padding: 0;
-  font-size: 14px;
-  line-height: 1.5em;
-  color: #444; }
 
 figure .images {
   display: -webkit-box;
@@ -285,9 +284,9 @@ figure figcaption {
   width: 100%;
   color: #666;
   font-style: italic;
-  font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
-  font-size: 0.85714em;
+  font-size: 0.75rem;
   padding-top: 1em; }
 
 .image-container {
@@ -344,11 +343,11 @@ figure figcaption {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
   max-width: 150px;
   position: relative;
-  border: 4px solid #e6e6e6;
+  border: 4px solid #444;
   border-top-width: 0px;
   border-bottom-width: 0px;
   border-radius: 8px;
-  background-color: #e6e6e6;
+  background-color: #444;
   margin-right: 5%; }
   .mockup-mobile:last-of-type, .mockup-tablet:last-of-type {
     margin-right: 0; }
@@ -385,7 +384,7 @@ figure figcaption {
     padding: .3em .5em;
     color: #666;
     margin-right: .5em;
-    font-size: 0.85714em;
+    font-size: 0.75rem;
     margin-bottom: .5em; }
 
 .site-header .logo::before, .main-header .logo::before {
@@ -397,12 +396,13 @@ figure figcaption {
   padding-top: 130%;
   background-image: url("/img/nh_logo.svg");
   background-repeat: no-repeat;
-  background-size: 100% auto; }
+  background-size: 100% auto;
+  margin-top: .5em; }
 .site-header .header-content .title, .main-header .header-content .title {
   margin-top: 0;
   margin-bottom: .5em;
   padding: 0;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 300;
   text-transform: lowercase; }
 .site-header .header-content .main-nav, .main-header .header-content .main-nav {
@@ -412,16 +412,16 @@ figure figcaption {
       text-align: left; } }
   .site-header .header-content .main-nav a, .main-header .header-content .main-nav a {
     color: #ed1c24;
-    margin-left: 2em;
+    margin-left: 1.5em;
     text-transform: lowercase;
-    font-size: 1em;
+    font-size: 1rem;
     display: inline;
     position: relative;
     text-decoration: none; }
     @media screen and (max-width: 640px) {
       .site-header .header-content .main-nav a, .main-header .header-content .main-nav a {
         margin-left: 0;
-        margin-right: 2em; } }
+        margin-right: 1.5em; } }
     .site-header .header-content .main-nav a:visited, .main-header .header-content .main-nav a:visited {
       color: #ed1c24; }
     .site-header .header-content .main-nav a::before, .main-header .header-content .main-nav a::before {
@@ -439,7 +439,7 @@ figure figcaption {
       opacity: 1; }
 
 .site-header {
-  max-width: 64.28571em;
+  max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0 40px;
@@ -526,7 +526,7 @@ figure figcaption {
             margin-right: 0; } }
 
 .site-footer {
-  max-width: 64.28571em;
+  max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0 40px;
@@ -547,9 +547,10 @@ figure figcaption {
     display: table; }
   .site-footer::after {
     clear: both; }
+  .site-footer p {
+    font-size: 0.75rem; }
   .site-footer aside {
     margin: 0;
-    font-size: 0.85714em;
     padding-top: 2em;
     padding-bottom: 2em;
     color: #666; }
@@ -592,12 +593,12 @@ figure figcaption {
           margin-right: 0; } }
 
 .main-header {
-  max-width: 64.28571em;
+  max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0 40px;
   padding-top: 4em;
-  padding-bottom: 6em; }
+  padding-bottom: 4em; }
   .main-header::before, .main-header::after {
     content: "";
     display: table; }
@@ -681,18 +682,18 @@ figure figcaption {
           .main-header .header-content .main-nav:last-child {
             margin-right: 0; } }
     .main-header .header-content .intro {
-      margin-top: 10em; }
+      margin-top: 10.5em; }
       .main-header .header-content .intro p {
-        font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
+        font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
         margin-bottom: 1.5em;
-        font-size: 1.28571em;
-        line-height: 1.65em;
+        font-size: 1.25rem;
+        line-height: 1.7em;
         font-weight: 300; }
       .main-header .header-content .intro em {
         font-weight: 500; }
       @media screen and (max-width: 480px) {
         .main-header .header-content .intro {
-          font-size: 1em;
+          font-size: 1rem;
           margin-left: -34.28571%; } }
 
 .portfolio {
@@ -733,11 +734,11 @@ figure figcaption {
     -moz-transition: -moz-transform 0.6s ease-in-out;
     transition: transform 0.6s ease-in-out; }
   .portfolio .portfolio-item {
-    max-width: 64.28571em;
+    max-width: 64rem;
     margin-left: auto;
     margin-right: auto;
     padding: 0 40px;
-    margin-top: 8em; }
+    margin-top: 6em; }
     .portfolio .portfolio-item::before, .portfolio .portfolio-item::after {
       content: "";
       display: table; }
@@ -773,7 +774,7 @@ figure figcaption {
       margin-top: 0;
       color: #111;
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-      font-size: 1.14286em;
+      font-size: 1rem;
       line-height: 1.2em;
       font-weight: 500;
       margin-bottom: 1em; }
@@ -823,7 +824,7 @@ figure figcaption {
 
 .portfolio__nav {
   padding: 0 40px;
-  max-width: 64.28571em;
+  max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
   display: -webkit-box;
@@ -844,8 +845,8 @@ figure figcaption {
   -ms-flex-pack: start;
   overflow: auto;
   width: 100%;
-  padding-top: 2em;
-  padding-bottom: 2em; }
+  padding-top: 1em;
+  padding-bottom: 1em; }
   @media screen and (max-width: 640px) {
     .portfolio__nav {
       padding-left: 30px;
@@ -871,19 +872,17 @@ figure figcaption {
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
     color: #dddddd;
-    font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 2em;
-    margin-right: 2em;
+    font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+    font-size: 1.25rem;
+    margin-right: 1.5em;
     text-transform: lowercase;
     text-decoration: none; }
     @media screen and (max-width: 640px) {
       .portfolio__nav a {
-        font-size: 1.57143em; } }
+        font-size: 1.375rem; } }
     @media screen and (max-width: 480px) {
       .portfolio__nav a {
-        font-size: 1.28571em; } }
+        font-size: 1.125rem; } }
     .portfolio__nav a:hover {
       color: #cccccc; }
     .portfolio__nav a.selected {
@@ -893,7 +892,7 @@ figure figcaption {
       color: #ed1c24; }
 
 .project {
-  max-width: 64.28571em;
+  max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0 40px; }
@@ -936,8 +935,8 @@ figure figcaption {
           margin-right: 0; } }
     .project header .project-title {
       color: #444;
-      font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
-      font-size: 2.85714em;
+      font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+      font-size: 2.5rem;
       line-height: 1.2em;
       font-weight: 300;
       margin-top: 1em;
@@ -945,7 +944,7 @@ figure figcaption {
       margin-bottom: .5em; }
       @media screen and (max-width: 640px) {
         .project header .project-title {
-          font-size: 2.14286em; } }
+          font-size: 1.875em; } }
   .project .project-writing {
     float: left;
     display: block;
@@ -965,24 +964,24 @@ figure figcaption {
     .project .project-writing h2 {
       color: #ed1c24;
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-      font-size: 1em;
+      font-size: 1rem;
       line-height: 1.2em;
-      font-weight: 600;
+      font-weight: 400;
       margin-bottom: 1.5em; }
       .project .project-writing h2:first-child {
         margin-top: 0; }
     .project .project-writing h3 {
       color: #111;
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-      font-size: 1.14286em;
+      font-size: 1rem;
       line-height: 1.2em;
       font-weight: 500;
       margin-bottom: 1em; }
     .project .project-writing p {
       color: #444;
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-      font-size: 1em;
-      line-height: 1.5em; }
+      font-size: 1rem;
+      line-height: 1.7em; }
   .project .project-images {
     float: left;
     display: block;
@@ -1005,7 +1004,7 @@ figure figcaption {
       margin-bottom: 6em; }
 
 .blog {
-  max-width: 64.28571em;
+  max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0 40px; }
@@ -1043,15 +1042,15 @@ figure figcaption {
           margin-right: 0; } }
     .blog header h1 {
       color: #444;
-      font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
-      font-size: 2.85714em;
+      font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+      font-size: 2.5rem;
       line-height: 1.2em;
       font-weight: 300;
       margin-top: 1em;
       margin-bottom: 1em; }
       @media screen and (max-width: 640px) {
         .blog header h1 {
-          font-size: 2.14286em; } }
+          font-size: 1.875em; } }
   .blog ul {
     list-style-type: none;
     float: left;
@@ -1076,7 +1075,7 @@ figure figcaption {
         margin-bottom: 0; }
 
 .post {
-  max-width: 64.28571em;
+  max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0 40px; }
@@ -1107,15 +1106,15 @@ figure figcaption {
       margin-right: 0; }
     .post header .post-title {
       color: #444;
-      font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
-      font-size: 2.85714em;
+      font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+      font-size: 2.5rem;
       line-height: 1.2em;
       font-weight: 300;
       margin-top: 1em;
       margin-bottom: 1em; }
       @media screen and (max-width: 640px) {
         .post header .post-title {
-          font-size: 2.14286em; } }
+          font-size: 1.875em; } }
     @media screen and (max-width: 640px) {
       .post header {
         float: left;
@@ -1148,9 +1147,9 @@ figure figcaption {
   .post h2 {
     color: #ed1c24;
     font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 1.2em;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 1.5em; }
   .post figure {
     float: left;
@@ -1172,9 +1171,9 @@ figure figcaption {
       width: calc(2/12*100%);
       color: #666;
       font-style: italic;
-      font-family: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
+      font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
       font-weight: 300;
-      font-size: 0.85714em;
+      font-size: 0.75rem;
       border-top: 1px solid #e6e6e6;
       padding-top: 1em; }
   .post p {

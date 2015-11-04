@@ -6,43 +6,114 @@
 </description>
     <link>http://www.norrishung.com/</link>
     <atom:link href="http://www.norrishung.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Oct 2015 21:18:01 -0700</pubDate>
-    <lastBuildDate>Tue, 27 Oct 2015 21:18:01 -0700</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Tue, 03 Nov 2015 22:20:47 -0800</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2015 22:20:47 -0800</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Chime Starter</title>
+        <description>&lt;p&gt;Working on the Code for America Digital Front Door initiative, our focus was to make cities’ online present more useful and accessible for their residents. We decided to redesign city websites with four focuses in mind.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Service Delivery:&lt;/strong&gt; Centering the content around service delivery as opposed to news and documentation. This meant focusing the majority of the content on information or services that helped residents achieve an objective.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Accessibility:&lt;/strong&gt; Reaching digital users where they were. This meant in their language and across desktop and mobile devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Intuitive information archicture:&lt;/strong&gt; Restructuring the information architecture that reflected the way residents thought as opposed to how the bureaucracy of government was organized. This meant getting departments to ditch department websites and collaborate to create one city website that focused on user needs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Visual Consistency:&lt;/strong&gt; Providing a central pattern library that both cities and third party vendors could use to create a consistent interface&lt;/p&gt;
+
+&lt;p&gt;Based on prior research we did with six major cities across the US as well as learnings from the successful gov.uk launch, we designed a cross-browser responsive mobile website template, a HTML/CSS pattern library, and a content strategy that expressed our opinions about what the future of city websites could look like.&lt;/p&gt;
+
+&lt;p&gt;Our work is ongoing in a collaboration with the city of &lt;a href=&quot;http://beta.oaklandca.gov/&quot;&gt;Oakland, CA&lt;/a&gt; to bring this to life.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Oct 2015 07:50:30 -0700</pubDate>
+        <link>http://www.norrishung.com/content/2015/10/29/chime-starter.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/content/2015/10/29/chime-starter.html</guid>
+        
+        <category>HTML5</category>
+        
+        <category>CSS3</category>
+        
+        <category>Sass</category>
+        
+        <category>Visual Design</category>
+        
+        
+        <category>content</category>
+        
+      </item>
+    
+      <item>
+        <title>Chime</title>
+        <description>&lt;p&gt;In our research at Code for America, we found the people who worked on city websites to be different from the audience of most mainstream CMS’s. Most of them wanted a better website but needed guidance how to do create one themselves.&lt;/p&gt;
+
+&lt;p&gt;Our user research helped us to define features that differentiated us from the rest of the CMS market. This included:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;building in a clear content strategy with pre-defined content types specifically for government.&lt;/li&gt;
+&lt;li&gt;designing the workflow to help government staff be more objective and user needs driven.&lt;/li&gt;
+&lt;li&gt;incorporated site analytics that motivated city staff to make better decisions and prioritizations.&lt;/li&gt;
+&lt;li&gt;helped city staff write content that was shorter, simpler, and at an 8th grade reading level.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;My role on this project included user research, prototyping, interaction design, and front-end development.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Oct 2015 07:50:30 -0700</pubDate>
+        <link>http://www.norrishung.com/interface/2015/10/29/chime.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/interface/2015/10/29/chime.html</guid>
+        
+        <category>HTML5</category>
+        
+        <category>CSS3</category>
+        
+        <category>Javascript</category>
+        
+        <category>Python</category>
+        
+        <category>Sass</category>
+        
+        <category>UI/UX Design</category>
+        
+        <category>User Research</category>
+        
+        
+        <category>interface</category>
+        
+      </item>
     
       <item>
         <title>What Happens in Four Years</title>
         <description>&lt;p&gt;A lot has happened since I built the last iteration of my portfolio in 2011. Looking back at it, I see a time capsule of web development four years ago. Web typography was still just taking off with Cufon and sIFR were the de facto methods of custom typefaces. Wordpress was your only option for a blogging platform. Pixels were still something you can discern on a screen and websites were built for a single dominant width.&lt;/p&gt;
 
-&lt;p&gt;Fast forward to present day and the playing field has completely changed. @font-face has taken off and &lt;a href=&quot;https://typekit.com/&amp;quot;&quot;&gt;font&lt;/a&gt; &lt;a href=&quot;http://www.webtype.com/&amp;quot;&quot;&gt;hosting&lt;/a&gt; &lt;a href=&quot;http://www.typography.com/&amp;quot;&quot;&gt;services&lt;/a&gt; offer robust and legal means of beautiful web typography. The mobile market explosion has mean that &lt;a href=&quot;http://alistapart.com/article/responsive-web-design&amp;quot;&quot;&gt;responsive web design&lt;/a&gt; is the only way to work these days. Retina screens are a thing and we now have to hack our way around &lt;a href=&quot;http://alistapart.com/article/responsive-images-in-practice&amp;quot;&quot;&gt;responsive images&lt;/a&gt;. Static site generators have become a popular means of serving up performant websites. Transitions and animations have helped to make the web more fluid and interactive. And, of course, pre-processors like &lt;a href=&quot;http://sass-lang.com/&amp;quot;&quot;&gt;Sass&lt;/a&gt; and &lt;a href=&quot;http://lesscss.org/&amp;quot;&quot;&gt;LESS&lt;/a&gt; exist (how did we ever work without them?).&lt;/p&gt;
+&lt;p&gt;Fast forward to present day and the playing field has completely changed. @font-face has taken off and &lt;a href=&quot;https://typekit.com/%22&quot;&gt;font&lt;/a&gt; &lt;a href=&quot;http://www.webtype.com/%22&quot;&gt;hosting&lt;/a&gt; &lt;a href=&quot;http://www.typography.com/%22&quot;&gt;services&lt;/a&gt; offer robust and legal means of beautiful web typography. The mobile market explosion has mean that &lt;a href=&quot;http://alistapart.com/article/responsive-web-design%22&quot;&gt;responsive web design&lt;/a&gt; is the only way to work these days. Retina screens are a thing and we now have to hack our way around &lt;a href=&quot;http://alistapart.com/article/responsive-images-in-practice%22&quot;&gt;responsive images&lt;/a&gt;. Static site generators have become a popular means of serving up performant websites. Transitions and animations have helped to make the web more fluid and interactive. And, of course, pre-processors like &lt;a href=&quot;http://sass-lang.com/%22&quot;&gt;Sass&lt;/a&gt; and &lt;a href=&quot;http://lesscss.org/%22&quot;&gt;LESS&lt;/a&gt; exist (how did we ever work without them?).&lt;/p&gt;
 
-&lt;p&gt;I’ve been keeping up with a lot of these changes at my previous job at &lt;a href=&quot;https://www.inkling.com/&amp;quot;&quot;&gt;Inkling&lt;/a&gt; and was delighted to finally have the time and opportunity to update my portfolio to modern web standards. I wanted to share some of my decisions here.&lt;/p&gt;
+&lt;p&gt;I’ve been keeping up with a lot of these changes at my previous job at &lt;a href=&quot;https://www.inkling.com/%22&quot;&gt;Inkling&lt;/a&gt; and was delighted to finally have the time and opportunity to update my portfolio to modern web standards. I wanted to share some of my decisions here.&lt;/p&gt;
 
-&lt;h2 id=&quot;website-platform&quot;&gt;Website Platform&lt;/h2&gt;
+&lt;h2&gt;Website Platform&lt;/h2&gt;
 
-&lt;p&gt;For the last 4 iterations of my portfolio, I used Wordpress. It served me well over the years but I decided I finally needed to ditch it as it offered way more power and way less performance for what I needed in my personal site. I found that for my basic purposes, &lt;a href=&quot;http://jekyllrb.com/&amp;quot;&quot;&gt;Jekyll&lt;/a&gt; provided all the functionality I needed and it also allowed me to host my website on GitHub. I have found it super intuitive to use and way more performant.&lt;/p&gt;
+&lt;p&gt;For the last 4 iterations of my portfolio, I used Wordpress. It served me well over the years but I decided I finally needed to ditch it as it offered way more power and way less performance for what I needed in my personal site. I found that for my basic purposes, &lt;a href=&quot;http://jekyllrb.com/%22&quot;&gt;Jekyll&lt;/a&gt; provided all the functionality I needed and it also allowed me to host my website on GitHub. I have found it super intuitive to use and way more performant.&lt;/p&gt;
 
-&lt;h2 id=&quot;responsive-images&quot;&gt;Responsive Images&lt;/h2&gt;
+&lt;h2&gt;Responsive Images&lt;/h2&gt;
 
-&lt;p&gt;With more and more views coming in from mobile devices over cellular data, the size of images are a &lt;a href=&quot;http://timkadlec.com/2013/06/why-we-need-responsive-images/&amp;quot;&quot;&gt;huge concern&lt;/a&gt; both in terms of data transfer speed and processing power of those devices. This is especially true when you also take into account retina screen optimized images. Luckily, there are responsive image solutions with &lt;code&gt;srcset&lt;/code&gt; and &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; element and, while these are still far from widespread support, polyfills exist so that we can use them today.&lt;/p&gt;
+&lt;p&gt;With more and more views coming in from mobile devices over cellular data, the size of images are a &lt;a href=&quot;http://timkadlec.com/2013/06/why-we-need-responsive-images/%22&quot;&gt;huge concern&lt;/a&gt; both in terms of data transfer speed and processing power of those devices. This is especially true when you also take into account retina screen optimized images. Luckily, there are responsive image solutions with &lt;code&gt;srcset&lt;/code&gt; and &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; element and, while these are still far from widespread support, polyfills exist so that we can use them today.&lt;/p&gt;
 
-&lt;p&gt;For my current portfolio, I utilized the &lt;a href=&quot;https://github.com/scottjehl/picturefill&amp;quot;&quot;&gt;picturefill.js&lt;/a&gt; and the &lt;a href=&quot;https://github.com/robwierzbowski/jekyll-picture-tag&amp;quot;&quot;&gt;Jekyll Picture Tag&lt;/a&gt; plugin. It was amazing how easy it was to set up and, as Jekyll was compiling my site, my jaw dropped at how much time I would have had to spend creating all the image size variations by hand. The most satisfying aspect was noticing how much it improved site loading speed across devices.&lt;/p&gt;
+&lt;p&gt;For my current portfolio, I utilized the &lt;a href=&quot;https://github.com/scottjehl/picturefill%22&quot;&gt;picturefill.js&lt;/a&gt; and the &lt;a href=&quot;https://github.com/robwierzbowski/jekyll-picture-tag%22&quot;&gt;Jekyll Picture Tag&lt;/a&gt; plugin. It was amazing how easy it was to set up and, as Jekyll was compiling my site, my jaw dropped at how much time I would have had to spend creating all the image size variations by hand. The most satisfying aspect was noticing how much it improved site loading speed across devices.&lt;/p&gt;
 
-&lt;h2 id=&quot;hosting&quot;&gt;Hosting&lt;/h2&gt;
+&lt;h2&gt;Hosting&lt;/h2&gt;
 
-&lt;p&gt;Instead of going with custom hosting, I decided to host my website on &lt;a href=&quot;https://pages.github.com/&amp;quot;&quot;&gt;GitHub Pages&lt;/a&gt; this time around. I was already using it for version control and it made sense to keep it all in one place, especially since it supports Jekyll. The one trade off with Github Pages is that it doesn’t allow third party Jekyll plug-ins which meant that I couldn’t rely on GitHub’s server-side Jekyll compiler to generate my site. As a small inconvenience, I am now hosting my source website in one repo and rsyncing it to my compiled website in another. It’s a little frustrating but totally worth the responsive images.&lt;/p&gt;
+&lt;p&gt;Instead of going with custom hosting, I decided to host my website on &lt;a href=&quot;https://pages.github.com/%22&quot;&gt;GitHub Pages&lt;/a&gt; this time around. I was already using it for version control and it made sense to keep it all in one place, especially since it supports Jekyll. The one trade off with Github Pages is that it doesn’t allow third party Jekyll plug-ins which meant that I couldn’t rely on GitHub’s server-side Jekyll compiler to generate my site. As a small inconvenience, I am now hosting my source website in one repo and rsyncing it to my compiled website in another. It’s a little frustrating but totally worth the responsive images.&lt;/p&gt;
 
-&lt;h2 id=&quot;styling&quot;&gt;Styling&lt;/h2&gt;
+&lt;h2&gt;Styling&lt;/h2&gt;
 
-&lt;p&gt;I do all of my work in Sass these days and I can’t imagine having to ever write vanilla CSS again. The use of partials, variables, and mixins have allowed me to keep my CSS DRY and well-structured. Of course it’s important to keep in mind what your compiled CSS looks like and to make sure you don’t go overboard with selector nesting. For this purpose, I use my former colleague Tom Genoni’s &lt;a href=&quot;http://cssdig.com/&amp;quot;&quot;&gt;css-dig&lt;/a&gt; chrome extension to keep myself in check.&lt;/p&gt;
+&lt;p&gt;I do all of my work in Sass these days and I can’t imagine having to ever write vanilla CSS again. The use of partials, variables, and mixins have allowed me to keep my CSS DRY and well-structured. Of course it’s important to keep in mind what your compiled CSS looks like and to make sure you don’t go overboard with selector nesting. For this purpose, I use my former colleague Tom Genoni’s &lt;a href=&quot;http://cssdig.com/%22&quot;&gt;css-dig&lt;/a&gt; chrome extension to keep myself in check.&lt;/p&gt;
 
 &lt;p&gt;Everything is built responsively so that the website should be a pleasure to read no matter what device you are on. CSS animations and transitions help to make interactions more smooth and obvious.&lt;/p&gt;
 
-&lt;p&gt;In terms of browser prefixing and a flexible grid system, I opted in for &lt;a href=&quot;http://bourbon.io/&amp;quot;&quot;&gt;Bourbon&lt;/a&gt; and &lt;a href=&quot;http://neat.bourbon.io/&amp;quot;&quot;&gt;Neat&lt;/a&gt; from the guys at &lt;a href=&quot;https://thoughtbot.com/&amp;quot;&quot;&gt;Thoughtbot&lt;/a&gt;. It’s an elegant and lightweight library that does what I need and doesn’t come with the rest of the cruft. Bourbon also plays better with Jekyll’s built in compiler than Compass does.&lt;/p&gt;
+&lt;p&gt;In terms of browser prefixing and a flexible grid system, I opted in for &lt;a href=&quot;http://bourbon.io/%22&quot;&gt;Bourbon&lt;/a&gt; and &lt;a href=&quot;http://neat.bourbon.io/%22&quot;&gt;Neat&lt;/a&gt; from the guys at &lt;a href=&quot;https://thoughtbot.com/%22&quot;&gt;Thoughtbot&lt;/a&gt;. It’s an elegant and lightweight library that does what I need and doesn’t come with the rest of the cruft. Bourbon also plays better with Jekyll’s built in compiler than Compass does.&lt;/p&gt;
 
-&lt;h2 id=&quot;web-typography&quot;&gt;Web Typography&lt;/h2&gt;
+&lt;h2&gt;Web Typography&lt;/h2&gt;
 
-&lt;p&gt;I’ve always been in love with the typefaces from &lt;a href=&quot;http://www.typography.com/&amp;quot;&quot;&gt;Hoefler &amp;amp; Co&lt;/a&gt;. I’ve used their typefaces in a lot of my print work and work at Inkling and finally decided to bite the bullet to personally pay for their webfont service. The typefaces used are &lt;a href=&quot;http://www.typography.com/fonts/mercury-text/overview/&amp;quot;&quot;&gt;Mercury&lt;/a&gt; and &lt;a href=&quot;http://www.typography.com/fonts/whitney/overview/&amp;quot;&quot;&gt;Whitney&lt;/a&gt; - a pairing I’m absolutely obsessed with right now. My only complaint with this service is that you certainly have to sacrifice a bit of performance for beauty.&lt;/p&gt;
+&lt;p&gt;I’ve always been in love with the typefaces from &lt;a href=&quot;http://www.typography.com/%22&quot;&gt;Hoefler &amp;amp; Co&lt;/a&gt;. I’ve used their typefaces in a lot of my print work and work at Inkling and finally decided to bite the bullet to personally pay for their webfont service. The typefaces used are &lt;a href=&quot;http://www.typography.com/fonts/mercury-text/overview/%22&quot;&gt;Mercury&lt;/a&gt; and &lt;a href=&quot;http://www.typography.com/fonts/whitney/overview/%22&quot;&gt;Whitney&lt;/a&gt; - a pairing I’m absolutely obsessed with right now. My only complaint with this service is that you certainly have to sacrifice a bit of performance for beauty.&lt;/p&gt;
 
 &lt;p&gt;Phew. That’s it for now and I’m pretty proud of the technology stack that I’ve used to build this website. There’s no sign that the industry of web development is slowing down and I can’t wait to see what will change in the next four years. Personally, I’m hoping to see more of a convergence between web design and native app designs. I believe natively digital conceptual models like Material Design are here to stay and the capabilities of web design will need to catch up.&lt;/p&gt;
 </description>
@@ -61,8 +132,9 @@
 
 &lt;p&gt;Jazz is an ongoing project between Lere Williams, Greg Wahnon, and I.&lt;/p&gt;
 
-&lt;h2 id=&quot;process&quot;&gt;Process&lt;/h2&gt;
-&lt;p&gt;“People don’t want drills. They want holes” is a great quote I once heard. Instead of focusing on the software, I first set out to understand what brewers were trying to do. I interviewed a couple of fellow homebrewers to seek and understand the different steps of brewing and the frustrations they had at each step. I found that brewing starts way before the actual brewing - it starts with getting inspiration and trying to figure out what ingredients were available to them and goes all the way to evaluation and taking notes on the beer after its finished. With an understanding of the landscape, we set up to brainstorm different ways in which technology could help with each stage of the process. We then worked to scope a feature set for an MVP. From there, I started working on wireframes and user flows. High fidelity mockups were created and used to guide the development of the software.&lt;/p&gt;
+&lt;h2&gt;Process&lt;/h2&gt;
+
+&lt;p&gt;&amp;quot;People don&amp;#39;t want drills. They want holes&amp;quot; is a great quote I once heard. Instead of focusing on the software, I first set out to understand what brewers were trying to do. I interviewed a couple of fellow homebrewers to seek and understand the different steps of brewing and the frustrations they had at each step. I found that brewing starts way before the actual brewing - it starts with getting inspiration and trying to figure out what ingredients were available to them and goes all the way to evaluation and taking notes on the beer after its finished. With an understanding of the landscape, we set up to brainstorm different ways in which technology could help with each stage of the process. We then worked to scope a feature set for an MVP. From there, I started working on wireframes and user flows. High fidelity mockups were created and used to guide the development of the software.&lt;/p&gt;
 
 &lt;p&gt;We are currently in the process of developing an MVP which we can then bring out users at homebrewer club meetings to test. Their feedback will continue to be incorporated into our thinking.&lt;/p&gt;
 </description>
@@ -106,13 +178,15 @@
         <title>Feats of Strength Brewing</title>
         <description>&lt;p&gt;Feats of Strength Brewing is a beer-making collaboration between Lere Williams, Greg Wahnon, and I. After brewing together for two years, we decided our beer and audience were finally deserving of something that looked more professional. Instead of simply slapping on a pretty label, I pushed for a more considered approach to define a brand that reflected ourselves and the way we brewed.&lt;/p&gt;
 
-&lt;h2 id=&quot;process&quot;&gt;Process&lt;/h2&gt;
-&lt;p&gt;Taking inspiration from &lt;a href=&quot;http://www.cooper.com/journal/2012/5/elevating_the_brand_and_visual&quot;&gt;Cooper’s Experience Workshop&lt;/a&gt;, we started off by jotting down as many concepts and words as we could think of when we thought of brand values. With a wall full of these ideas, we took votes on the ones that resonated with us, ones that we strongly disagreed with, and ones worth discussing. From there, we were able to create thematic groupings that we wanted to embody and wanted to stay away from. We found that the wall of of rejected ideas were just as informative at shaping the brand as the wall of approved ideas.&lt;/p&gt;
+&lt;h2&gt;Process&lt;/h2&gt;
+
+&lt;p&gt;Taking inspiration from &lt;a href=&quot;http://www.cooper.com/journal/2012/5/elevating_the_brand_and_visual&quot;&gt;Cooper&amp;#39;s Experience Workshop&lt;/a&gt;, we started off by jotting down as many concepts and words as we could think of when we thought of brand values. With a wall full of these ideas, we took votes on the ones that resonated with us, ones that we strongly disagreed with, and ones worth discussing. From there, we were able to create thematic groupings that we wanted to embody and wanted to stay away from. We found that the wall of of rejected ideas were just as informative at shaping the brand as the wall of approved ideas. &lt;/p&gt;
 
 &lt;p&gt;From there, I moved on choosing typography pairings, colors, and finally imagery and, from that, created three different design directions. We narrowed down to the direction we liked most and created physical prototypes of various layouts. The final choice was finalized and sent to printers.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-result&quot;&gt;The Result&lt;/h2&gt;
-&lt;p&gt;The values we came up with were “made to share”, “quintessentially modern but with a nod to tradition”, “restrained”, and “scientific precision”. Values to stay away from were “trendy”, “farm to table”, “sterile”, and “audacious”. Typefaces Brandon Text and Caslon were chosen to provide the contrast between modern and traditional. Brandon Text, being a geometic typface also spoke precision and science. A lighter color palette was choosen to make the design feel warm and approachable. The use of historical woodcut brewing illustrations in the background gives the label a textural complexity and a clear nod the tradition of brewing.&lt;/p&gt;
+&lt;h2&gt;The Result&lt;/h2&gt;
+
+&lt;p&gt;The values we came up with were &amp;quot;made to share&amp;quot;, &amp;quot;quintessentially modern but with a nod to tradition&amp;quot;, &amp;quot;restrained&amp;quot;, and &amp;quot;scientific precision&amp;quot;. Values to stay away from were &amp;quot;trendy&amp;quot;, &amp;quot;farm to table&amp;quot;, &amp;quot;sterile&amp;quot;, and &amp;quot;audacious&amp;quot;. Typefaces Brandon Text and Caslon were chosen to provide the contrast between modern and traditional. Brandon Text, being a geometic typface also spoke precision and science. A lighter color palette was choosen to make the design feel warm and approachable. The use of historical woodcut brewing illustrations in the background gives the label a textural complexity and a clear nod the tradition of brewing.&lt;/p&gt;
 </description>
         <pubDate>Sun, 22 Feb 2015 06:50:30 -0800</pubDate>
         <link>http://www.norrishung.com/identity/2015/02/22/feats-of-strength.html</link>
@@ -167,7 +241,7 @@
     
       <item>
         <title>Frommer&#39;s Day by Day</title>
-        <description>&lt;p&gt;Frommer’s brand travel guides are among the most respected in the world. At Inkling, we were approached to create the digital versions of their Day By Day series guidebooks. Over the course of 8 months, we created 14 digital guidebooks that included interactive maps, local weather dashboards, slideshows, and detailed place of interest poptips.&lt;/p&gt;
+        <description>&lt;p&gt;Frommer&amp;#39;s brand travel guides are among the most respected in the world. At Inkling, we were approached to create the digital versions of their Day By Day series guidebooks. Over the course of 8 months, we created 14 digital guidebooks that included interactive maps, local weather dashboards, slideshows, and detailed place of interest poptips.&lt;/p&gt;
 
 &lt;p&gt;As the technical lead on this project, I was responsible for defining and maintainable a scalable HTML/CSS framework for the entire series. I worked closely with the design lead to translate design mocks into responsive web layouts and stress-test them to make sure we both understood how the designs would respond across devices and text flow/image size edge cases. I was also resposible for building out a style guide in which our production team in India would use to build every page of the book and lead communciation with them when problems arose.&lt;/p&gt;
 
@@ -194,14 +268,13 @@
         <title>Gilroy&#39;s Atlas of Anatomy</title>
         <description>&lt;p&gt;My role as a designer at Inkling was to translate a diverse range of complex print layouts to responsive web layouts that accurately captured the intent of the content. Working with media rich text allowed me to refine my typography skills in establishing type hierachies, balanced page templates, and flexible grid structures. Our continual goal was the push the envelope of what beautiful digital content could be.&lt;/p&gt;
 
-&lt;p&gt;While most textbooks were straightforward to design, Gilroy’s Atlas of Anatomy presented unique challenges because this book was made entirely of images laid out on large format pages. Talking with the publisher, we realized that the ability to compare images and tables on the same print spread was crucial to the function of the atlas. As the design lead for this project, I focused on three main usability points:&lt;/p&gt;
+&lt;p&gt;While most textbooks were straightforward to design, Gilroy&amp;#39;s Atlas of Anatomy presented unique challenges because this book was made entirely of images laid out on large format pages. Talking with the publisher, we realized that the ability to compare images and tables on the same print spread was crucial to the function of the atlas. As the design lead for this project, I focused on three main usability points:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;reduce the visual noise as much as possible to let the images speak for themselves.&lt;/li&gt;
-  &lt;li&gt;allow for comparision of images at different levels&lt;/li&gt;
-  &lt;li&gt;utilize the interactivity of digital media to help students gain comprehension of the material.&lt;/li&gt;
+&lt;li&gt;reduce the visual noise as much as possible to let the images speak for themselves.&lt;/li&gt;
+&lt;li&gt;allow for comparision of images at different levels&lt;/li&gt;
+&lt;li&gt;utilize the interactivity of digital media to help students gain comprehension of the material.&lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
         <pubDate>Wed, 15 Aug 2012 07:50:30 -0700</pubDate>
         <link>http://www.norrishung.com/content/2012/08/15/gilroy.html</link>
@@ -217,42 +290,6 @@
         
         
         <category>content</category>
-        
-      </item>
-    
-      <item>
-        <title>Campbell&#39;s Biology</title>
-        <description>&lt;p&gt;As the technical lead on this project, I was responsible for defining and maintainable a scalable HTML/CSS framework for the entire series. I worked closely with the design lead to translate design mocks into responsive web layouts and stress-test them to make sure we both understood how the designs would respond across devices and text flow/image size edge cases. I was also resposible for building out a style guide in which our production team in India would use to build every page of the book and lead communciation with them when problems arose.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 02 Apr 2012 07:50:30 -0700</pubDate>
-        <link>http://www.norrishung.com/content/2012/04/02/campbell.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/content/2012/04/02/campbell.html</guid>
-        
-        <category>HTML5</category>
-        
-        <category>CSS3</category>
-        
-        
-        <category>content</category>
-        
-      </item>
-    
-      <item>
-        <title>Stages of Nitrogen Loss in Food Production</title>
-        <description>&lt;p&gt;Many times, I find myself thinking about what the numbers actually are when reading about environmental claims. I’ve decided to start making information graphics illustrating answers to these questions. This first graphic follows the trail of industrially produced nitrogen and the inefficiencies in the process.&lt;/p&gt;
-
-&lt;p&gt;I began with a static infographic below but I realized that it was not correctly illustrating the scope of the problem. As a result, I recreated the piece as an interactive graphic. As I wanted to lean more towards a graphic than an piece of interactive media, I tried to keep the complexity down and for it to neatly return back to its original form at the end.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 03 Aug 2010 07:50:30 -0700</pubDate>
-        <link>http://www.norrishung.com/data/2010/08/03/nitrogen-loss.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/data/2010/08/03/nitrogen-loss.html</guid>
-        
-        <category>Design</category>
-        
-        <category>Flash</category>
-        
-        
-        <category>data</category>
         
       </item>
     
