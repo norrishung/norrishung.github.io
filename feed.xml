@@ -6,9 +6,44 @@
 </description>
     <link>http://www.norrishung.com/</link>
     <atom:link href="http://www.norrishung.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Dec 2015 15:38:33 -0800</pubDate>
-    <lastBuildDate>Tue, 22 Dec 2015 15:38:33 -0800</lastBuildDate>
-    <generator>Jekyll v3.0.0</generator>
+
+    <pubDate>Wed, 13 Jan 2016 14:17:26 -0800</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2016 14:17:26 -0800</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Good Eggs Redesign</title>
+        <description>&lt;p&gt;I began this exploration after watching the &lt;a href=&quot;http://bites.goodeggs.com/posts/service-design-panel-video/&quot;&gt;Good Eggs video on Service Design&lt;/a&gt;. As one of the first touch points in the full user experience, the web experience sets the tone in terms of trust and confidence in the service. It plays an important part in shaping the users understanding this is not just another web store, it is a relationship with local farmers and food producers.&lt;/p&gt;
+
+&lt;p&gt;As I set off, I had three questions in mind:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;How can we make users feel more connected to the products and producers as they are shopping?&lt;/li&gt;
+&lt;li&gt;How can we simplify the interface and choices users have to make so that they only have to make decisions as they are relevant to the immediate situation?&lt;/li&gt;
+&lt;li&gt;How can we showcase and engender trust in the quality of the products?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These mock ups are not answers but the start of a conversation around these questions.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Jan 2016 06:50:30 -0800</pubDate>
+        <link>http://www.norrishung.com/content/2016/01/13/goodeggs.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/content/2016/01/13/goodeggs.html</guid>
+        
+        <category>Visual Design</category>
+        
+        <category>HTML5</category>
+        
+        <category>CSS3</category>
+        
+        <category>Sass</category>
+        
+        <category>JavaScript</category>
+        
+        
+        <category>content</category>
+        
+      </item>
+>>>>>>> f43029156ffd65aae17bd46a1bf4b66601c9586e
     
       <item>
         <title>Chime Starter</title>
@@ -258,35 +293,6 @@
         <category>Sass</category>
         
         <category>JavaScript</category>
-        
-        
-        <category>content</category>
-        
-      </item>
-    
-      <item>
-        <title>Gilroy&#39;s Atlas of Anatomy</title>
-        <description>&lt;p&gt;My role as a designer at Inkling was to translate a diverse range of complex print layouts to responsive web layouts that accurately captured the intent of the content. Working with media rich text allowed me to refine my typography skills in establishing type hierachies, balanced page templates, and flexible grid structures. Our continual goal was the push the envelope of what beautiful digital content could be.&lt;/p&gt;
-
-&lt;p&gt;While most textbooks were straightforward to design, Gilroy&amp;#39;s Atlas of Anatomy presented unique challenges because this book was made entirely of images laid out on large format pages. Talking with the publisher, we realized that the ability to compare images and tables on the same print spread was crucial to the function of the atlas. As the design lead for this project, I focused on three main usability points:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;reduce the visual noise as much as possible to let the images speak for themselves.&lt;/li&gt;
-&lt;li&gt;allow for comparision of images at different levels&lt;/li&gt;
-&lt;li&gt;utilize the interactivity of digital media to help students gain comprehension of the material.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 15 Aug 2012 07:50:30 -0700</pubDate>
-        <link>http://www.norrishung.com/content/2012/08/15/gilroy.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/content/2012/08/15/gilroy.html</guid>
-        
-        <category>Visual Design</category>
-        
-        <category>HTML5</category>
-        
-        <category>CSS3</category>
-        
-        <category>Sass</category>
         
         
         <category>content</category>
