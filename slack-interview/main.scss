@@ -1,3 +1,4 @@
+// Base Styles
 @mixin clearfix() {
     &:before {
       content: "";
@@ -24,6 +25,7 @@ html {
 body {
     font-size: 1.6rem;
     overflow: auto;
+    margin: 40px;
 }
 
 a {
@@ -39,6 +41,7 @@ img {
     max-width: 100%;
 }
 
+// Message Component
 .message {
     background-color: #FFFFFF;
     border-radius: 4px;
@@ -83,6 +86,7 @@ img {
     font-weight: 300;
 }
 
+// Attachment Component
 .attachment {
     border-left: 4px solid #E8E8E8;
     margin: 1em 0;
@@ -118,6 +122,8 @@ img {
         }
     }
 }
+
+// Lightbox Component
 
 .lightbox {
     background-color: #F5F5F5;
@@ -200,6 +206,8 @@ img {
     }
 }
 
+
+// Slideshow Component
 .slideshow {
     flex: 1;
     position: relative;

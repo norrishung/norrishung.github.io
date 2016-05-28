@@ -1,7 +1,7 @@
 {
-  "name": "beanstock_templates",
+  "name": "slack-interview",
   "version": "0.0.1",
-  "repository": "https://github.com/codeforamerica/oakland-beta",
+  "repository": "https://github.com/norrishung/norrishung.github.io",
   "license": "MIT",
   "devDependencies": {
     "grunt": "^0.4.5",
