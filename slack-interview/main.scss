@@ -1,13 +1,13 @@
 @mixin clearfix() {
     &:before {
-      display: table;
       content: "";
+      display: table;
     }
 
     &:after {
-      display: table;
       clear: both;
       content: "";
+      display: table;
     }
 }
 
@@ -17,8 +17,8 @@
 
 html {
     background-color: #F5F5F5;
-    font-size: 10px;
     font-family: "Source Sans Pro", "Helvetica", sans-serif;
+    font-size: 10px;
 }
 
 body {
@@ -27,8 +27,8 @@ body {
 }
 
 a {
-    font-weight: 600;
     color: #3081B7;
+    font-weight: 600;
     text-decoration: none;
     &:hover {
         text-decoration: underline;
@@ -40,28 +40,28 @@ img {
 }
 
 .message {
-    position: absolute;
-    top: 50%;
-    left: 40px;
-    right: 40px;
-    transform: translateY(-50%);
-    display: flex;
     background-color: #FFFFFF;
-    box-shadow: 0 0 5px rgba(0,0,0, .25);
-    padding: 1.5em;
     border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0, .25);
+    display: flex;
+    left: 40px;
+    padding: 1.5em;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
     &:hover {
         background-color: #FAFAFA;
     }
 }
 
 .message__avatar {
-    flex-shrink: 0;
-    margin-right: 1em;
-    height: 38px;
-    width: 38px;
     border-radius: 4px;
+    flex-shrink: 0;
+    height: 38px;
+    margin-right: 1em;
     overflow: hidden;
+    width: 38px;
 }
 
 .message__content {
@@ -73,16 +73,16 @@ img {
 }
 
 .message__username {
-    font-weight: 700;
     display: inline-block;
+    font-weight: 700;
     margin-right: 1em;
 }
 
 .message__timestamp {
     color: #9E9EA6;
     display: inline-block;
-    font-weight: 300;
     font-size: 1.4rem;
+    font-weight: 300;
 }
 
 .attachment {
@@ -100,18 +100,18 @@ img {
 }
 
 .attachment--slideshow__thumb {
-    width: 100px;
-    height: 100px;
-    border-radius: 4px;
     background-color: #E8E8E8;
+    border-radius: 4px;
     float: left;
-    margin-right: .5em;
+    height: 100px;
     margin-bottom: .5em;
+    margin-right: .5em;
     overflow: hidden;
+    width: 100px;
     img {
-        transition: opacity .1s ease-out;
         min-height: 100%;
         min-width: 100%;
+        transition: opacity .1s ease-out;
     }
     &:hover {
         cursor: zoom-in;
@@ -122,38 +122,38 @@ img {
 }
 
 .lightbox {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background-color: #F5F5F5;
-    z-index: 10;
-    flex-direction: column;
+    bottom: 0;
     display: flex;
-    visibility: hidden;
+    flex-direction: column;
+    left: 0;
     opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
     transition: opacity .1s ease-out;
+    visibility: hidden;
+    z-index: 10;
     &.lightbox--is-open {
-        visibility: visible;
         opacity: 1;
+        visibility: visible;
     }
 }
 
 .lightbox__topbar {
-    display: flex;
     align-items: center;
     background-color: #FFF;
     border-bottom: 1px solid #DDD;
+    display: flex;
     padding: 1em;
 }
 
 .lightbox__avatar {
-    margin-right: 1em;
-    flex-shrink: 0;
     border-radius: 4px;
-    overflow: hidden;
+    flex-shrink: 0;
     height: 38px;
+    margin-right: 1em;
+    overflow: hidden;
     width: 38px;
 }
 
@@ -166,8 +166,8 @@ img {
 }
 
 .lightbox__details {
-    font-size: 1.4rem;
     color: #9E9EA6;
+    font-size: 1.4rem;
 }
 
 .lightbox__timestamp {
@@ -179,10 +179,10 @@ img {
 }
 
 .lightbox__dismiss-button {
-    text-indent: -9999px;
-    position: relative;
-    width: 3em;
     height: 3em;
+    position: relative;
+    text-indent: -9999px;
+    width: 3em;
 
     &:hover {
         color: #3081B7;
@@ -190,32 +190,32 @@ img {
     }
 
     &:before {
-        position: absolute;
+        content: '\e870';
         display: block;
+        font-family: "Linearicons-Free";
         left: 0;
-        right: 0;
         line-height: 3em;
+        position: absolute;
+        right: 0;
         text-align: center;
         text-indent: 0;
-        font-family: "Linearicons-Free";
-        content: '\e870';
     }
 }
 
 .slideshow {
-    position: relative;
     flex: 1;
+    position: relative;
 }
 
 .slideshow__prev-button, .slideshow__next-button {
-    transition: background-color .1s ease-out;
-    position: absolute;
-    top: 0;
     bottom: 0;
-    width: 5em;
-    text-indent: -9999px;
-    z-index: 15;
     cursor: pointer;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    transition: background-color .1s ease-out;
+    width: 5em;
+    z-index: 15;
     &:hover {
         background-color: rgba(#E8E8E8, .8);
         &:before {
@@ -231,22 +231,22 @@ img {
     }
 
     &:before {
-        position: absolute;
-        display: block;
-        top: 50%;
-        left: 50%;
-        width: 3em;
-        height: 3em;
-        margin-top: -1.5em;
-        margin-left: -1.5em;
         background-color: #FFF;
         border-radius: 50%;
-        line-height: 3em;
-        text-align: center;
         box-shadow: 0 1px 1px rgba(0,0,0,.15);
-        text-indent: 0;
-        font-family: "Linearicons-Free";
         content: '\e879';
+        display: block;
+        font-family: "Linearicons-Free";
+        height: 3em;
+        left: 50%;
+        line-height: 3em;
+        margin-left: -1.5em;
+        margin-top: -1.5em;
+        position: absolute;
+        text-align: center;
+        text-indent: 0;
+        top: 50%;
+        width: 3em;
     }
 }
 
@@ -258,30 +258,30 @@ img {
 }
 
 .slideshow__images {
-    position: absolute;
-    top: 0;
     bottom: 0;
-    right: 0;
-    left: 0;
     display: flex;
+    left: 0;
     overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .slideshow__image-container {
-    padding: 2em 7em;
-    width: 100%;
     flex-shrink: 0;
     height: 100%;
+    padding: 2em 7em;
     position: relative;
     transition: transform .2s ease-out;
+    width: 100%;
 }
 
 .slideshow__image {
-    position: absolute;
+    height: auto;
     left: 50%;
+    max-height: 80%;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%) translateX(-50%);
-    max-height: 80%;
-    height: auto;
     width: auto;
 }
