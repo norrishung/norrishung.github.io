@@ -54,6 +54,7 @@ function Slideshow(args) {
     // Renders the slideshow attachment
     this.renderSlideshowAttachment = function() {
 
+        // load photos
         self.photos.forEach(function(photo, index) {
             var photoContainer = document.createElement('div');
             $addClass(photoContainer, 'attachment--slideshow__thumb');
@@ -65,8 +66,8 @@ function Slideshow(args) {
             attachmentContainer.appendChild(photoContainer);
         });
 
+        // Attach event listeners
         var thumbs = $('.attachment--slideshow__thumb');
-
         for(i = 0; i < thumbs.length; i++) {
             var currentThumb = thumbs[i];
             currentThumb.addEventListener('click', function(e) {
@@ -79,6 +80,7 @@ function Slideshow(args) {
     // Renders the Lightbox
     this.renderSlideshowLightbox = function() {
 
+        // Load photos
         self.photos.forEach(function(photo, index) {
             var photoContainer = document.createElement('div');
             $addClass(photoContainer, 'slideshow__image-container');
@@ -92,6 +94,7 @@ function Slideshow(args) {
             lightboxContainer.appendChild(photoContainer);
         });
 
+        // Attach event listeners
         $('.lightbox__dismiss-button')[0].addEventListener('click', function(e) {
             self.dismissLightbox();
         });
