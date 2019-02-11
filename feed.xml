@@ -2,48 +2,478 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Norris Hung</title>
-    <description>Norris Hung is a designer and front-end developer based in San Francisco. He strives to simplify and humanize by making products more usable and  content more understandable.
+    <description>Hello there! I am a designer from Oakland, CA.  For the last seven years, I've worked on research, interactive,  service, and web projects. I always seek to learn and  create things along the way that, hopefully,  make the world a better place.
 </description>
-    <link>http://www.norrishung.com/</link>
-    <atom:link href="http://www.norrishung.com/feed.xml" rel="self" type="application/rss+xml"/>
-
-    <pubDate>Wed, 13 Jan 2016 14:17:26 -0800</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2016 14:17:26 -0800</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 11 Feb 2019 09:35:30 -0800</pubDate>
+    <lastBuildDate>Mon, 11 Feb 2019 09:35:30 -0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Good Eggs Redesign</title>
-        <description>&lt;p&gt;I began this exploration after watching the &lt;a href=&quot;http://bites.goodeggs.com/posts/service-design-panel-video/&quot;&gt;Good Eggs video on Service Design&lt;/a&gt;. As one of the first touch points in the full user experience, the web experience sets the tone in terms of trust and confidence in the service. It plays an important part in shaping the users understanding this is not just another web store, it is a relationship with local farmers and food producers.&lt;/p&gt;
+        <title>How user-centered design has helped over 600,000 Californians put food on the table.</title>
+        <description>&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_mockup-800by489-402099.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_mockup-1200by734-402099.png 1.0x, http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_mockup-2400by1468-402099.png 2.0x&quot;&gt;
 
-&lt;p&gt;As I set off, I had three questions in mind:&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;I lead design on &lt;a href=&quot;https://www.getcalfresh.org&quot;&gt;GetCalFresh&lt;/a&gt;, a plain-language and mobile-friendly service that helps Californians enroll in food stamps.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;ol&gt;
-&lt;li&gt;How can we make users feel more connected to the products and producers as they are shopping?&lt;/li&gt;
-&lt;li&gt;How can we simplify the interface and choices users have to make so that they only have to make decisions as they are relevant to the immediate situation?&lt;/li&gt;
-&lt;li&gt;How can we showcase and engender trust in the quality of the products?&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;From 2017-2018, the GetCalFresh team combined qualitative and quantitative research to understand the barriers Californians faced as they applied for food stamps (CalFresh). Based on what we learned, we redesigned the application experience, published three research reports, and helped to influence legislation in California.&lt;/p&gt;
 
-&lt;p&gt;These mock ups are not answers but the start of a conversation around these questions.&lt;/p&gt;
+&lt;h2&gt;Opportunity&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;video src=&quot;/videos/gcf_c4mobile_walkthrough.mp4&quot; type=&quot;video/mp4&quot; autoplay loop&gt;&lt;/video&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Applying online was the most painful part of the process. It prevented many eligible people from accessing a service they desperately needed.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In 2015, three former CfA fellows (Dave Guarino, Alan Williams, and Jake Solomon) studied the experience of being on food stamps and realized if they wanted to increase the participation rate, the enrollment process would have to be fixed. As a result, they partnered with government in California to prototype a new CalFresh application.&lt;/p&gt;
+
+&lt;p&gt;After the success of an initial prototype, I was brought on as the first designer on the team. We decided to focus on diving deeper into the specific barriers that clients were facing.&lt;/p&gt;
+
+&lt;h2&gt;Research&lt;/h2&gt;
+
+&lt;p&gt;From October 2017 - January 2018, I led the research effort with data scientist, Eric Gianella. Between the both of us, we sought to understand the situation from as many angles as possible:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_research_activities-800by422-5e9d8e.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_research_activities-1200by633-5e9d8e.png 1.0x, http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_research_activities-2400by1266-5e9d8e.png 2.0x&quot;&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Eric and I found a great rhythm of “ping-ponging” between qualitative and quantitative research. Sometimes I would notice a trend in user interviews and would ask Eric if he could identify the severity of the problem through a data investigation. Sometimes Eric’s data analysis would show an issue people were having but couldn&amp;#39;t udnerstand why. As a result, I would talk to a few clients to see if I could understand the reason behind it. &lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_infographics-800by502-ae39b2.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_infographics-1200by753-ae39b2.png 1.0x, http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_infographics-2400by1506-ae39b2.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;&lt;b&gt;Left:&lt;/b&gt; a service blueprint I designed to help staff and partners understand the turn-based nature of enrollment that caused many people to abandon the process.&lt;/p&gt;
+    &lt;p&gt;&lt;b&gt;Right:&lt;/b&gt; an infographic that uses data and anecdotes to help staff and partners understand specific problems in the process and how severe they were.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Through our research, we generated three detailed reports that combined stories from user interviews with analytical evidence to help shed light on barriers in the enrollment process. These reports were shared with government and non-profit partners.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/code-for-america/overcoming-barriers-setting-expectations-for-calfresh-eligibility-ade9f81c048&quot;&gt;Overcoming Barriers: Setting expectations for CalFresh eligibility&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/code-for-america/overcoming-barriers-finding-better-ways-to-ask-getcalfresh-applicants-about-income-ef45f0d5bdad&quot;&gt;Overcoming Barriers: Finding better ways to ask GetCalFresh applicants about income&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/code-for-america/overcoming-barriers-how-getcalfresh-helps-applicants-submit-verifications-f2082823f64f&quot;&gt;Overcoming Barriers: How GetCalFresh helps applicants submit verifications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Design a Better Application&lt;/h2&gt;
+
+&lt;p&gt;After our research, we asked ourselves, “What can we do to improve our application?”&lt;/p&gt;
+
+&lt;p&gt;The initial inspiration was to learn how assisters at community-based organizations worked. Through helping hundreds of people apply in-person over years, they had learned how to maximize a person&amp;#39;s chance of getting through the process.&lt;/p&gt;
+
+&lt;p&gt;We talked to helpful friends at local organizations such as Francesca Costa from the SF-Marin Food Bank and Crystina Esparza from the Alameda Food Bank.&lt;/p&gt;
+
+&lt;p&gt;Based on what we learned, I started the process by finding ways to rapidly prototype a better flow.&lt;/p&gt;
+
+&lt;p&gt;The first was a script that I ran through with 10 clients verbally and then following up with them to see if they were approved or denied.&lt;/p&gt;
+
+&lt;p&gt;The second iteration was taking the questions on that script and breaking them into index cards that roughly represented the design.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_lofi_cards-800by449-88e8fb.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_lofi_cards-1200by673-88e8fb.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_lofi_cards-2400by1346-88e8fb.jpeg 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;The initial index card prototype based on the questions food bank employees would ask when helping people to apply.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The third was a high fidelity index card prototype that I reviewed with the team and with subject matter experts from local food banks.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_design_review-800by472-6303e8.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_design_review-1200by709-6303e8.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_design_review-2400by1417-6303e8.jpeg 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;A design review session I led with food bank employees and the GetCalFresh product team.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;At each step, we used feedback from clients and subject matter experts to adjust the language and flow of the application. &lt;/p&gt;
+
+&lt;p&gt;After feeling good about the new redesign, our product manager, Simone Siquera, and I broke the redesign into smaller stories in pivotal tracker that engineers could work on over time.&lt;/p&gt;
+
+&lt;p&gt;Here is the final result of the new application:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;video src=&quot;/videos/gcf_walkthrough.mp4&quot; type=&quot;video/mp4&quot; autoplay loop&gt;&lt;/video&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;What &lt;a href=&quot;https://www.getcalfresh.org&quot;&gt;GetCalFresh&lt;/a&gt; looks like as of January 2019. We continue to iterate to improve the user-experience and incorporate new legislation as it is passed.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Impact&lt;/h2&gt;
+
+&lt;p&gt;As of January 2019, over 600,000 Californians have used our service to apply for CalFresh. We help an average of 10,000 people every week.&lt;/p&gt;
+
+&lt;p&gt;Before GetCalFresh, most people never even considered applying by themselves online. Today, California has a plain-language and mobile-friendly way to apply within 10 minutes. The service is designed to educate as much as it is to help them fill out a form.&lt;/p&gt;
+
+&lt;p&gt;Our redesign showed also impact in applications received by counties. We provided more accurate eligibility pre-screening. We measured a 60% increase in verifications submitted. These factors resulted in a 10% increase in application approval rate.&lt;/p&gt;
+
+&lt;p&gt;Because the flow was clearer for clients, it was also clearer for us. This more logical flow through the application has helped make future iterations much easier for our product team.&lt;/p&gt;
+
+&lt;p&gt;Our way of working has also helped to inspire government. The happiest moments are when we hear our government partners adopt terms like user-centric or agile development. We are commonly invited to facilitate workshops to make sure that new legislation is designed with users in mind. &lt;/p&gt;
+
+&lt;p&gt;While the online service is the most visible result of our work, culture change in government is what will bring the most lasting impact.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_thank_you_note-800by422-76eb98.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_thank_you_note-1200by633-76eb98.png 1.0x, http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_thank_you_note-2400by1266-76eb98.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;A thank you note from the director of the California Department of Social Services, Kim McCoy-Wade, after we facilitated a workshop for a new policy rollout.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
 </description>
-        <pubDate>Wed, 13 Jan 2016 06:50:30 -0800</pubDate>
-        <link>http://www.norrishung.com/content/2016/01/13/goodeggs.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/content/2016/01/13/goodeggs.html</guid>
-        
-        <category>Visual Design</category>
-        
-        <category>HTML5</category>
-        
-        <category>CSS3</category>
-        
-        <category>Sass</category>
-        
-        <category>JavaScript</category>
+        <pubDate>Mon, 31 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/project/2018/12/31/getcalfresh.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2018/12/31/getcalfresh.html</guid>
         
         
-        <category>content</category>
+        <category>project</category>
         
       </item>
->>>>>>> f43029156ffd65aae17bd46a1bf4b66601c9586e
+    
+      <item>
+        <title>Finding opportunities to help remote Alaskans access the safety net.</title>
+        <description>&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_synthesis_hero-800by462-bf2a72.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_synthesis_hero-1200by694-bf2a72.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_synthesis_hero-2322by1342-bf2a72.png 1.94x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;Reseacher, Nicole Rappin and I, synthesizing our interviews and observations after spending two weeks in Alaska.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In 2018, Code for America engaged with the State of Alaska to improve equality and access to services like Medicaid and food stamps. We prototyped two services that we continuously improved from user feedback. The first was a digital assister that empowered remote state employees to better aid their communities. The second was a text-based reminder system to make sure people did not unnecessarily lose their benefits.&lt;/p&gt;
+
+&lt;h2&gt;Opportunity&lt;/h2&gt;
+
+&lt;p&gt;When it comes to public services, Alaska faces many challenges that differ from other parts of the United States. A large part of its population live in remote regions only accessible by plane or boat. Medical aid often requires being airlifted. Remote native communities in these regions rely primarily on sustainence hunting and fishing to survive. In the winter, weather conditions can cripple jobs and mail communication.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_remote-800by364-eaa628.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_remote-1200by547-eaa628.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_remote-2400by1093-eaa628.jpeg 2.0x&quot;&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Over the last few years, internet and cellular access in these areas have become prevalent. As we began our partnership, we asked ourselves, are there opportunities for technology to improve how government can reach these communities?&lt;/p&gt;
+
+&lt;h2&gt;Research and Prototyping&lt;/h2&gt;
+
+&lt;p&gt;In the summer of 2018, a research team went up to Alaska to better understand the safety net experience. They identified two potential areas for improvement. First, there was an opportunity to providing better support to the state workers embedded in remote communities. Second, there was an opportunity to improve communication key points in the enrollment and renewal process.&lt;/p&gt;
+
+&lt;p&gt;After the discovery phase, I was brought on as a research designer to develop initial prototypes to test with the public as well as state employees.  By quickly creating something tangible based on our initial understanding, we had something that allowed us to collect more in-depth feedback and observations that deepened our understanding.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_ets-800by471-85798a.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_ets-1200by706-85798a.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_ets-2400by1412-85798a.jpeg 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;Shadowing case workers in the Alaskan Department of Public Assistance&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We created a digital assister that helped guide remote state workers through the application and interview process. We tested this with remote communities to understand their access to the internet as well as their comfort using digital tools. We also shared the prototype with state leadership and shadowed case workers in order to fine tune the tool and ensure that remote applications could be processed without issues.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;video src=&quot;/videos/fee_agent_testing.mp4&quot; type=&quot;video/mp4&quot; autoplay loop&gt;&lt;/video&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;We interviewed and tested our prototypes with remote communities.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For the text-based reminder system, I created a video prototype that illustrated to state workers how we could use existing data to reduce missed recertification and reduce stress and anxiety in clients. We interviewed Alaskan who were on food stamps or medicaid to understand what types of messages would have been the most helpful and what type of communication medium their would have preferred.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;video src=&quot;/videos/status_checker_720p.mp4&quot; type=&quot;video/mp4&quot; controls&gt;&lt;/video&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;A video prototype to show how existing data could be used to improve the user experience.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Delivery and Sharing Learnings&lt;/h2&gt;
+
+&lt;p&gt;While our north star is improve social services for the public, it was also important that we set an example on how to work and share our learnings. To this end, we have involved our government partners and produced learning reports at every step.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_report-800by461-fcbce9.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_report-1200by692-fcbce9.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_report-2400by1384-fcbce9.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;Our goal is not only to build digital products but to help others understand how to design better services for the underserved.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Currently, we are in conversation with the state of Alaska to roll out a wider pilot version of our tools. In this stage, we will continue to use in-depth interviews as well as data collected to understand if our interventions are successful. &lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/project/2018/12/15/alaskan-safety-net.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2018/12/15/alaskan-safety-net.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating a campaign to help college students eat healthier.</title>
+        <description>&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/gcf_student_campaign-800by423-b13559.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/gcf_student_campaign-1200by635-b13559.png 1.0x, http://localhost:4000/img/generated/portfolio/gcf-student-campaign/gcf_student_campaign-2400by1270-b13559.png 2.0x&quot;&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;In 2017, the GetCalFresh team partnered with the public health community to launch a statewide campaign across college campuses that transformed the perception of food assistance for students. While one would be hard pressed to find a student who had heard of CalFresh in 2016, it is now a very normal part of the college experience in 2018. Today, students are over 25% of our applicant base and we’ve helped over 130,000 students across California apply for CalFresh.&lt;/p&gt;
+
+&lt;h2&gt;The Opportunity&lt;/h2&gt;
+
+&lt;p&gt;Recent reports have stated that as many as 40% of college students in the US suffer from food insecurity. In early 2017, a policy change expanded the eligibility for food stamps to a wider range of college students. We wanted to make sure that as many students as possible could take advantage of this.&lt;/p&gt;
+
+&lt;h2&gt;Research&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_research_2-800by516-b3e96c.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_research_2-1200by774-b3e96c.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_research_2-2400by1547-b3e96c.jpeg 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;Intercepts with students at University of California, Berkeley&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We started by going out and asking students what they thought about food stamps:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“None of my friends are on it. Are you sure its for me?”&lt;/li&gt;
+&lt;li&gt;“I wouldn’t want to take money away from someone who needs it more.”&lt;/li&gt;
+&lt;li&gt;“I wouldn’t know where to start.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;However, when we asked if they would be interested in a financial aid program that helped them with groceries, they unequivocally said, &lt;/p&gt;
+
+&lt;p&gt;“I definitely could use extra help with food? How do I sign up?”&lt;/p&gt;
+
+&lt;p&gt;We also participated training seminars lead by an outreach team at CSU Chico and they said their three biggest goals were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Increase awareness and reduce misperceptions&lt;/li&gt;
+&lt;li&gt;Screen to see if they were likely eligible&lt;/li&gt;
+&lt;li&gt;Help them navigate the complex application process&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We already had built GetCalFresh.org, a tool that specifically tackled the last two issues. We thought we could do more to help with the first issue.&lt;/p&gt;
+
+&lt;h2&gt;Design Explorations&lt;/h2&gt;
+
+&lt;p&gt;We set out to explore a few design directions with the following ideas in mind:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We wanted students to know that CalFresh was specifically for them.&lt;/li&gt;
+&lt;li&gt;We wanted to be clear it new opportunity to take advantage of, not something to be ashamed of.&lt;/li&gt;
+&lt;li&gt;We wanted to reposition it as financial aid, something students would be familiar with.&lt;/li&gt;
+&lt;li&gt;We wanted students to know who was likely eligible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-800by608-c5983d.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-1200by912-c5983d.png 1.0x, http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-2400by1824-c5983d.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+      &lt;p&gt;We explored a few ‘meme-able’ directions that played off the idea of a starving student.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The final direction was one that we thought set an appropriate optimistic tone with just the right level of cheekiness.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_posters-800by397-8a1347.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_posters-1200by595-8a1347.png 1.0x, http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_posters-2400by1190-8a1347.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+      &lt;p&gt;Student CalFresh posters&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_postcards-800by407-52ce0a.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_postcards-1200by611-52ce0a.png 1.0x, http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_postcards-2400by1222-52ce0a.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+      &lt;p&gt;Student CalFresh postcards&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;video src=&quot;/videos/student_portal.mov&quot; autoplay&gt;&lt;/video&gt;
+  &lt;figcaption&gt;
+      &lt;p&gt;Student landing page for GetCalFresh.org&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Getting it out there&lt;/h2&gt;
+
+&lt;p&gt;The crucial last step was getting the campaign in front of students. We knew that while our strength was design and technology, we needed help with getting a presence on school campuses. Our partnerships team reached out to like minded non-profit organizations including Swipe Out Hunger, the UC Basic Needs Alliance, school nutrition offices, and food banks to help us out.&lt;/p&gt;
+
+&lt;p&gt;We pitched them on our campaign and many of them were excited that someone decided to take this on. In order to reduce as much friction as possible, we printed out tens of thousands of copies of posters and flyer and sent them to local chapters of organizations across dozens of California schools. Our partners made sure that our campaign would be visible at student orientation events, financial aid food panties, cafeterias, and dormitory lobbies.&lt;/p&gt;
+
+&lt;h2&gt;The impact&lt;/h2&gt;
+
+&lt;p&gt;The change in perception is, honestly, staggering. Talking to college students today, people are either on CalFresh themselves or know many people who are. It is as normal as receiving scholarships or financial aid. Today, students are over 25% of our applicant base and we’ve helped over 130,000 students across California apply for CalFresh.&lt;/p&gt;
+
+&lt;p&gt;The most exciting part of this campaign was that it was a community-wide effort of researchers who identified the public health issues, advocates who pushed policy makers, policy makers who changed the rules, and on-the-ground organizations who spread the word. &lt;/p&gt;
+
+&lt;p&gt;We are proud to have played a part in making sure their work was the most impactful it could be.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-800by570-daa1ea.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-1200by856-daa1ea.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-2400by1711-daa1ea.jpeg 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+      &lt;p&gt;Our client success specialist, Cesar Paredes, repping our posters at the UC Berkeley food pantry.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+        <pubDate>Tue, 15 Aug 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/project/2017/08/15/gcf-student-campaign.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2017/08/15/gcf-student-campaign.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Giving products at Code for America a dignified, friendly, and unified voice.</title>
+        <description>&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-800by426-f2d518.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-1200by639-f2d518.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-2400by1278-f2d518.png 2.0x&quot;&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;In 2016, Daniella DeVera and I led an bottom-up effort to create a org-wide styleguide that has elevated Code for America’s design standards and brought product teams together.&lt;/p&gt;
+
+&lt;h2&gt;Opportunity&lt;/h2&gt;
+
+&lt;p&gt;In 2016, Code for America decided to build an in-house product team after primarily depending on a fellowship model. Many of the existing fellowship products and their teams were brought on staff. This presented a few challenges for the organization:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Products all had their own design vocabulary.&lt;/li&gt;
+&lt;li&gt;Designers were not used to collaborating.&lt;/li&gt;
+&lt;li&gt;Designers constantly felt like they were reinventing the wheel.&lt;/li&gt;
+&lt;li&gt;Because every product started from scratch, design polish never became a priority.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-800by568-19693b.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-1200by852-19693b.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-2400by1704-19693b.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;The state of Code for America products in 2016 before we launched the styleguide.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After hearing the same challanges across project teams, I, along with Daniella DeVera, decided to do something about it. When we were asked to start a redesign of GetCalFresh, we instead advocated for an extra month to work with the rest of the organization and build something we felt everyone else would want to use as well.&lt;/p&gt;
+
+&lt;h2&gt;Research/Planning&lt;/h2&gt;
+
+&lt;p&gt;We started the project by talking to all of our important stakeholders - other designers, product managers, and company leadership. Some of our research activities included:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Taking inventory of all active projects.&lt;/li&gt;
+&lt;li&gt;Facilitating a design values session with designers.&lt;/li&gt;
+&lt;li&gt;Looking at existing user research.&lt;/li&gt;
+&lt;li&gt;Kicking-off the project with org-wide leadership.&lt;/li&gt;
+&lt;li&gt;Committing to working in the open: started a slack channel, blogged about our process, committed to sharing out our progress regularly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From these meetings, we synthesized a set of design principles that we used to begin our design explorations.&lt;/p&gt;
+
+&lt;h2&gt;Design Explorations&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-800by460-4a5652.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-1200by690-4a5652.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-2400by1381-4a5652.jpeg 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;Daniella and I being very designer-y during the exploration phase.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;At first, many of our initial explorations were an adaption of Code for America’s existing brand. However, we realized that Code for America’s exist brand was targeted rallying technologies and funders to the cause of civic technology and it did not make sense to use that as the foundation for a design system targeted towards people trying to access the safety net.&lt;/p&gt;
+
+&lt;p&gt;We opened ourselves up to use a design language that positioned ourselves authentically to the users of our services.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We were not a government entity, so we would not pretend to look like one.&lt;/li&gt;
+&lt;li&gt;Many of our users may be physically/visually impaired and therefore accessibility must be front and center.&lt;/li&gt;
+&lt;li&gt;Because many of our users&amp;#39; primary devices were low-end phones or lived in places without strong reception, perfomance would also be crucial.&lt;/li&gt;
+&lt;li&gt;Our users were human-beings that deserved to be treated with dignity. Our designs, imagery, and langauge must reflect that.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-800by388-3a5043.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-1200by582-3a5043.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-2400by1164-3a5043.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;Early visual explorations&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Implementation&lt;/h2&gt;
+
+&lt;p&gt;After settling on a design direction that the organization was happy with, I led front-end development of the styleguide using GetCalFresh.org as our first implementation. We used modern front-end conventions such as Atomic Design, Sass, and BEM. I created a living styleguide page that documented all of our patterns for anyone to reference.&lt;/p&gt;
+
+&lt;p&gt;As I worked on GetCalFresh wth our new styleguide, user-testing informed many iterative changes over the next year. After a successful implementation on GetCalFresh, other teams began to ask if they could use the styleguide on their projects. We would discuss the ramifications of a refactor and if it was the right time. If we decided the answer was yes, I would help onboard other teams onto using the styleguide.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-800by557-cdec0b.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-1200by836-cdec0b.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-2400by1672-cdec0b.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;A living styleguide documenting patterns and code examples.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The first few projects understood that the process would be painful. However, it was from those pain points that we learned how to adjust the styleguide to be something uniquely shaped for our organization.&lt;/p&gt;
+
+&lt;h2&gt;Adoption&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-800by515-cda59c.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-1200by772-cda59c.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-2400by1545-cda59c.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;Teammates making important decisions about the styleguide :)&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Many people hear “styleguide” and think about the tangible things such as branding, pattern libraries, or stylesheets. The real secret is: a styleguide is all about relationships. Most of the work really looks like this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;rallying your team and getting them excited about adoption.&lt;/li&gt;
+&lt;li&gt;finding the right opportunities to use it on a new project.&lt;/li&gt;
+&lt;li&gt;supporting teammates as they transition to your new system.&lt;/li&gt;
+&lt;li&gt;see how others use it and address their pain points.&lt;/li&gt;
+&lt;li&gt;allowing space for others to contribute while still maintaining a confident editorial voice.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of course, creating a compelling design that people want to use is important. But making sure you do your research, involve all your stakeholders, and commit to building the relationships over time are all things you need to do to make sure a styleguide sticks.&lt;/p&gt;
+
+&lt;h2&gt;Impact&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-800by452-24c029.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-1200by677-24c029.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-2397by1353-24c029.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;What Code for America projects look like today. Clockwise from top: ClearMyRecord, ReportChangesColorado, ClientComm, GetCalFresh.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Three years later, the CfA Styleguide is finally used across all products at Code for America. It is a well-tested system that is accessible, mobile-friendly, performant, and designed specifically for people accessing the safety net.&lt;/p&gt;
+
+&lt;p&gt;At this point, many of the strongest contributions are lead by other designs and engineers. Christa Hartsock helped to package the styleguide into its own ruby gem and manages contributions from other engineers. Rachel Edelman has helped to develop numerous additional design patterns and created a sketch symbol library. Ben Golder has been a huge advocate for improving accessibility and WCAG 2.0 Level AA compliance. &lt;/p&gt;
+
+&lt;p&gt;While there will always be more to be done, we are at least now all now working towards a singular goal. Decisions can be made as a team and improvements that benefit one team end up benefiting everyone. &lt;/p&gt;
+
+&lt;p&gt;The best part is that the styleguide is open-source. We encourage anyone working on public-benefit services to use it in their projects.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jul 2016 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/project/2016/07/01/cfa-styleguide.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2016/07/01/cfa-styleguide.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
     
       <item>
         <title>Chime Starter</title>
@@ -62,8 +492,8 @@
 &lt;p&gt;Our work is ongoing in a collaboration with the city of &lt;a href=&quot;http://beta.oaklandca.gov/&quot;&gt;Oakland, CA&lt;/a&gt; to bring this to life.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Oct 2015 07:50:30 -0700</pubDate>
-        <link>http://www.norrishung.com/content/2015/10/29/chime-starter.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/content/2015/10/29/chime-starter.html</guid>
+        <link>http://localhost:4000/cfa/2015/10/29/chime-starter.html</link>
+        <guid isPermaLink="true">http://localhost:4000/cfa/2015/10/29/chime-starter.html</guid>
         
         <category>HTML5</category>
         
@@ -74,7 +504,7 @@
         <category>Visual Design</category>
         
         
-        <category>content</category>
+        <category>cfa</category>
         
       </item>
     
@@ -94,8 +524,8 @@
 &lt;p&gt;My role on this project included user research, prototyping, interaction design, and front-end development.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Oct 2015 07:50:30 -0700</pubDate>
-        <link>http://www.norrishung.com/interface/2015/10/29/chime.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/interface/2015/10/29/chime.html</guid>
+        <link>http://localhost:4000/cfa/2015/10/29/chime.html</link>
+        <guid isPermaLink="true">http://localhost:4000/cfa/2015/10/29/chime.html</guid>
         
         <category>HTML5</category>
         
@@ -112,7 +542,7 @@
         <category>User Research</category>
         
         
-        <category>interface</category>
+        <category>cfa</category>
         
       </item>
     
@@ -153,36 +583,11 @@
 &lt;p&gt;Phew. That’s it for now and I’m pretty proud of the technology stack that I’ve used to build this website. There’s no sign that the industry of web development is slowing down and I can’t wait to see what will change in the next four years. Personally, I’m hoping to see more of a convergence between web design and native app designs. I believe natively digital conceptual models like Material Design are here to stay and the capabilities of web design will need to catch up.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Mar 2015 00:00:00 -0700</pubDate>
-        <link>http://www.norrishung.com/writing/2015/03/25/what-happens-in-four-years.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/writing/2015/03/25/what-happens-in-four-years.html</guid>
+        <link>http://localhost:4000/writing/2015/03/25/what-happens-in-four-years.html</link>
+        <guid isPermaLink="true">http://localhost:4000/writing/2015/03/25/what-happens-in-four-years.html</guid>
         
         
         <category>writing</category>
-        
-      </item>
-    
-      <item>
-        <title>Jazz Brewing</title>
-        <description>&lt;p&gt;Jazz was born out of a frustration of the current available of brewing software out there. As with many niche markets, the leading software was developed by a passionate individual but lacked the technical or design expertise to build a product with a great experience. It serves many homebrewers well but we asked ourselves - what would a well crafted and modern brewing product look like?&lt;/p&gt;
-
-&lt;p&gt;Jazz is an ongoing project between Lere Williams, Greg Wahnon, and I.&lt;/p&gt;
-
-&lt;h2&gt;Process&lt;/h2&gt;
-
-&lt;p&gt;&amp;quot;People don&amp;#39;t want drills. They want holes&amp;quot; is a great quote I once heard. Instead of focusing on the software, I first set out to understand what brewers were trying to do. I interviewed a couple of fellow homebrewers to seek and understand the different steps of brewing and the frustrations they had at each step. I found that brewing starts way before the actual brewing - it starts with getting inspiration and trying to figure out what ingredients were available to them and goes all the way to evaluation and taking notes on the beer after its finished. With an understanding of the landscape, we set up to brainstorm different ways in which technology could help with each stage of the process. We then worked to scope a feature set for an MVP. From there, I started working on wireframes and user flows. High fidelity mockups were created and used to guide the development of the software.&lt;/p&gt;
-
-&lt;p&gt;We are currently in the process of developing an MVP which we can then bring out users at homebrewer club meetings to test. Their feedback will continue to be incorporated into our thinking.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 18 Mar 2015 07:50:30 -0700</pubDate>
-        <link>http://www.norrishung.com/interface/2015/03/18/project-jazz.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/interface/2015/03/18/project-jazz.html</guid>
-        
-        <category>UX/UI Design</category>
-        
-        <category>Front-End Development</category>
-        
-        
-        <category>interface</category>
         
       </item>
     
@@ -197,15 +602,15 @@
 &lt;p&gt;Mindshare is built with Meteor, CoffeeScript, and Sass. It also includes a Chrome extension that allows users to easily share articles from the browser. Webfonts provided by Hoefler &amp;amp; Co.&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Mar 2015 07:50:30 -0700</pubDate>
-        <link>http://www.norrishung.com/interface/2015/03/18/mindshare.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/interface/2015/03/18/mindshare.html</guid>
+        <link>http://localhost:4000/personal/2015/03/18/mindshare.html</link>
+        <guid isPermaLink="true">http://localhost:4000/personal/2015/03/18/mindshare.html</guid>
         
         <category>UX/UI Design</category>
         
         <category>Front-End Development</category>
         
         
-        <category>interface</category>
+        <category>personal</category>
         
       </item>
     
@@ -224,78 +629,42 @@
 &lt;p&gt;The values we came up with were &amp;quot;made to share&amp;quot;, &amp;quot;quintessentially modern but with a nod to tradition&amp;quot;, &amp;quot;restrained&amp;quot;, and &amp;quot;scientific precision&amp;quot;. Values to stay away from were &amp;quot;trendy&amp;quot;, &amp;quot;farm to table&amp;quot;, &amp;quot;sterile&amp;quot;, and &amp;quot;audacious&amp;quot;. Typefaces Brandon Text and Caslon were chosen to provide the contrast between modern and traditional. Brandon Text, being a geometic typface also spoke precision and science. A lighter color palette was choosen to make the design feel warm and approachable. The use of historical woodcut brewing illustrations in the background gives the label a textural complexity and a clear nod the tradition of brewing.&lt;/p&gt;
 </description>
         <pubDate>Sun, 22 Feb 2015 06:50:30 -0800</pubDate>
-        <link>http://www.norrishung.com/identity/2015/02/22/feats-of-strength.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/identity/2015/02/22/feats-of-strength.html</guid>
+        <link>http://localhost:4000/personal/2015/02/22/feats-of-strength.html</link>
+        <guid isPermaLink="true">http://localhost:4000/personal/2015/02/22/feats-of-strength.html</guid>
         
         <category>Visual Design</category>
         
         <category>Branding</category>
         
         
-        <category>identity</category>
+        <category>personal</category>
         
       </item>
     
       <item>
-        <title>Traverser</title>
-        <description>&lt;p&gt;At Inkling I built web tools in my spare time to solve problems. Working on dozens of book over the first year, I began to wonder whether I could do anything to make the process easier for other team members. What started off as hacking projects ended up becoming incredibly useful tools still used in the company today.&lt;/p&gt;
+        <title>Good Eggs</title>
+        <description>&lt;p&gt;I began this exploration after watching the &lt;a href=&quot;http://bites.goodeggs.com/posts/service-design-panel-video/&quot;&gt;Good Eggs video on Service Design&lt;/a&gt;. As one of the first touch points in the full user experience, the web experience sets the tone in terms of trust and confidence in the service. It plays an important part in shaping the users understanding this is not just another web store, it is a relationship with local farmers and food producers.&lt;/p&gt;
 
-&lt;p&gt;At Inkling, I built various tools to help content editors do their jobs more easily. Traverser was a tool that helped editors proof links in digital books. Users could quickly navigate between links using keyboard shortcuts. This turned days worth of work to hours.&lt;/p&gt;
+&lt;p&gt;As I set off, I had three questions in mind:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;How can we make users feel more connected to the products and producers as they are shopping?&lt;/li&gt;
+&lt;li&gt;How can we simplify the interface and choices users have to make so that they only have to make decisions as they are relevant to the immediate situation?&lt;/li&gt;
+&lt;li&gt;How can we showcase and engender trust in the quality of the products?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These mock ups are not answers but the start of a conversation around these questions.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 04 Jan 2014 06:50:30 -0800</pubDate>
-        <link>http://www.norrishung.com/interface/2014/01/04/traverser.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/interface/2014/01/04/traverser.html</guid>
+        <pubDate>Tue, 13 Jan 2015 06:50:30 -0800</pubDate>
+        <link>http://localhost:4000/personal/2015/01/13/goodeggs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/personal/2015/01/13/goodeggs.html</guid>
         
-        <category>UX/UI Design</category>
+        <category>Visual Design</category>
         
         <category>Front-End Development</category>
         
         
-        <category>interface</category>
-        
-      </item>
-    
-      <item>
-        <title>Poptip Viewer</title>
-        <description>&lt;p&gt;At Inkling I built web tools in my spare time to solve problems. Working on dozens of book over the first year, I began to wonder whether I could do anything to make the process easier for other team members. What started off as hacking projects ended up becoming incredibly useful tools still used in the company today.&lt;/p&gt;
-
-&lt;p&gt;One day, I was watching an editor proof content within glossary poptips. To do so, she scrolled through every page of the book tapping on each term to check if the definition matched. I watched her do this day in and day out and I thought there must be a better way. I spent the a couple of days prototyping a tool that visualized every poptip in the book next to the term that it was associated with. This transformed a task that took an entire day to something that took an hour. This feature was so useful that it was eventually incorporated into Habitat.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jan 2014 06:50:30 -0800</pubDate>
-        <link>http://www.norrishung.com/interface/2014/01/02/poptip-viewer.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/interface/2014/01/02/poptip-viewer.html</guid>
-        
-        <category>UX/UI Design</category>
-        
-        <category>Front-End Development</category>
-        
-        
-        <category>interface</category>
-        
-      </item>
-    
-      <item>
-        <title>Frommer&#39;s Day by Day</title>
-        <description>&lt;p&gt;Frommer&amp;#39;s brand travel guides are among the most respected in the world. At Inkling, we were approached to create the digital versions of their Day By Day series guidebooks. Over the course of 8 months, we created 14 digital guidebooks that included interactive maps, local weather dashboards, slideshows, and detailed place of interest poptips.&lt;/p&gt;
-
-&lt;p&gt;As the technical lead on this project, I was responsible for defining and maintainable a scalable HTML/CSS framework for the entire series. I worked closely with the design lead to translate design mocks into responsive web layouts and stress-test them to make sure we both understood how the designs would respond across devices and text flow/image size edge cases. I was also resposible for building out a style guide in which our production team in India would use to build every page of the book and lead communciation with them when problems arose.&lt;/p&gt;
-
-&lt;p&gt;Since every book we built was essentially a complex website with dozens of page templates and commonly reused patterns, utilizing the power of SASS partials, variables, and mixins was crucial.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 13 Mar 2013 07:50:30 -0700</pubDate>
-        <link>http://www.norrishung.com/content/2013/03/13/frommers.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/content/2013/03/13/frommers.html</guid>
-        
-        <category>HTML5</category>
-        
-        <category>CSS3</category>
-        
-        <category>Sass</category>
-        
-        <category>JavaScript</category>
-        
-        
-        <category>content</category>
+        <category>personal</category>
         
       </item>
     
