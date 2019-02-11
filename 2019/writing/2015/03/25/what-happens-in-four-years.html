@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>What Happens in Four Years | Norris Hung</title>
+  <meta name="description" content="A lot has happened since I built the last iteration of my portfolio in 2011. Looking back at it, I see a time capsule of web development four years ago. Web ...">
+  <link rel="icon" type="image/png" href="/img/favicon.ico" />
+
+  <link rel="stylesheet" href="/css/main.css">
+<!--   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/78326/673606/css/fonts.css" /> -->
+  <link rel="canonical" href="http://localhost:4000/writing/2015/03/25/what-happens-in-four-years.html">
+  <link rel="alternate" type="application/atom+xml" title="Norris Hung" href="http://localhost:4000/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <a href="/" class="site-header__logo"></a>
+  <p class="site-header__title">norris hung, designer</p>
+  <ul class="site-header__links">
+    <li><a href="/">about</a></li>
+    <li><a href="/work">work</a></li>
+    <li><a href="/reading">reading</a></li>
+    <li><a href="/writing">essays</a></li>
+  </ul>
+</header>
+
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">What Happens in Four Years</h1>
+    <p class="post-meta">Mar 25, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <p>A lot has happened since I built the last iteration of my portfolio in 2011. Looking back at it, I see a time capsule of web development four years ago. Web typography was still just taking off with Cufon and sIFR were the de facto methods of custom typefaces. Wordpress was your only option for a blogging platform. Pixels were still something you can discern on a screen and websites were built for a single dominant width.</p>
+
+<p>Fast forward to present day and the playing field has completely changed. @font-face has taken off and <a href="https://typekit.com/%22">font</a> <a href="http://www.webtype.com/%22">hosting</a> <a href="http://www.typography.com/%22">services</a> offer robust and legal means of beautiful web typography. The mobile market explosion has mean that <a href="http://alistapart.com/article/responsive-web-design%22">responsive web design</a> is the only way to work these days. Retina screens are a thing and we now have to hack our way around <a href="http://alistapart.com/article/responsive-images-in-practice%22">responsive images</a>. Static site generators have become a popular means of serving up performant websites. Transitions and animations have helped to make the web more fluid and interactive. And, of course, pre-processors like <a href="http://sass-lang.com/%22">Sass</a> and <a href="http://lesscss.org/%22">LESS</a> exist (how did we ever work without them?).</p>
+
+<p>I’ve been keeping up with a lot of these changes at my previous job at <a href="https://www.inkling.com/%22">Inkling</a> and was delighted to finally have the time and opportunity to update my portfolio to modern web standards. I wanted to share some of my decisions here.</p>
+
+<h2>Website Platform</h2>
+
+<p>For the last 4 iterations of my portfolio, I used Wordpress. It served me well over the years but I decided I finally needed to ditch it as it offered way more power and way less performance for what I needed in my personal site. I found that for my basic purposes, <a href="http://jekyllrb.com/%22">Jekyll</a> provided all the functionality I needed and it also allowed me to host my website on GitHub. I have found it super intuitive to use and way more performant.</p>
+
+<h2>Responsive Images</h2>
+
+<p>With more and more views coming in from mobile devices over cellular data, the size of images are a <a href="http://timkadlec.com/2013/06/why-we-need-responsive-images/%22">huge concern</a> both in terms of data transfer speed and processing power of those devices. This is especially true when you also take into account retina screen optimized images. Luckily, there are responsive image solutions with <code>srcset</code> and <code>&lt;picture&gt;</code> element and, while these are still far from widespread support, polyfills exist so that we can use them today.</p>
+
+<p>For my current portfolio, I utilized the <a href="https://github.com/scottjehl/picturefill%22">picturefill.js</a> and the <a href="https://github.com/robwierzbowski/jekyll-picture-tag%22">Jekyll Picture Tag</a> plugin. It was amazing how easy it was to set up and, as Jekyll was compiling my site, my jaw dropped at how much time I would have had to spend creating all the image size variations by hand. The most satisfying aspect was noticing how much it improved site loading speed across devices.</p>
+
+<h2>Hosting</h2>
+
+<p>Instead of going with custom hosting, I decided to host my website on <a href="https://pages.github.com/%22">GitHub Pages</a> this time around. I was already using it for version control and it made sense to keep it all in one place, especially since it supports Jekyll. The one trade off with Github Pages is that it doesn’t allow third party Jekyll plug-ins which meant that I couldn’t rely on GitHub’s server-side Jekyll compiler to generate my site. As a small inconvenience, I am now hosting my source website in one repo and rsyncing it to my compiled website in another. It’s a little frustrating but totally worth the responsive images.</p>
+
+<h2>Styling</h2>
+
+<p>I do all of my work in Sass these days and I can’t imagine having to ever write vanilla CSS again. The use of partials, variables, and mixins have allowed me to keep my CSS DRY and well-structured. Of course it’s important to keep in mind what your compiled CSS looks like and to make sure you don’t go overboard with selector nesting. For this purpose, I use my former colleague Tom Genoni’s <a href="http://cssdig.com/%22">css-dig</a> chrome extension to keep myself in check.</p>
+
+<p>Everything is built responsively so that the website should be a pleasure to read no matter what device you are on. CSS animations and transitions help to make interactions more smooth and obvious.</p>
+
+<p>In terms of browser prefixing and a flexible grid system, I opted in for <a href="http://bourbon.io/%22">Bourbon</a> and <a href="http://neat.bourbon.io/%22">Neat</a> from the guys at <a href="https://thoughtbot.com/%22">Thoughtbot</a>. It’s an elegant and lightweight library that does what I need and doesn’t come with the rest of the cruft. Bourbon also plays better with Jekyll’s built in compiler than Compass does.</p>
+
+<h2>Web Typography</h2>
+
+<p>I’ve always been in love with the typefaces from <a href="http://www.typography.com/%22">Hoefler &amp; Co</a>. I’ve used their typefaces in a lot of my print work and work at Inkling and finally decided to bite the bullet to personally pay for their webfont service. The typefaces used are <a href="http://www.typography.com/fonts/mercury-text/overview/%22">Mercury</a> and <a href="http://www.typography.com/fonts/whitney/overview/%22">Whitney</a> - a pairing I’m absolutely obsessed with right now. My only complaint with this service is that you certainly have to sacrifice a bit of performance for beauty.</p>
+
+<p>Phew. That’s it for now and I’m pretty proud of the technology stack that I’ve used to build this website. There’s no sign that the industry of web development is slowing down and I can’t wait to see what will change in the next four years. Personally, I’m hoping to see more of a convergence between web design and native app designs. I believe natively digital conceptual models like Material Design are here to stay and the capabilities of web design will need to catch up.</p>
+
+  </article>
+
+</div>
+
+    <footer class="site-footer">
+  <aside class="site-footer__colophon">
+    <p>This site was designed and coded by <a href="">Norris Hung</a>, built with <a href="http://bourbon.io/">Bourbon</a>/<a href="http://neat.bourbon.io/">Neat</a> and <a href="http://jekyllrb.com/">Jekyll</a>, set in Whitney ScreenSmart by <a href="http://www.typography.com/">Hoefler &amp; Co</a>, and hosted on <a href="https://pages.github.com/">GitHub Pages</a>. Responsive images are created with <a href="https://github.com/robwierzbowski/jekyll-picture-tag">Jekyll Picture Tag</a>. All rights reserved.</p>
+  </aside>
+  <ul class="site-footer__links">
+    <li><a href="/">about</a></li>
+    <li><a href="/work">work</a></li>
+    <li><a href="/reading">reading</a></li>
+    <li><a href="/writing">essays</a></li>
+  </ul>
+</footer>
+
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-57595602-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+
+</html>
