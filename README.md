@@ -13,7 +13,7 @@ jekyll serve
 
 ## Development
 
-This website can be viewed locally at localhost:4000.
+This website can be viewed locally at www.norrishung.com.
 
 
 ## Deployment
