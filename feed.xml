@@ -4,16 +4,16 @@
     <title>Norris Hung</title>
     <description>Hello there! I am a designer from Oakland, CA.  For the last seven years, I've worked on research, interactive,  service, and web projects. I always seek to learn and  create things along the way that, hopefully,  make the world a better place.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 23 Feb 2019 16:50:50 -0800</pubDate>
-    <lastBuildDate>Sat, 23 Feb 2019 16:50:50 -0800</lastBuildDate>
+    <link>http://www.norrishung.com/</link>
+    <atom:link href="http://www.norrishung.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 23 Feb 2019 17:00:28 -0800</pubDate>
+    <lastBuildDate>Sat, 23 Feb 2019 17:00:28 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>How user-centered design has helped over 600,000 Californians put food on the table.</title>
         <description>&lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_mockup-800by489-402099.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_mockup-1200by734-402099.png 1.0x, http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_mockup-2400by1468-402099.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_mockup-800by489-402099.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_mockup-1200by734-402099.png 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_mockup-2400by1468-402099.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;I lead design on &lt;a href=&quot;https://www.getcalfresh.org&quot;&gt;GetCalFresh&lt;/a&gt;, a plain-language and mobile-friendly service that helps Californians enroll in food stamps.&lt;/p&gt;
@@ -40,14 +40,14 @@
 &lt;p&gt;From October 2017 - January 2018, I led the research effort with data scientist, Eric Gianella. Between the both of us, we sought to understand the situation from as many angles as possible:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_research_activities-800by422-5e9d8e.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_research_activities-1200by633-5e9d8e.png 1.0x, http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_research_activities-2400by1266-5e9d8e.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_research_activities-800by422-5e9d8e.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_research_activities-1200by633-5e9d8e.png 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_research_activities-2400by1266-5e9d8e.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;Eric and I found a great rhythm of “ping-ponging” between qualitative and quantitative research. Sometimes I would notice a trend in user interviews and would ask Eric if he could identify the severity of the problem through a data investigation. Sometimes Eric’s data analysis would show an issue people were having but couldn&amp;#39;t udnerstand why. As a result, I would talk to a few clients to see if I could understand the reason behind it. &lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_infographics-800by502-ae39b2.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_infographics-1200by753-ae39b2.png 1.0x, http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_infographics-2400by1506-ae39b2.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_infographics-800by502-ae39b2.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_infographics-1200by753-ae39b2.png 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_infographics-2400by1506-ae39b2.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;&lt;b&gt;Left:&lt;/b&gt; a service blueprint I designed to help staff and partners understand the turn-based nature of enrollment that caused many people to abandon the process.&lt;/p&gt;
@@ -78,7 +78,7 @@
 &lt;p&gt;The second iteration was taking the questions on that script and breaking them into index cards that roughly represented the design.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_lofi_cards-800by449-88e8fb.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_lofi_cards-1200by673-88e8fb.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_lofi_cards-2400by1346-88e8fb.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_lofi_cards-800by449-88e8fb.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_lofi_cards-1200by673-88e8fb.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_lofi_cards-2400by1346-88e8fb.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;The initial index card prototype based on the questions food bank employees would ask when helping people to apply.&lt;/p&gt;
@@ -88,7 +88,7 @@
 &lt;p&gt;The third was a high fidelity index card prototype that I reviewed with the team and with subject matter experts from local food banks.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_design_review-800by472-6303e8.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_design_review-1200by709-6303e8.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_design_review-2400by1417-6303e8.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_design_review-800by472-6303e8.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_design_review-1200by709-6303e8.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_design_review-2400by1417-6303e8.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;A design review session I led with food bank employees and the GetCalFresh product team.&lt;/p&gt;
@@ -123,7 +123,7 @@
 &lt;p&gt;While the online service is the most visible result of our work, culture change in government is what will bring the most lasting impact.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_thank_you_note-800by422-76eb98.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_thank_you_note-1200by633-76eb98.png 1.0x, http://localhost:4000/img/generated/portfolio/getcalfresh/gcf_thank_you_note-2400by1266-76eb98.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_thank_you_note-800by422-76eb98.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_thank_you_note-1200by633-76eb98.png 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_thank_you_note-2400by1266-76eb98.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;A thank you note from the director of the California Department of Social Services, Kim McCoy-Wade, after we facilitated a workshop for a new policy rollout.&lt;/p&gt;
@@ -131,8 +131,8 @@
 &lt;/figure&gt;
 </description>
         <pubDate>Mon, 31 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/project/2018/12/31/getcalfresh.html</link>
-        <guid isPermaLink="true">http://localhost:4000/project/2018/12/31/getcalfresh.html</guid>
+        <link>http://www.norrishung.com/project/2018/12/31/getcalfresh.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/project/2018/12/31/getcalfresh.html</guid>
         
         
         <category>project</category>
@@ -142,7 +142,7 @@
       <item>
         <title>Finding opportunities to help remote Alaskans access the safety net.</title>
         <description>&lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_synthesis_hero-800by462-bf2a72.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_synthesis_hero-1200by694-bf2a72.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_synthesis_hero-2322by1342-bf2a72.png 1.94x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_synthesis_hero-800by462-bf2a72.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_synthesis_hero-1200by694-bf2a72.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_synthesis_hero-2322by1342-bf2a72.png 1.94x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Reseacher, Nicole Rappin and I, synthesizing our interviews and observations after spending two weeks in Alaska.&lt;/p&gt;
@@ -156,7 +156,7 @@
 &lt;p&gt;When it comes to public services, Alaska faces many challenges that differ from other parts of the United States. A large part of its population live in remote regions only accessible by plane or boat. Medical aid often requires being airlifted. Remote native communities in these regions rely primarily on sustainence hunting and fishing to survive. In the winter, weather conditions can cripple jobs and mail communication.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_remote-800by364-eaa628.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_remote-1200by547-eaa628.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_remote-2400by1093-eaa628.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_remote-800by364-eaa628.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_remote-1200by547-eaa628.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_remote-2400by1093-eaa628.jpeg 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
@@ -169,7 +169,7 @@
 &lt;p&gt;After the discovery phase, I was brought on as a research designer to develop initial prototypes to test with the public as well as state employees.  By quickly creating something tangible based on our initial understanding, we had something that allowed us to collect more in-depth feedback and observations that deepened our understanding.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_ets-800by471-85798a.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_ets-1200by706-85798a.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_ets-2400by1412-85798a.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_ets-800by471-85798a.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_ets-1200by706-85798a.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_ets-2400by1412-85798a.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Shadowing case workers in the Alaskan Department of Public Assistance&lt;/p&gt;
@@ -199,7 +199,7 @@
 &lt;p&gt;While our north star is improve social services for the public, it was also important that we set an example on how to work and share our learnings. To this end, we have involved our government partners and produced learning reports at every step.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_report-800by461-fcbce9.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_report-1200by692-fcbce9.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-alaska/alaska_report-2400by1384-fcbce9.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_report-800by461-fcbce9.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_report-1200by692-fcbce9.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_report-2400by1384-fcbce9.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Our goal is not only to build digital products but to help others understand how to design better services for the underserved.&lt;/p&gt;
@@ -209,8 +209,8 @@
 &lt;p&gt;Currently, we are in conversation with the state of Alaska to roll out a wider pilot version of our tools. In this stage, we will continue to use in-depth interviews as well as data collected to understand if our interventions are successful. &lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/project/2018/12/15/alaskan-safety-net.html</link>
-        <guid isPermaLink="true">http://localhost:4000/project/2018/12/15/alaskan-safety-net.html</guid>
+        <link>http://www.norrishung.com/project/2018/12/15/alaskan-safety-net.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/project/2018/12/15/alaskan-safety-net.html</guid>
         
         
         <category>project</category>
@@ -220,7 +220,7 @@
       <item>
         <title>Creating a campaign to help college students eat healthier.</title>
         <description>&lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/gcf_student_campaign-800by423-b13559.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/gcf_student_campaign-1200by635-b13559.png 1.0x, http://localhost:4000/img/generated/portfolio/gcf-student-campaign/gcf_student_campaign-2400by1270-b13559.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/gcf_student_campaign-800by423-b13559.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/gcf_student_campaign-1200by635-b13559.png 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/gcf_student_campaign-2400by1270-b13559.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
@@ -233,7 +233,7 @@
 &lt;h2&gt;Research&lt;/h2&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_research_2-800by516-b3e96c.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_research_2-1200by774-b3e96c.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_research_2-2400by1547-b3e96c.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_research_2-800by516-b3e96c.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_research_2-1200by774-b3e96c.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_research_2-2400by1547-b3e96c.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Intercepts with students at University of California, Berkeley&lt;/p&gt;
@@ -274,7 +274,7 @@
 &lt;/ul&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-800by608-c5983d.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-1200by912-c5983d.png 1.0x, http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-2400by1824-c5983d.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-800by608-c5983d.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-1200by912-c5983d.png 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-2400by1824-c5983d.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
       &lt;p&gt;We explored a few ‘meme-able’ directions that played off the idea of a starving student.&lt;/p&gt;
@@ -284,7 +284,7 @@
 &lt;p&gt;The final direction was one that we thought set an appropriate optimistic tone with just the right level of cheekiness.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_posters-800by397-8a1347.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_posters-1200by595-8a1347.png 1.0x, http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_posters-2400by1190-8a1347.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_posters-800by397-8a1347.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_posters-1200by595-8a1347.png 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_posters-2400by1190-8a1347.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
       &lt;p&gt;Student CalFresh posters&lt;/p&gt;
@@ -292,7 +292,7 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_postcards-800by407-52ce0a.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_postcards-1200by611-52ce0a.png 1.0x, http://localhost:4000/img/generated/portfolio/gcf-student-campaign/student_postcards-2400by1222-52ce0a.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_postcards-800by407-52ce0a.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_postcards-1200by611-52ce0a.png 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_postcards-2400by1222-52ce0a.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
       &lt;p&gt;Student CalFresh postcards&lt;/p&gt;
@@ -321,7 +321,7 @@
 &lt;p&gt;We are proud to have played a part in making sure their work was the most impactful it could be.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-800by570-daa1ea.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-1200by856-daa1ea.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-2400by1711-daa1ea.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-800by570-daa1ea.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-1200by856-daa1ea.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-2400by1711-daa1ea.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
       &lt;p&gt;Our client success specialist, Cesar Paredes, repping our posters at the UC Berkeley food pantry.&lt;/p&gt;
@@ -329,8 +329,8 @@
 &lt;/figure&gt;
 </description>
         <pubDate>Tue, 15 Aug 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/project/2017/08/15/gcf-student-campaign.html</link>
-        <guid isPermaLink="true">http://localhost:4000/project/2017/08/15/gcf-student-campaign.html</guid>
+        <link>http://www.norrishung.com/project/2017/08/15/gcf-student-campaign.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/project/2017/08/15/gcf-student-campaign.html</guid>
         
         
         <category>project</category>
@@ -340,7 +340,7 @@
       <item>
         <title>Giving products at Code for America a dignified, friendly, and unified voice.</title>
         <description>&lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-800by426-f2d518.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-1200by639-f2d518.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-2400by1278-f2d518.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-800by426-f2d518.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-1200by639-f2d518.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-2400by1278-f2d518.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
@@ -358,7 +358,7 @@
 &lt;/ul&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-800by568-19693b.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-1200by852-19693b.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-2400by1704-19693b.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-800by568-19693b.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-1200by852-19693b.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-2400by1704-19693b.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;The state of Code for America products in 2016 before we launched the styleguide.&lt;/p&gt;
@@ -384,7 +384,7 @@
 &lt;h2&gt;Design Explorations&lt;/h2&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-800by460-4a5652.jpeg&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-1200by690-4a5652.jpeg 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-2400by1381-4a5652.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-800by460-4a5652.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-1200by690-4a5652.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-2400by1381-4a5652.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Daniella and I being very designer-y during the exploration phase.&lt;/p&gt;
@@ -403,7 +403,7 @@
 &lt;/ul&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-800by388-3a5043.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-1200by582-3a5043.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-2400by1164-3a5043.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-800by388-3a5043.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-1200by582-3a5043.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-2400by1164-3a5043.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Early visual explorations&lt;/p&gt;
@@ -417,7 +417,7 @@
 &lt;p&gt;As I worked on GetCalFresh wth our new styleguide, user-testing informed many iterative changes over the next year. After a successful implementation on GetCalFresh, other teams began to ask if they could use the styleguide on their projects. We would discuss the ramifications of a refactor and if it was the right time. If we decided the answer was yes, I would help onboard other teams onto using the styleguide.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-800by557-cdec0b.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-1200by836-cdec0b.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-2400by1672-cdec0b.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-800by557-cdec0b.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-1200by836-cdec0b.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-2400by1672-cdec0b.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;A living styleguide documenting patterns and code examples.&lt;/p&gt;
@@ -429,7 +429,7 @@
 &lt;h2&gt;Adoption&lt;/h2&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-800by515-cda59c.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-1200by772-cda59c.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-2400by1545-cda59c.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-800by515-cda59c.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-1200by772-cda59c.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-2400by1545-cda59c.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Teammates making important decisions about the styleguide :)&lt;/p&gt;
@@ -451,7 +451,7 @@
 &lt;h2&gt;Impact&lt;/h2&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-800by452-24c029.png&quot; srcset=&quot;http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-1200by677-24c029.png 1.0x, http://localhost:4000/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-2397by1353-24c029.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-800by452-24c029.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-1200by677-24c029.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-2397by1353-24c029.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;What Code for America projects look like today. Clockwise from top: ClearMyRecord, ReportChangesColorado, ClientComm, GetCalFresh.&lt;/p&gt;
@@ -467,8 +467,8 @@
 &lt;p&gt;The best part is that the styleguide is open-source. We encourage anyone working on public-benefit services to use it in their projects.&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jul 2016 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/project/2016/07/01/cfa-styleguide.html</link>
-        <guid isPermaLink="true">http://localhost:4000/project/2016/07/01/cfa-styleguide.html</guid>
+        <link>http://www.norrishung.com/project/2016/07/01/cfa-styleguide.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/project/2016/07/01/cfa-styleguide.html</guid>
         
         
         <category>project</category>
@@ -492,8 +492,8 @@
 &lt;p&gt;Our work is ongoing in a collaboration with the city of &lt;a href=&quot;http://beta.oaklandca.gov/&quot;&gt;Oakland, CA&lt;/a&gt; to bring this to life.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Oct 2015 07:50:30 -0700</pubDate>
-        <link>http://localhost:4000/cfa/2015/10/29/chime-starter.html</link>
-        <guid isPermaLink="true">http://localhost:4000/cfa/2015/10/29/chime-starter.html</guid>
+        <link>http://www.norrishung.com/cfa/2015/10/29/chime-starter.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/cfa/2015/10/29/chime-starter.html</guid>
         
         <category>HTML5</category>
         
@@ -524,8 +524,8 @@
 &lt;p&gt;My role on this project included user research, prototyping, interaction design, and front-end development.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Oct 2015 07:50:30 -0700</pubDate>
-        <link>http://localhost:4000/cfa/2015/10/29/chime.html</link>
-        <guid isPermaLink="true">http://localhost:4000/cfa/2015/10/29/chime.html</guid>
+        <link>http://www.norrishung.com/cfa/2015/10/29/chime.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/cfa/2015/10/29/chime.html</guid>
         
         <category>HTML5</category>
         
@@ -583,8 +583,8 @@
 &lt;p&gt;Phew. That’s it for now and I’m pretty proud of the technology stack that I’ve used to build this website. There’s no sign that the industry of web development is slowing down and I can’t wait to see what will change in the next four years. Personally, I’m hoping to see more of a convergence between web design and native app designs. I believe natively digital conceptual models like Material Design are here to stay and the capabilities of web design will need to catch up.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Mar 2015 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/writing/2015/03/25/what-happens-in-four-years.html</link>
-        <guid isPermaLink="true">http://localhost:4000/writing/2015/03/25/what-happens-in-four-years.html</guid>
+        <link>http://www.norrishung.com/writing/2015/03/25/what-happens-in-four-years.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/writing/2015/03/25/what-happens-in-four-years.html</guid>
         
         
         <category>writing</category>
@@ -602,8 +602,8 @@
 &lt;p&gt;Mindshare is built with Meteor, CoffeeScript, and Sass. It also includes a Chrome extension that allows users to easily share articles from the browser. Webfonts provided by Hoefler &amp;amp; Co.&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Mar 2015 07:50:30 -0700</pubDate>
-        <link>http://localhost:4000/personal/2015/03/18/mindshare.html</link>
-        <guid isPermaLink="true">http://localhost:4000/personal/2015/03/18/mindshare.html</guid>
+        <link>http://www.norrishung.com/personal/2015/03/18/mindshare.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/personal/2015/03/18/mindshare.html</guid>
         
         <category>UX/UI Design</category>
         
@@ -629,8 +629,8 @@
 &lt;p&gt;The values we came up with were &amp;quot;made to share&amp;quot;, &amp;quot;quintessentially modern but with a nod to tradition&amp;quot;, &amp;quot;restrained&amp;quot;, and &amp;quot;scientific precision&amp;quot;. Values to stay away from were &amp;quot;trendy&amp;quot;, &amp;quot;farm to table&amp;quot;, &amp;quot;sterile&amp;quot;, and &amp;quot;audacious&amp;quot;. Typefaces Brandon Text and Caslon were chosen to provide the contrast between modern and traditional. Brandon Text, being a geometic typface also spoke precision and science. A lighter color palette was choosen to make the design feel warm and approachable. The use of historical woodcut brewing illustrations in the background gives the label a textural complexity and a clear nod the tradition of brewing.&lt;/p&gt;
 </description>
         <pubDate>Sun, 22 Feb 2015 06:50:30 -0800</pubDate>
-        <link>http://localhost:4000/personal/2015/02/22/feats-of-strength.html</link>
-        <guid isPermaLink="true">http://localhost:4000/personal/2015/02/22/feats-of-strength.html</guid>
+        <link>http://www.norrishung.com/personal/2015/02/22/feats-of-strength.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/personal/2015/02/22/feats-of-strength.html</guid>
         
         <category>Visual Design</category>
         
@@ -656,8 +656,8 @@
 &lt;p&gt;These mock ups are not answers but the start of a conversation around these questions.&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Jan 2015 06:50:30 -0800</pubDate>
-        <link>http://localhost:4000/personal/2015/01/13/goodeggs.html</link>
-        <guid isPermaLink="true">http://localhost:4000/personal/2015/01/13/goodeggs.html</guid>
+        <link>http://www.norrishung.com/personal/2015/01/13/goodeggs.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/personal/2015/01/13/goodeggs.html</guid>
         
         <category>Visual Design</category>
         
