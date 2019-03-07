@@ -201,8 +201,8 @@ body {
   font-size: 1.3125rem;
   margin: 0 auto;
   padding: 0;
-  color: #444;
-  background-color: #f9f9f9; }
+  color: #000;
+  background-color: #f6f3f0; }
 
 h1 {
   color: #444;
@@ -233,14 +233,14 @@ h3 {
   margin-bottom: 1em; }
 
 p {
-  color: #444;
+  color: #000;
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
   font-size: 1.3125rem;
   line-height: 2.25rem;
   margin-bottom: 2.25rem; }
 
 .detail-type {
-  color: #444;
+  color: #000;
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
   line-height: 1.5em; }
@@ -258,7 +258,7 @@ article ul, article ol {
   list-style-position: inside;
   margin-left: 1em; }
   article ul li, article ol li {
-    color: #444;
+    color: #000;
     font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
     font-size: 1.3125rem;
     line-height: 2.25rem;
@@ -272,7 +272,7 @@ article ul, article ol {
   .project-tags::after {
     clear: both; }
   .project-tags .tag {
-    color: #444;
+    color: #000;
     font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
     font-size: 1rem;
     line-height: 1.5em;
@@ -341,7 +341,7 @@ article ul, article ol {
   margin-right: 2.1276595745%;
   width: 31.914893617%;
   margin-left: 8.5106382979%;
-  color: #444;
+  color: #000;
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
   line-height: 1.5em;
@@ -367,7 +367,7 @@ article ul, article ol {
   margin-right: 2.1276595745%;
   width: 40.4255319149%;
   margin-left: 8.5106382979%;
-  color: #444;
+  color: #000;
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
   line-height: 1.5em;
@@ -426,7 +426,7 @@ article ul, article ol {
     .site-footer .site-footer__colophon:last-child {
       margin-right: 0; }
     .site-footer .site-footer__colophon p {
-      color: #444;
+      color: #000;
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
       font-size: 0.75rem;
       line-height: 1.5em; }
@@ -445,7 +445,7 @@ article ul, article ol {
     margin-right: 2.1276595745%;
     width: 40.4255319149%;
     margin-left: 8.5106382979%;
-    color: #444;
+    color: #000;
     font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
     font-size: 1rem;
     line-height: 1.5em;
@@ -518,7 +518,7 @@ article ul, article ol {
   margin-left: 8.5106382979%;
   height: 0;
   overflow: visible;
-  color: #444;
+  color: #000;
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
   line-height: 1.5em; }
@@ -794,7 +794,7 @@ article ul, article ol {
           font-size: 1.75rem;
           line-height: 3rem; } }
     .post header .post-meta {
-      color: #444;
+      color: #000;
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
       font-size: 1rem;
       line-height: 1.5em; }
@@ -888,12 +888,12 @@ article ul, article ol {
           .post figure figcaption:last-child {
             margin-right: 0; } }
     .post figure figcaption p {
-      color: #444;
+      color: #000;
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
       font-size: 1rem;
       line-height: 1.5em;
       text-align: left;
-      color: #666;
+      color: #444;
       font-weight: 500; }
 
 .blog {
