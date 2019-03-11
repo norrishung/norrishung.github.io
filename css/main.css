@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -208,7 +209,7 @@ h1 {
   color: #444;
   font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
   font-size: 2.25rem;
-  line-height: 3.75rem;
+  line-height: 3rem;
   font-weight: 600; }
   @media screen and (min-width: 800px) {
     h1 {
@@ -535,6 +536,10 @@ article ul, article ol {
     text-decoration: none; }
     .life-event__links a:hover {
       text-decoration: underline; }
+    .life-event__links a:after {
+      display: inline-block;
+      content: '→';
+      margin-left: .2em; }
   @media screen and (max-width: 800px) {
     .life-event__links {
       float: left;
@@ -584,7 +589,7 @@ article ul, article ol {
       color: #444;
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
       font-size: 2.25rem;
-      line-height: 3.75rem;
+      line-height: 3rem;
       font-weight: 600; }
       @media screen and (max-width: 800px) {
         .projects header h1 {
@@ -787,7 +792,7 @@ article ul, article ol {
       color: #444;
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
       font-size: 2.25rem;
-      line-height: 3.75rem;
+      line-height: 3rem;
       font-weight: 600; }
       @media screen and (max-width: 800px) {
         .post header .post-title {
@@ -892,9 +897,7 @@ article ul, article ol {
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
       font-size: 1rem;
       line-height: 1.5em;
-      text-align: left;
-      color: #444;
-      font-weight: 500; }
+      text-align: left; }
 
 .blog {
   max-width: 75rem;
@@ -937,7 +940,7 @@ article ul, article ol {
       color: #444;
       font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
       font-size: 2.25rem;
-      line-height: 3.75rem;
+      line-height: 3rem;
       font-weight: 600; }
       @media screen and (max-width: 800px) {
         .blog header h1 {
