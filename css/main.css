@@ -758,6 +758,9 @@ article ul, article ol {
   .reading .talk {
     margin-bottom: 3em; }
 
+.blog li p {
+  margin-bottom: 1em; }
+
 .post {
   max-width: 75rem;
   margin-left: auto;
