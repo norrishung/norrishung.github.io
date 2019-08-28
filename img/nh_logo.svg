@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="190px" height="244.131px" viewBox="0 0 190 244.131" enable-background="new 0 0 190 244.131" xml:space="preserve">
-<g>
-	<path opacity="0.7" fill="#ED1C24" d="M164.877,244.131L30.788,54.138v189.993H0V0h29.723l129.494,182.925V0H190v244.131H164.877z"
-		/>
-	<path opacity="0.7" fill="#ED1C24" d="M159.217,236.109V131.616H30.788v112.515H0V0h29.723l1.064,1.504v99.688h128.429V0H190
-		v244.131h-25.123L159.217,236.109z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="42px" viewBox="0 0 34 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.64625186">
+        <g id="About-Copy-3" transform="translate(-118.000000, -79.000000)" fill="#F31010" fill-rule="nonzero">
+            <g id="Group-7" transform="translate(118.000000, 79.000000)">
+                <g id="Group" transform="translate(-0.000000, 0.000000)">
+                    <polygon id="N-Copy" points="23.8147368 42 12.5557895 22.1432665 8.60631579 13.7191977 8.42947368 13.7191977 8.42947368 42 0 42 0 0 9.78526316 0 21.0442105 19.8567335 24.9936842 28.2808023 25.1705263 28.2808023 25.1705263 0 33.6 0 33.6 42"></polygon>
+                    <polygon id="H-Copy" points="25.1756912 42 25.1756912 24.7908309 8.44577161 24.7908309 8.44577161 42 0 42 0 0 8.44577161 0 8.44577161 16.7277937 25.1705263 16.7277937 25.1705263 0 33.6 0 33.6 42"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
