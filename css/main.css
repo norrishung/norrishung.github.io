@@ -441,14 +441,14 @@ ol {
   padding: 0; }
 
 html {
-  font-size: 100%;
-  color: #3A3B3F;
-  background-color: #FCFCFD;
-  -webkit-font-smoothing: antialiased; }
+  font-size: 100%; }
 
 body {
   margin: 0 auto;
-  padding: 0; }
+  padding: 0;
+  color: #3A3B3F;
+  background-color: #FCFCFD;
+  -webkit-font-smoothing: antialiased; }
 
 article {
   max-width: 76.25rem;
