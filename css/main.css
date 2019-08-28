@@ -168,7 +168,7 @@ a, .link {
   margin-right: 1rem; }
   .link--nav:hover {
     color: inherit; }
-  @media screen and (min-width: 680px) {
+  @media screen and (min-width: 760px) {
     .link--nav {
       margin-right: 1.625rem; } }
 
@@ -276,7 +276,7 @@ ol {
     content: "";
     display: table; }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--12 {
     float: left;
     display: block;
@@ -285,7 +285,7 @@ ol {
     .row__item--12:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--11 {
     float: left;
     display: block;
@@ -294,7 +294,7 @@ ol {
     .row__item--11:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--10 {
     float: left;
     display: block;
@@ -303,7 +303,7 @@ ol {
     .row__item--10:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--9 {
     float: left;
     display: block;
@@ -312,7 +312,7 @@ ol {
     .row__item--9:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--8 {
     float: left;
     display: block;
@@ -321,7 +321,7 @@ ol {
     .row__item--8:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--7 {
     float: left;
     display: block;
@@ -330,7 +330,7 @@ ol {
     .row__item--7:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--6 {
     float: left;
     display: block;
@@ -339,7 +339,7 @@ ol {
     .row__item--6:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--5 {
     float: left;
     display: block;
@@ -348,7 +348,7 @@ ol {
     .row__item--5:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--4 {
     float: left;
     display: block;
@@ -357,7 +357,7 @@ ol {
     .row__item--4:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--3 {
     float: left;
     display: block;
@@ -366,7 +366,7 @@ ol {
     .row__item--3:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--2 {
     float: left;
     display: block;
@@ -375,7 +375,7 @@ ol {
     .row__item--2:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--1 {
     float: left;
     display: block;
@@ -384,55 +384,55 @@ ol {
     .row__item--1:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__shift--12 {
     margin-left: 101.6189290162%; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__shift--11 {
     margin-left: 93.1506849315%; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__shift--10 {
     margin-left: 84.6824408468%; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__shift--9 {
     margin-left: 76.2141967621%; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__shift--8 {
     margin-left: 67.7459526775%; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__shift--7 {
     margin-left: 59.2777085928%; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__shift--6 {
     margin-left: 50.8094645081%; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__shift--5 {
     margin-left: 42.3412204234%; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__shift--4 {
     margin-left: 33.8729763387%; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__shift--3 {
     margin-left: 25.404732254%; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__shift--2 {
     margin-left: 16.9364881694%; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__shift--1 {
     margin-left: 8.4682440847%; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   .row__item--omega {
     margin-right: 0; } }
 
