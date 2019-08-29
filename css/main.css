@@ -749,10 +749,7 @@ article {
       max-width: 100%;
       margin: 0 auto; }
     .post figure video {
-      background-color: transparent;
       max-height: 480px;
-      box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.15);
-      border-radius: 15px;
       margin-bottom: 20px; }
     @media screen and (min-width: 960px) {
       .post figure {
