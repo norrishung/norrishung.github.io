@@ -84,6 +84,20 @@ h2, .text--header {
       line-height: 2.625rem;
       margin-bottom: 2.625rem; } }
 
+h3, .text--subheader {
+  color: #3A3B3F;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin-bottom: 1.625rem;
+  font-weight: 400; }
+  @media screen and (min-width: 960px) {
+    h3, .text--subheader {
+      font-size: 1.625rem;
+      line-height: 2.625rem;
+      margin-bottom: 2.625rem; } }
+
 .text--caption {
   color: #71737A;
   font-family: "IBM Plex Sans", sans-serif;
@@ -203,8 +217,17 @@ ol {
     ol li:before {
       content: counter(simple-number);
       display: inline-block;
-      width: .7em;
-      font-weight: 700; }
+      width: .7em; }
+
+ul li {
+  text-indent: -.7em;
+  margin-left: 1.4em;
+  list-style: none; }
+  ul li:before {
+    content: '—';
+    display: inline-block;
+    width: .7em;
+    font-weight: 400; }
 
 .spacing-below-0 {
   margin-bottom: 0; }
@@ -732,6 +755,31 @@ article {
     @media screen and (min-width: 960px) {
       .post h2 {
         margin-top: 6.875rem; } }
+  .post .quote {
+    margin: 6.875rem 1rem;
+    text-align: center; }
+    @media screen and (min-width: 960px) {
+      .post .quote {
+        margin: 11.125rem 2.625rem; } }
+    .post .quote blockquote p {
+      color: #3A3B3F;
+      font-family: "IBM Plex Sans", sans-serif;
+      font-size: 1.625rem;
+      line-height: 2.625rem;
+      margin-bottom: 2.625rem;
+      font-style: italic; }
+      @media screen and (min-width: 960px) {
+        .post .quote blockquote p {
+          font-size: 2.625rem;
+          line-height: 4.25rem;
+          margin-bottom: 4.25rem; } }
+    .post .quote blockquote + .text--detail {
+      margin-top: -1.625rem;
+      margin-bottom: 1.625rem; }
+      @media screen and (min-width: 960px) {
+        .post .quote blockquote + .text--detail {
+          margin-top: -2.625rem;
+          margin-bottom: 2.625rem; } }
   .post figure {
     float: left;
     display: block;
@@ -794,8 +842,7 @@ article {
       font-family: "IBM Plex Sans", sans-serif;
       font-size: 0.875em;
       line-height: 1.625rem;
-      margin-bottom: 1.625rem;
-      text-align: center; }
+      margin-bottom: 1.625rem; }
       @media screen and (min-width: 960px) {
         .post figure figcaption p {
           font-size: 1rem;

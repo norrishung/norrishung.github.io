@@ -6,9 +6,255 @@
 </description>
     <link>http://www.norrishung.com/</link>
     <atom:link href="http://www.norrishung.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Aug 2019 22:07:35 -0700</pubDate>
-    <lastBuildDate>Wed, 28 Aug 2019 22:07:35 -0700</lastBuildDate>
+    <pubDate>Thu, 05 Sep 2019 14:32:23 -0700</pubDate>
+    <lastBuildDate>Thu, 05 Sep 2019 14:32:23 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>How we approached designing a truly accessible service.</title>
+        <description>&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_hero-800by495-a20867.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_hero-1200by742-a20867.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_hero-2400by1484-a20867.png 2.0x&quot;&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;In 2018, Jerry Brown, then out-going governor of California, signed legislation that opened up CalFresh (food stamps) to over 500,000 low-income seniors and people with disabilities.&lt;/p&gt;
+
+&lt;p&gt;When the State of California asked us to provide the official online service for CalFresh enrollment, we wanted to ensure that our service, GetCalFresh, would be ready to receive the influx of newly eligible applicants. We knew our clients’ access to food depended on our ability to get it right. &lt;/p&gt;
+
+&lt;div class=&quot;quote&quot;&gt;
+    &lt;blockquote&gt;
+        &lt;p&gt;The services don’t come to you. You gotta go to them.&lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p class=&quot;text--detail&quot;&gt;- Sacramento resident &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;All too often, it’s easy to be caught up in “accessibility theater” — that is, meeting a general checklist of accessibility criteria without really understanding if it holds up for the people in real life. To ensure GetCalFresh was truly accessible, we took an approach that we think is key to doing anything well:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Take time to develop true care and understanding&lt;/li&gt;
+&lt;li&gt;Embed learnings in both your work and culture&lt;/li&gt;
+&lt;li&gt;Never consider the work done&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Taking time to develop true care and understanding&lt;/h2&gt;
+
+&lt;p&gt;For a value as important as accessibility, we did not believe any single method could help us to develop a full understanding. We approached our learning through three separate efforts: learning for ourselves, learning from others, and early prototyping.&lt;/p&gt;
+
+&lt;div class=&quot;quote&quot;&gt;
+    &lt;blockquote&gt;
+        &lt;p&gt;My biggest expense is rent. I pay $700 in rent. I get $950 in income.&lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p class=&quot;text--detail&quot;&gt;- Culver City resident&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Learning for ourselves&lt;/h3&gt;
+
+&lt;p&gt;We approached this project as we do for all our projects at Code for America —  start with your user and their needs. We sought to answer some basic questions. Who were the people we would be helping? What are their lives actually like? What would it mean for them to successfully apply for CalFresh?&lt;/p&gt;
+
+&lt;p&gt;We had a team of three talented user researchers and two data scientists who led a discovery research effort.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data analysis:&lt;/strong&gt; We started with a review of demographic data to make sure we were addressing the right populations. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User research:&lt;/strong&gt; Based on that data, we conducted interviews with dozens of people living on Supplemental Security Income (SSI) across the state.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community engagement:&lt;/strong&gt; We established regular communication with community and government partners so that we were plugged into the conversation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_data-800by494-96e309.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_data-1200by741-96e309.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_data-2400by1482-96e309.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;A report put together by our data science team that helped us to make sure we were talking to the right balance of people during our discovery research.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_prototyping_2-800by494-6f5200.jpg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_prototyping_2-1200by741-6f5200.jpg 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_prototyping_2-1684by1040-6f5200.jpg 1.4x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;Testing an early paper prototype with research participants.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_synthesis-800by494-73809f.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_synthesis-1200by741-73809f.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_synthesis-1684by1040-73809f.jpeg 1.4x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;The research team synthesizing findings from their trips throughout California.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3&gt;Learning from others&lt;/h3&gt;
+
+&lt;p&gt;It’s also important to recognize when to build on work of others. In addition to conducing primary research, we sought guidance from the established community of practice around accessibility.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We conducted an accessibility audit with a non-profit organization called Knowbility. We picked them because of their mission alignment and because they had people with disabilities as part of their team.&lt;/li&gt;
+&lt;li&gt;We reviewed accessibility guidelines from other well-respected organizations such as W3C, GDS, and 18F. &lt;/li&gt;
+&lt;li&gt;We attended a local talks to learn from the best of Silicon Valley including Google and Lyft.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_audit-800by494-f2396a.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_audit-1200by741-f2396a.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_audit-2400by1482-f2396a.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;A report put together by Knowbility documenting accessibility issues found in our design and code.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_talks-800by494-25fa6e.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_talks-1200by741-25fa6e.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_talks-1684by1040-25fa6e.jpeg 1.4x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;An SF Design Week event about Accessible Design Systems with presenters from Google, Lyft, and LinkedIn.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3&gt;Early testing&lt;/h3&gt;
+
+&lt;p&gt;Accessibility wasn’t a new concept for many of us at Code for America. Even before we got deep into research, we already had many ideas of what we could do to improve our service. &lt;/p&gt;
+
+&lt;p&gt;As we conducted early research, we took that opportunity to understand their ability to use our application. We had ideation sessions early and brought prototypes out with us. &lt;/p&gt;
+
+&lt;div class=&quot;quote&quot;&gt;
+    &lt;blockquote&gt;
+        &lt;p&gt;I help her financially. Shopping, heavy lifting, I cook for her… I started to help her at a young age. She’s my mom so…&lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p class=&quot;text--detail&quot;&gt;- Los Angeles resident&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Embedding learnings in both our work and culture&lt;/h2&gt;
+
+&lt;h3&gt;What we learned&lt;/h3&gt;
+
+&lt;p&gt;By the end of our research phase, we felt like like we had a reasonable grasp what we were working with. &lt;/p&gt;
+
+&lt;p&gt;A lot of our work was catching up to speed with the larger community of practice. We learned the difference between situational, temporary, or permanent disabilities and how accessibility benefits everyone. We learned the well-understood norms of how to make a product that accessible to this with visual or physical impairments.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_colors-800by494-81abbd.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_colors-1200by741-81abbd.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_colors-2400by1482-81abbd.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;We started by refining our color system both by reducing the colors used and making sure each color passed WCAG Level AA contrast guidelines. &lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_spacing-800by494-5f498e.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_spacing-1200by741-5f498e.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_spacing-2400by1482-5f498e.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;Inspired by golden proportions, we defined a sizing system that would be used to define everything else in our design system including typography, patterns, and layout. This provided an easy to understand system for designers and engineers alike to ensure a clear and consistent hierarchy.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_typography-800by494-34b385.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_typography-1200by741-34b385.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_typography-2400by1482-34b385.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;We simplified and strengthened the type hierarchy used across our service based on our spacing system. This helped to ease cognitive load by improving readability and made our service more accessible to screen readers. We also darkened the color of detail text to fix readability issues found in usability testing. &lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_patterns-800by494-981c5a.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_patterns-1200by741-981c5a.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_patterns-2400by1482-981c5a.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;We more clearly outlined, increased the size, and bumped the contrast of interactive elements. We also used rounded corners and depth to distinguish buttons from inputs. Sizing, spacing, and rounding of elements are all based on golden proportions.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_logo-800by494-3fd318.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_logo-1200by741-3fd318.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_logo-2400by1482-3fd318.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;As a bonus, we also evolved our logo to be slightly easier on the eyes. Admittedly, this was for the designers more than anyone else =)&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We also developed some insights that very few people talk about. For example, we saw first-hand the challenges that people with cognitive disabilities face — and how little we as a design community knew about how to help them. We also learned not to assume familiarity with basic mobile norms such as expanding accordions and scrolling, especially for older adults. &lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_alignment-800by494-55e159.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_alignment-1200by741-55e159.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_alignment-2400by1482-55e159.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;We simplified our layout to be fully left aligned. This helped to reduce cognitive load on people who already had high anxiety, stress, or mental incapacities. &lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_language-800by494-f7cdbe.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_language-1200by741-f7cdbe.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_language-2400by1482-f7cdbe.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;We adjusted the language we used in order to reduce anxiety. For instance, we clarified why we were asking certain “trigger” questions. In another example, instead of asking for how much money the applicant had saved up, we simply asked if they had below a certain threshold (and why it matters).&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_navigation-800by494-c3b22d.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_navigation-1200by741-c3b22d.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_navigation-2400by1482-c3b22d.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;Many of our older clients did not intuitively know to scroll. We added a conditional scrolling indicator that only showed up if we did not detect scrolling after a few seconds (and would disappear once they did). While many of us had advocated for a dedicated back button in the past, research evidence helped us to push this feature to the top of the queue.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A simple yet valuable insight we had was that that seniors and people with disabilities do not exist in a vacuum. More often than not, you’ll find a wide network of helpers who assist them with their needs. This could be an adult child or sibling who cares for and represents them, an IHSS (In Home Supportive Services) worker who helps their perform daily activities, or the lobbyist at the senior home that connect them with services.&lt;/p&gt;
+
+&lt;p&gt;True accessibility means making services accessible to the people who care for them.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_helpers-800by494-05d60c.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_helpers-1200by741-05d60c.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_helpers-2400by1482-05d60c.png 2.0x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;We added screens that acknowledged the presence of “helpers.” By passing this information through to the county, we were empowering the people who aided seniors and people with disabilities to play their part.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3&gt;Making accessibility a part of our culture&lt;/h3&gt;
+
+&lt;p&gt;We had clear improvements to make on GetCalFresh but we also wanted to make sure that our learnings were not lost to the broader organization. In additional to improvements to our product, we made sure to embed the learnings into our operations and culture so that future features and products could benefit from our work.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We made sure everyone on the team had the opportunity to join in on research and usability testing to see the people we were helping first hand. There is no substitute for this.&lt;/li&gt;
+&lt;li&gt;We created a set of accessibility standards that gave clear metrics for measurement as well as examples of why a particular standard was important for a real user.&lt;/li&gt;
+&lt;li&gt;We incorporated broader changes into our design system so that any accessible visual or code changes would be embedded any time a pattern was used in the future. &lt;/li&gt;
+&lt;li&gt;We installed browser plug-ins like WAVE and Sketch plug-ins like Stark Contrast Checker to make sure we were designing and developing to guidelines.&lt;/li&gt;
+&lt;li&gt;We incorporated testing suites and practices during implementation and story acceptance to make sure that future development work met basic accessibility needs.&lt;/li&gt;
+&lt;li&gt;We set up office installations and and presented research to the broader organization to help others understand the lived experiences of low-income seniors and adults with disabilities.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_walkthrough-800by494-d22014.jpg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_walkthrough-1200by741-d22014.jpg 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_walkthrough-1684by1040-d22014.jpg 1.4x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;Our researchers put up a walkthrough of research insights for everyone in the office to see. By seeing quotes, &lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_ridealongs-800by495-ede97d.jpg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_ridealongs-1200by742-ede97d.jpg 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_ridealongs-1684by1041-ede97d.jpg 1.4x&quot;&gt;
+
+  &lt;figcaption&gt;
+    &lt;p&gt;Our team partnered with Meals on Wheels to conduct usability testing. We made sure to provide opportunities for everyone on the team to come along.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Never considering our work done.&lt;/h2&gt;
+
+&lt;p&gt;On June 1st, 2019, CalFresh opened up to the 1.3 million people who lived on Supplementary Security Income in California. Our service experienced a five-fold increase in the number of applications coming in that week. As of August 2019, we have helped over 200,000 SSI recipients apply for CalFresh. Our rate of completion and satisfaction remain steady.&lt;/p&gt;
+
+&lt;p&gt;Over the last few months, we have developed a much deeper understanding of accessibility at Code for America. We have helped others in the organization understand why accessibility is important in the real world and made it easier incorporate accessibility into their work. &lt;/p&gt;
+
+&lt;p&gt;Of course, our work remains unfinished. The last key point to doing accessibility well is to remember that your work is never done. Even at this moment, we are continuing to evaluate the effectiveness of our work through surveys and continued usability testing. We have a long way to go to get our copywriting down to a 5th grade reading level. We plan on deepening our understanding of true accessibility by partnering with Lighthouse Labs and  working directly with more people who are vision-impaired. Our understanding of how to better serve and collect feedback from people with cognitive disabilities is still painfully low.&lt;/p&gt;
+
+&lt;p&gt;As is often repeated, we must remember that design is a verb, not a noun. There will always be new additional challenges to tackle and biases to uncover. We are excited to keep our users at the center and push the envelope for what it means to be truly accessible.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://www.norrishung.com/archived/2019/09/03/accessibility.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/archived/2019/09/03/accessibility.html</guid>
+        
+        
+        <category>archived</category>
+        
+      </item>
     
       <item>
         <title>What a chair can teach us about the safety net.</title>
@@ -232,14 +478,14 @@
       <item>
         <title>How we helped over one million Californians put food on the table.</title>
         <description>&lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_screens-800by494-c46c44.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_screens-1200by741-c46c44.png 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_screens-2400by1482-c46c44.png 2.0x&quot;&gt;
+  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_screens-800by494-804f8f.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_screens-1200by741-804f8f.png 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_screens-2400by1482-804f8f.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;I lead design on &lt;a href=&quot;https://www.getcalfresh.org&quot;&gt;GetCalFresh&lt;/a&gt;, a plain-language and mobile-friendly service that helps Californians enroll in food stamps.&lt;/p&gt;
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;From 2017-2018, the GetCalFresh team combined qualitative and quantitative research to understand the barriers Californians faced as they applied for food stamps (CalFresh). Based on what we learned, we redesigned the application experience, published three research reports, and helped to influence legislation in California.&lt;/p&gt;
+&lt;p&gt;From 2017-2018, the GetCalFresh team combined qualitative and quantitative research to understand the barriers Californians faced as they applied for CalFresh (food stamps). Based on what we learned, we redesigned the application experience, published three research reports, and helped to influence legislation in California.&lt;/p&gt;
 
 &lt;h2&gt;Opportunity&lt;/h2&gt;
 
@@ -250,13 +496,13 @@
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;In 2015, three former CfA fellows (Dave Guarino, Alan Williams, and Jake Solomon) studied the experience of being on food stamps and realized if they wanted to increase the participation rate, the enrollment process would have to be fixed. As a result, they partnered with government in California to prototype a new CalFresh application.&lt;/p&gt;
+&lt;p&gt;In 2015, three former CfA fellows studied the experience of being on food stamps and realized if they wanted to increase the participation rate, the enrollment process would have to be fixed. As a result, they partnered with government in California to prototype a new CalFresh application.&lt;/p&gt;
 
 &lt;p&gt;After the success of an initial prototype, I was brought on as the first designer on the team. We decided to focus on diving deeper into the specific barriers that clients were facing.&lt;/p&gt;
 
 &lt;h2&gt;Research&lt;/h2&gt;
 
-&lt;p&gt;From October 2017 - January 2018, I led the research effort with data scientist, Eric Gianella. Between the both of us, we sought to understand the situation from as many angles as possible:&lt;/p&gt;
+&lt;p&gt;From October 2017 - January 2018, I led the research effort with data scientist, Eric. Between the both of us, we sought to understand the situation from as many angles as possible:&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_research_activities-800by494-ac6b5a.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_research_activities-1200by741-ac6b5a.png 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_research_activities-2400by1482-ac6b5a.png 2.0x&quot;&gt;
@@ -288,7 +534,7 @@
 
 &lt;p&gt;The initial inspiration was to learn how assisters at community-based organizations worked. Through helping hundreds of people apply in-person over years, they had learned how to maximize a person&amp;#39;s chance of getting through the process.&lt;/p&gt;
 
-&lt;p&gt;We talked to helpful friends at local organizations such as Francesca Costa from the SF-Marin Food Bank and Crystina Esparza from the Alameda Food Bank.&lt;/p&gt;
+&lt;p&gt;We talked to helpful friends at the SF-Marin Food Bank and the Alameda Food Bank.&lt;/p&gt;
 
 &lt;p&gt;Based on what we learned, I started the process by finding ways to rapidly prototype a better flow.&lt;/p&gt;
 
@@ -316,7 +562,7 @@
 
 &lt;p&gt;At each step, we used feedback from clients and subject matter experts to adjust the language and flow of the application. &lt;/p&gt;
 
-&lt;p&gt;After feeling good about the new redesign, our product manager, Simone Siquera, and I broke the redesign into smaller stories in pivotal tracker that engineers could work on over time.&lt;/p&gt;
+&lt;p&gt;After feeling good about the new redesign, our product manager and I broke the redesign into smaller stories in pivotal tracker that engineers could work on over time.&lt;/p&gt;
 
 &lt;p&gt;Here is the final result of the new application:&lt;/p&gt;
 
@@ -341,13 +587,11 @@
 
 &lt;p&gt;While the online service is the most visible result of our work, culture change in government is what will bring the most lasting impact.&lt;/p&gt;
 
-&lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_thank_you_note-800by494-3641ac.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_thank_you_note-1200by741-3641ac.png 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_thank_you_note-2400by1482-3641ac.png 2.0x&quot;&gt;
-
-  &lt;figcaption&gt;
-    &lt;p&gt;A thank you note from the director of the California Department of Social Services, Kim McCoy-Wade, after we facilitated a workshop for a new policy rollout.&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;quote&quot;&gt;
+  &lt;p&gt;&lt;i&gt;We put clients at center with stories and data, we captured challenges with client access and operations at many places in their journeys, and we teed up a new framework of solutions to be further developed and implemented.&lt;/i&gt;&lt;/p&gt; 
+  &lt;p&gt;&lt;i&gt;The time spent drawing out and listening to stories was especially impactful and we will seek to spread that throughout all efforts. We will debrief more of course, but didn’t want to wait to say thank you and kudos on an excellent job!&lt;/i&gt;&lt;/p&gt;
+  &lt;p class=&quot;text--detail&quot;&gt;- A thank you note from the director of the California Department of Social Services after we facilitated a workshop for a new policy rollout.&lt;/p&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Mon, 31 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://www.norrishung.com/project/2018/12/31/getcalfresh.html</link>
@@ -428,11 +672,11 @@
 &lt;p&gt;Currently, we are in conversation with the state of Alaska to roll out a wider pilot version of our tools. In this stage, we will continue to use in-depth interviews as well as data collected to understand if our interventions are successful. &lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://www.norrishung.com/project/2018/12/15/alaskan-safety-net.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/project/2018/12/15/alaskan-safety-net.html</guid>
+        <link>http://www.norrishung.com/archived/2018/12/15/alaskan-safety-net.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/archived/2018/12/15/alaskan-safety-net.html</guid>
         
         
-        <category>project</category>
+        <category>archived</category>
         
       </item>
     
@@ -543,7 +787,7 @@
   &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-800by570-daa1ea.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-1200by856-daa1ea.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-2400by1711-daa1ea.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
-      &lt;p&gt;Our client success specialist, Cesar Paredes, repping our posters at the UC Berkeley food pantry.&lt;/p&gt;
+      &lt;p&gt;Our client success specialist repping our posters at the UC Berkeley food pantry.&lt;/p&gt;
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 </description>
@@ -563,7 +807,7 @@
 
 &lt;/figure&gt;
 
-&lt;p&gt;In 2016, Daniella DeVera and I led an bottom-up effort to create a org-wide styleguide that has elevated Code for America’s design standards and brought product teams together.&lt;/p&gt;
+&lt;p&gt;In 2016, another designer and I led an bottom-up effort to create a org-wide styleguide that has elevated Code for America’s design standards and brought product teams together.&lt;/p&gt;
 
 &lt;h2&gt;Opportunity&lt;/h2&gt;
 
@@ -584,7 +828,7 @@
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;After hearing the same challanges across project teams, I, along with Daniella DeVera, decided to do something about it. When we were asked to start a redesign of GetCalFresh, we instead advocated for an extra month to work with the rest of the organization and build something we felt everyone else would want to use as well.&lt;/p&gt;
+&lt;p&gt;After hearing the same challanges across project teams, I, along with fellow designer, decided to do something about it. When we were asked to start a redesign of GetCalFresh, we instead advocated for an extra month to work with the rest of the organization and build something we felt everyone else would want to use as well.&lt;/p&gt;
 
 &lt;h2&gt;Research/Planning&lt;/h2&gt;
 
@@ -606,7 +850,7 @@
   &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-800by460-4a5652.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-1200by690-4a5652.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-2400by1381-4a5652.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
-    &lt;p&gt;Daniella and I being very designer-y during the exploration phase.&lt;/p&gt;
+    &lt;p&gt;A fellow designer and I being very designer-y during the exploration phase.&lt;/p&gt;
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -827,33 +1071,6 @@
         <category>UX/UI Design</category>
         
         <category>Front-End Development</category>
-        
-        
-        <category>personal</category>
-        
-      </item>
-    
-      <item>
-        <title>Feats of Strength Brewing</title>
-        <description>&lt;p&gt;Feats of Strength Brewing is a beer-making collaboration between Lere Williams, Greg Wahnon, and I. After brewing together for two years, we decided our beer and audience were finally deserving of something that looked more professional. Instead of simply slapping on a pretty label, I pushed for a more considered approach to define a brand that reflected ourselves and the way we brewed.&lt;/p&gt;
-
-&lt;h2&gt;Process&lt;/h2&gt;
-
-&lt;p&gt;Taking inspiration from &lt;a href=&quot;http://www.cooper.com/journal/2012/5/elevating_the_brand_and_visual&quot;&gt;Cooper&amp;#39;s Experience Workshop&lt;/a&gt;, we started off by jotting down as many concepts and words as we could think of when we thought of brand values. With a wall full of these ideas, we took votes on the ones that resonated with us, ones that we strongly disagreed with, and ones worth discussing. From there, we were able to create thematic groupings that we wanted to embody and wanted to stay away from. We found that the wall of of rejected ideas were just as informative at shaping the brand as the wall of approved ideas. &lt;/p&gt;
-
-&lt;p&gt;From there, I moved on choosing typography pairings, colors, and finally imagery and, from that, created three different design directions. We narrowed down to the direction we liked most and created physical prototypes of various layouts. The final choice was finalized and sent to printers.&lt;/p&gt;
-
-&lt;h2&gt;The Result&lt;/h2&gt;
-
-&lt;p&gt;The values we came up with were &amp;quot;made to share&amp;quot;, &amp;quot;quintessentially modern but with a nod to tradition&amp;quot;, &amp;quot;restrained&amp;quot;, and &amp;quot;scientific precision&amp;quot;. Values to stay away from were &amp;quot;trendy&amp;quot;, &amp;quot;farm to table&amp;quot;, &amp;quot;sterile&amp;quot;, and &amp;quot;audacious&amp;quot;. Typefaces Brandon Text and Caslon were chosen to provide the contrast between modern and traditional. Brandon Text, being a geometic typface also spoke precision and science. A lighter color palette was choosen to make the design feel warm and approachable. The use of historical woodcut brewing illustrations in the background gives the label a textural complexity and a clear nod the tradition of brewing.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 22 Feb 2015 06:50:30 -0800</pubDate>
-        <link>http://www.norrishung.com/personal/2015/02/22/feats-of-strength.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/personal/2015/02/22/feats-of-strength.html</guid>
-        
-        <category>Visual Design</category>
-        
-        <category>Branding</category>
         
         
         <category>personal</category>
