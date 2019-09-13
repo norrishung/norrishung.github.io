@@ -6,8 +6,8 @@
 </description>
     <link>http://www.norrishung.com/</link>
     <atom:link href="http://www.norrishung.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Sep 2019 14:32:23 -0700</pubDate>
-    <lastBuildDate>Thu, 05 Sep 2019 14:32:23 -0700</lastBuildDate>
+    <pubDate>Fri, 13 Sep 2019 14:05:41 -0700</pubDate>
+    <lastBuildDate>Fri, 13 Sep 2019 14:05:41 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -248,11 +248,11 @@
 &lt;p&gt;As is often repeated, we must remember that design is a verb, not a noun. There will always be new additional challenges to tackle and biases to uncover. We are excited to keep our users at the center and push the envelope for what it means to be truly accessible.&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://www.norrishung.com/archived/2019/09/03/accessibility.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/archived/2019/09/03/accessibility.html</guid>
+        <link>http://www.norrishung.com/project/2019/09/03/accessibility.html</link>
+        <guid isPermaLink="true">http://www.norrishung.com/project/2019/09/03/accessibility.html</guid>
         
         
-        <category>archived</category>
+        <category>project</category>
         
       </item>
     
@@ -923,7 +923,7 @@
 
 &lt;p&gt;Three years later, the CfA Styleguide is finally used across all products at Code for America. It is a well-tested system that is accessible, mobile-friendly, performant, and designed specifically for people accessing the safety net.&lt;/p&gt;
 
-&lt;p&gt;At this point, many of the strongest contributions are lead by other designs and engineers. Christa Hartsock helped to package the styleguide into its own ruby gem and manages contributions from other engineers. Rachel Edelman has helped to develop numerous additional design patterns and created a sketch symbol library. Ben Golder has been a huge advocate for improving accessibility and WCAG 2.0 Level AA compliance. &lt;/p&gt;
+&lt;p&gt;At this point, many of the strongest contributions are lead by other designs and engineers. A fellow engineer helped to package the styleguide into its own ruby gem and manages contributions from other engineers. Another product designer has helped to develop numerous additional design patterns and created a sketch symbol library. Yet another engineer has been a huge advocate for improving accessibility and WCAG 2.0 Level AA compliance. &lt;/p&gt;
 
 &lt;p&gt;While there will always be more to be done, we are at least now all now working towards a singular goal. Decisions can be made as a team and improvements that benefit one team end up benefiting everyone. &lt;/p&gt;
 
