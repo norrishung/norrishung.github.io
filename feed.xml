@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Norris Hung</title>
-    <description>Hello there! I am a designer from Oakland, CA.  For the last seven years, I've worked on research, interactive,  service, and web projects. I always seek to learn and  create things along the way that, hopefully,  make the world a better place.
+    <description>Welcome. I'm Norris, a designer hailing from Northern California.  I strive to create things that better society, through care and curiosity.
 </description>
-    <link>http://www.norrishung.com/</link>
-    <atom:link href="http://www.norrishung.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Sep 2019 11:52:18 -0700</pubDate>
-    <lastBuildDate>Sat, 21 Sep 2019 11:52:18 -0700</lastBuildDate>
+    <link>https://www.norrishung.com/</link>
+    <atom:link href="https://www.norrishung.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 17 Oct 2019 23:08:34 -0700</pubDate>
+    <lastBuildDate>Thu, 17 Oct 2019 23:08:34 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>How we approached designing a truly accessible service.</title>
         <description>&lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_hero-800by495-a20867.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_hero-1200by742-a20867.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_hero-2400by1484-a20867.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_hero-800by495-a20867.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_hero-1200by742-a20867.png 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_hero-2400by1484-a20867.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
@@ -60,7 +60,7 @@
 &lt;/ul&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_data-800by494-96e309.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_data-1200by741-96e309.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_data-2400by1482-96e309.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_data-800by494-96e309.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_data-1200by741-96e309.png 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_data-2400by1482-96e309.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;A report put together by our data science team that helped us to make sure we were talking to the right balance of people during our discovery research.&lt;/p&gt;
@@ -68,7 +68,7 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_prototyping_2-800by494-6f5200.jpg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_prototyping_2-1200by741-6f5200.jpg 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_prototyping_2-1684by1040-6f5200.jpg 1.4x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_prototyping_2-800by494-6f5200.jpg&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_prototyping_2-1200by741-6f5200.jpg 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_prototyping_2-1684by1040-6f5200.jpg 1.4x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Testing an early paper prototype with research participants.&lt;/p&gt;
@@ -76,7 +76,7 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_synthesis-800by494-73809f.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_synthesis-1200by741-73809f.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_synthesis-1684by1040-73809f.jpeg 1.4x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_synthesis-800by494-73809f.jpeg&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_synthesis-1200by741-73809f.jpeg 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_synthesis-1684by1040-73809f.jpeg 1.4x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;The research team synthesizing findings from their trips throughout California.&lt;/p&gt;
@@ -94,7 +94,7 @@
 &lt;/ul&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_audit-800by494-f2396a.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_audit-1200by741-f2396a.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_audit-2400by1482-f2396a.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_audit-800by494-f2396a.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_audit-1200by741-f2396a.png 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_audit-2400by1482-f2396a.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;A report put together by Knowbility documenting accessibility issues found in our design and code.&lt;/p&gt;
@@ -102,7 +102,7 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_talks-800by494-25fa6e.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_talks-1200by741-25fa6e.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_talks-1684by1040-25fa6e.jpeg 1.4x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_talks-800by494-25fa6e.jpeg&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_talks-1200by741-25fa6e.jpeg 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_talks-1684by1040-25fa6e.jpeg 1.4x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;An SF Design Week event about Accessible Design Systems with presenters from Google, Lyft, and LinkedIn.&lt;/p&gt;
@@ -131,7 +131,7 @@
 &lt;p&gt;A lot of our work was catching up to speed with the larger community of practice. We learned the difference between situational, temporary, or permanent disabilities and how accessibility benefits everyone. We learned the well-understood norms of how to make a product that accessible to this with visual or physical impairments.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_colors-800by494-81abbd.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_colors-1200by741-81abbd.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_colors-2400by1482-81abbd.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_colors-800by494-81abbd.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_colors-1200by741-81abbd.png 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_colors-2400by1482-81abbd.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;We started by refining our color system both by reducing the colors used and making sure each color passed WCAG Level AA contrast guidelines. &lt;/p&gt;
@@ -139,7 +139,7 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_spacing-800by494-5f498e.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_spacing-1200by741-5f498e.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_spacing-2400by1482-5f498e.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_spacing-800by494-5f498e.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_spacing-1200by741-5f498e.png 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_spacing-2400by1482-5f498e.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Inspired by golden proportions, we defined a sizing system that would be used to define everything else in our design system including typography, patterns, and layout. This provided an easy to understand system for designers and engineers alike to ensure a clear and consistent hierarchy.&lt;/p&gt;
@@ -147,7 +147,7 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_typography-800by494-34b385.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_typography-1200by741-34b385.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_typography-2400by1482-34b385.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_typography-800by494-34b385.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_typography-1200by741-34b385.png 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_typography-2400by1482-34b385.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;We simplified and strengthened the type hierarchy used across our service based on our spacing system. This helped to ease cognitive load by improving readability and made our service more accessible to screen readers. We also darkened the color of detail text to fix readability issues found in usability testing. &lt;/p&gt;
@@ -155,7 +155,7 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_patterns-800by494-981c5a.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_patterns-1200by741-981c5a.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_patterns-2400by1482-981c5a.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_patterns-800by494-981c5a.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_patterns-1200by741-981c5a.png 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_patterns-2400by1482-981c5a.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;We more clearly outlined, increased the size, and bumped the contrast of interactive elements. We also used rounded corners and depth to distinguish buttons from inputs. Sizing, spacing, and rounding of elements are all based on golden proportions.&lt;/p&gt;
@@ -163,7 +163,7 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_logo-800by494-3fd318.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_logo-1200by741-3fd318.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_logo-2400by1482-3fd318.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_logo-800by494-3fd318.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_logo-1200by741-3fd318.png 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_logo-2400by1482-3fd318.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;As a bonus, we also evolved our logo to be slightly easier on the eyes. Admittedly, this was for the designers more than anyone else =)&lt;/p&gt;
@@ -173,7 +173,7 @@
 &lt;p&gt;We also developed some insights that very few people talk about. For example, we saw first-hand the challenges that people with cognitive disabilities face — and how little we as a design community knew about how to help them. We also learned not to assume familiarity with basic mobile norms such as expanding accordions and scrolling, especially for older adults. &lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_alignment-800by494-55e159.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_alignment-1200by741-55e159.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_alignment-2400by1482-55e159.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_alignment-800by494-55e159.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_alignment-1200by741-55e159.png 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_alignment-2400by1482-55e159.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;We simplified our layout to be fully left aligned. This helped to reduce cognitive load on people who already had high anxiety, stress, or mental incapacities. &lt;/p&gt;
@@ -181,7 +181,7 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_language-800by494-f7cdbe.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_language-1200by741-f7cdbe.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_language-2400by1482-f7cdbe.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_language-800by494-f7cdbe.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_language-1200by741-f7cdbe.png 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_language-2400by1482-f7cdbe.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;We adjusted the language we used in order to reduce anxiety. For instance, we clarified why we were asking certain “trigger” questions. In another example, instead of asking for how much money the applicant had saved up, we simply asked if they had below a certain threshold (and why it matters).&lt;/p&gt;
@@ -189,7 +189,7 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_navigation-800by494-c3b22d.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_navigation-1200by741-c3b22d.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_navigation-2400by1482-c3b22d.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_navigation-800by494-c3b22d.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_navigation-1200by741-c3b22d.png 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_navigation-2400by1482-c3b22d.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Many of our older clients did not intuitively know to scroll. We added a conditional scrolling indicator that only showed up if we did not detect scrolling after a few seconds (and would disappear once they did). While many of us had advocated for a dedicated back button in the past, research evidence helped us to push this feature to the top of the queue.&lt;/p&gt;
@@ -201,7 +201,7 @@
 &lt;p&gt;True accessibility means making services accessible to the people who care for them.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_helpers-800by494-05d60c.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_helpers-1200by741-05d60c.png 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_helpers-2400by1482-05d60c.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_helpers-800by494-05d60c.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_helpers-1200by741-05d60c.png 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_helpers-2400by1482-05d60c.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;We added screens that acknowledged the presence of “helpers.” By passing this information through to the county, we were empowering the people who aided seniors and people with disabilities to play their part.&lt;/p&gt;
@@ -222,7 +222,7 @@
 &lt;/ul&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_walkthrough-800by494-d22014.jpg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_walkthrough-1200by741-d22014.jpg 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_walkthrough-1684by1040-d22014.jpg 1.4x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_walkthrough-800by494-d22014.jpg&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_walkthrough-1200by741-d22014.jpg 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_walkthrough-1684by1040-d22014.jpg 1.4x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Our researchers put up a walkthrough of research insights for everyone in the office to see. By seeing quotes, &lt;/p&gt;
@@ -230,7 +230,7 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_ridealongs-800by495-ede97d.jpg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_ridealongs-1200by742-ede97d.jpg 1.0x, http://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_ridealongs-1684by1041-ede97d.jpg 1.4x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_ridealongs-800by495-ede97d.jpg&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_ridealongs-1200by742-ede97d.jpg 1.0x, https://www.norrishung.com/img/generated/portfolio/accessibility/accessibility_ridealongs-1684by1041-ede97d.jpg 1.4x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Our team partnered with Meals on Wheels to conduct usability testing. We made sure to provide opportunities for everyone on the team to come along.&lt;/p&gt;
@@ -248,8 +248,8 @@
 &lt;p&gt;As is often repeated, we must remember that design is a verb, not a noun. There will always be new additional challenges to tackle and biases to uncover. We are excited to keep our users at the center and push the envelope for what it means to be truly accessible.&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://www.norrishung.com/project/2019/09/03/accessibility.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/project/2019/09/03/accessibility.html</guid>
+        <link>https://www.norrishung.com/project/2019/09/03/accessibility.html</link>
+        <guid isPermaLink="true">https://www.norrishung.com/project/2019/09/03/accessibility.html</guid>
         
         
         <category>project</category>
@@ -263,21 +263,21 @@
 &lt;p&gt;I design for the safety net. Like many of you, my goal is improve public services. At Code for America, I design services that help people access food stamps, medicaid, and tax credits. Unlike designing something like a car or poster, sometimes I find it kind of difficult to wrap my head around what it is exactly we are designing. Today, I want to share a story that helped me develop a good perspective on what we all do.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_01-800by450-5a390c.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_01-1200by675-5a390c.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_01-1360by765-5a390c.png 1.13x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_01-800by450-5a390c.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_01-1200by675-5a390c.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_01-1360by765-5a390c.png 1.13x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;The story I want to share is about a chair. For industrial designers, chairs have always been the object to design. While other objects might be crafted with clean lines and mathematical proportions, a chair eludes the obvious because it needs to conform to the human body.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_02-800by450-e5d3a5.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_02-1200by675-e5d3a5.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_02-2400by1350-e5d3a5.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_02-800by450-e5d3a5.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_02-1200by675-e5d3a5.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_02-2400by1350-e5d3a5.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;This is what a chair looked like in the 1920’s: different pieces of wood assembled to provide a seat, a backrest, and structural integrity. Expensive chairs might be upholstered to make them more comfortable.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_03-800by450-016db6.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_03-1200by675-016db6.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_03-2400by1350-016db6.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_03-800by450-016db6.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_03-1200by675-016db6.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_03-2400by1350-016db6.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
@@ -290,19 +290,19 @@
 &lt;/div&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_05-800by450-256ea1.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_05-1200by675-256ea1.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_05-1536by864-256ea1.png 1.28x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_05-800by450-256ea1.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_05-1200by675-256ea1.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_05-1536by864-256ea1.png 1.28x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;At the time, this group of young designers had found an interesting new technique of working with wood. By steaming thin sheets of plywood and pressing them together with molds, they could create a wide variety of different organic forms. They tried and tried but couldn’t quite achieve what they wanted without the wood splitting. It was a fight against the material they worked with.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_06-800by450-b61897.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_06-1200by675-b61897.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_06-2400by1350-b61897.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_06-800by450-b61897.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_06-1200by675-b61897.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_06-2400by1350-b61897.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_07-800by450-c8f6e4.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_07-1200by675-c8f6e4.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_07-2400by1350-c8f6e4.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_07-800by450-c8f6e4.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_07-1200by675-c8f6e4.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_07-2400by1350-c8f6e4.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
@@ -315,7 +315,7 @@
 &lt;/div&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_09-800by450-9b72ea.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_09-1200by675-9b72ea.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_09-2400by1350-9b72ea.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_09-800by450-9b72ea.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_09-1200by675-9b72ea.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_09-2400by1350-9b72ea.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
@@ -330,70 +330,70 @@
 &lt;p&gt;Innovation rarely comes from taking a straight path. It comes from fostering curiosity about many things and letting that inspire seemingly unrelated work.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_11-800by450-53bee4.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_11-1200by675-53bee4.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_11-2384by1341-53bee4.png 1.99x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_11-800by450-53bee4.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_11-1200by675-53bee4.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_11-2384by1341-53bee4.png 1.99x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;While this second chair was a great iteration, it still felt short of the original vision. It was still not a singular form and it was expensive to manufacture. Today, you’d perhaps find this chair in the home of design historian or a high-end office but it was not “the best for the most for the least.”&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_12-800by450-334959.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_12-1200by675-334959.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_12-2400by1350-334959.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_12-800by450-334959.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_12-1200by675-334959.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_12-2400by1350-334959.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;With the war behind them, designers were given another calling: creating affordable furniture for veterans and new families. It seemed like the perfect opportunity for this group of designers to put their mantra to the test.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_13-800by450-a724d7.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_13-1200by675-a724d7.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_13-1264by711-a724d7.png 1.05x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_13-800by450-a724d7.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_13-1200by675-a724d7.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_13-1264by711-a724d7.png 1.05x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;To make it cheaper and achieve the singular form they wanted, they realized they had to move away from molded plywood as much as they loved it. They spent years trying various new materials before landing on fiberglass. Once they did, they still had to design a entirely new manufacturing process for it. &lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_14-800by450-d6057d.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_14-1200by675-d6057d.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_14-1360by765-d6057d.png 1.13x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_14-800by450-d6057d.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_14-1200by675-d6057d.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_14-1360by765-d6057d.png 1.13x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;They tested hundreds of iterations to find the best shape for the most people.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_15-800by450-48bca2.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_15-1200by675-48bca2.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_15-2400by1350-48bca2.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_15-800by450-48bca2.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_15-1200by675-48bca2.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_15-2400by1350-48bca2.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;To pick the perfect colors, they studied what best matched the interiors of most peoples’ homes.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_16-800by450-41f871.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_16-1200by675-41f871.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_16-2048by1152-41f871.png 1.71x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_16-800by450-41f871.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_16-1200by675-41f871.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_16-2048by1152-41f871.png 1.71x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;They designed a modular set of different bases and seats to be used in a variety of circumstances.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_17-800by450-b52dee.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_17-1200by675-b52dee.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_17-2400by1350-b52dee.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_17-800by450-b52dee.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_17-1200by675-b52dee.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_17-2400by1350-b52dee.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;They sweat the details that no one else cares about.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_18-800by450-fc826f.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_18-1200by675-fc826f.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_18-2400by1350-fc826f.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_18-800by450-fc826f.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_18-1200by675-fc826f.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_18-2400by1350-fc826f.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;In 1951, they released their fiberglass shell chair to the world for $20 a pop. By doing the hard work of making something simple, they were finally able to make the best for the most for the least.  Today, the shell chair is ubiquitous. It’s everywhere from homes to schools to offices to airports.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_19-800by450-7c6834.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_19-1200by675-7c6834.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_19-2400by1350-7c6834.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_19-800by450-7c6834.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_19-1200by675-7c6834.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_19-2400by1350-7c6834.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;But given the historical perspective, it isn’t hard to see that this chair was a compelling evolution over what existed two decades earlier.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_20-800by450-f78252.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_20-1200by675-f78252.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_20-2080by1170-f78252.png 1.73x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_20-800by450-f78252.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_20-1200by675-f78252.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_20-2080by1170-f78252.png 1.73x&quot;&gt;
 
 &lt;/figure&gt;
 
@@ -410,26 +410,26 @@
 &lt;p&gt;For tens of millions of people every day, here’s what accessing the safety net looks like in 2019.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_23-800by450-60eb28.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_23-1200by675-60eb28.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_23-2400by1350-60eb28.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_23-800by450-60eb28.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_23-1200by675-60eb28.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_23-2400by1350-60eb28.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_24-800by450-56cac6.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_24-1200by675-56cac6.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_24-2400by1350-56cac6.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_24-800by450-56cac6.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_24-1200by675-56cac6.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_24-2400by1350-56cac6.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;Here’s how we communicate with applicants. We rely on physical mail that takes days to arrive and is easily misplaced. We call clients unannounced from numbers they don’t recognize. Many times, we don’t leave a voice message or provide them a way to call back. How many of you pick up calls from numbers you don’t recognize?&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_25-800by450-dd94c5.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_25-1200by675-dd94c5.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_25-2400by1350-dd94c5.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_25-800by450-dd94c5.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_25-1200by675-dd94c5.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_25-2400by1350-dd94c5.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;Here are the lobbies that people wait in. To be fair, some lobbies are clean and modern. I’ve even seen some with free child care. But others are surrounded by gaurds, make you go through airport-level security, just to have you wait for hours.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_26-800by450-84748b.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_26-1200by675-84748b.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_26-2400by1350-84748b.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_26-800by450-84748b.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_26-1200by675-84748b.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_26-2400by1350-84748b.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
@@ -444,36 +444,36 @@
 &lt;p&gt;What I hope is that in ten years, what this country views as the safety net is dramatically different from what it looks like now. It won’t come easy though. Like the shell chair, a better safety net must start with a vision for something better.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_28-800by450-669794.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_28-1200by675-669794.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_28-2400by1350-669794.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_28-800by450-669794.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_28-1200by675-669794.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_28-2400by1350-669794.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;A better safety requires us to better shape the materials we already use. This means designing better forms, phone systems, lobbies, and policy.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_29-800by450-0493c1.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_29-1200by675-0493c1.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_29-2400by1350-0493c1.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_29-800by450-0493c1.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_29-1200by675-0493c1.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_29-2400by1350-0493c1.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;As new materials emerge through technology, we must also learn how to work with them too. We must understand the new opportunities they present and be cognizant of the limits of what they can offer. As Lou Downe said yesterday, technology can show us what we can do. Design will show us what we should do.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_30-800by450-38d00f.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_30-1200by675-38d00f.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_30-2032by1143-38d00f.png 1.69x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_30-800by450-38d00f.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_30-1200by675-38d00f.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_30-2032by1143-38d00f.png 1.69x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;A better safety net must accommodate the complex realities of society. We must do the hard work of making it simple. A better safety net will take inspiration from unlikely sources. It will require sweating the details no one else will care about. It will require a deep collaboration not just between designers but with all of us: policy-makers, social workers, engineers, advocates, and the public.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_31-800by450-31aa53.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/writing/chairs/chair_31-1200by675-31aa53.png 1.0x, http://www.norrishung.com/img/generated/writing/chairs/chair_31-2400by1350-31aa53.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_31-800by450-31aa53.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/writing/chairs/chair_31-1200by675-31aa53.png 1.0x, https://www.norrishung.com/img/generated/writing/chairs/chair_31-2400by1350-31aa53.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;If we do our job right, the safety net of the future will feel very different from the safety net we have today. It won’t feel innovative to the people using it but hopefully it also won’t feel painful. It will feel like we made the best for the most for the least. It will feel like sitting down on a plain and comfortable chair.&lt;/p&gt;
 </description>
         <pubDate>Sat, 25 May 2019 00:00:00 -0700</pubDate>
-        <link>http://www.norrishung.com/essays/2019/05/25/chairs.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/essays/2019/05/25/chairs.html</guid>
+        <link>https://www.norrishung.com/essays/2019/05/25/chairs.html</link>
+        <guid isPermaLink="true">https://www.norrishung.com/essays/2019/05/25/chairs.html</guid>
         
         
         <category>essays</category>
@@ -483,7 +483,7 @@
       <item>
         <title>How we helped over one million Californians put food on the table.</title>
         <description>&lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_screens-800by494-804f8f.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_screens-1200by741-804f8f.png 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_screens-2400by1482-804f8f.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_screens-800by494-804f8f.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_screens-1200by741-804f8f.png 1.0x, https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_screens-2400by1482-804f8f.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;I lead design on &lt;a href=&quot;https://www.getcalfresh.org&quot;&gt;GetCalFresh&lt;/a&gt;, a plain-language and mobile-friendly service that helps Californians enroll in food stamps.&lt;/p&gt;
@@ -510,14 +510,14 @@
 &lt;p&gt;From October 2017 - January 2018, I led the research effort with data scientist, Eric. Between the both of us, we sought to understand the situation from as many angles as possible:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_research_activities-800by494-ac6b5a.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_research_activities-1200by741-ac6b5a.png 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_research_activities-2400by1482-ac6b5a.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_research_activities-800by494-ac6b5a.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_research_activities-1200by741-ac6b5a.png 1.0x, https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_research_activities-2400by1482-ac6b5a.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
 &lt;p&gt;Eric and I found a great rhythm of “ping-ponging” between qualitative and quantitative research. Sometimes I would notice a trend in user interviews and would ask Eric if he could identify the severity of the problem through a data investigation. Sometimes Eric’s data analysis would show an issue people were having but couldn&amp;#39;t understand why. As a result, I would talk to a few clients to see if I could understand the reason behind it. &lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_infographics-800by494-c1100f.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_infographics-1200by741-c1100f.png 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_infographics-2400by1482-c1100f.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_infographics-800by494-c1100f.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_infographics-1200by741-c1100f.png 1.0x, https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_infographics-2400by1482-c1100f.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;&lt;b&gt;Left:&lt;/b&gt; a service blueprint I designed to help staff and partners understand the turn-based nature of enrollment that caused many people to abandon the process.&lt;/p&gt;
@@ -548,7 +548,7 @@
 &lt;p&gt;The second iteration was taking the questions on that script and breaking them into index cards that roughly represented the design.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_lofi_cards-800by449-88e8fb.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_lofi_cards-1200by673-88e8fb.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_lofi_cards-2400by1346-88e8fb.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_lofi_cards-800by449-88e8fb.jpeg&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_lofi_cards-1200by673-88e8fb.jpeg 1.0x, https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_lofi_cards-2400by1346-88e8fb.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;The initial index card prototype based on the questions food bank employees would ask when helping people to apply.&lt;/p&gt;
@@ -558,7 +558,7 @@
 &lt;p&gt;The third was a high fidelity index card prototype that I reviewed with the team and with subject matter experts from local food banks.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_design_review-800by472-6303e8.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_design_review-1200by709-6303e8.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_design_review-2400by1417-6303e8.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_design_review-800by472-6303e8.jpeg&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_design_review-1200by709-6303e8.jpeg 1.0x, https://www.norrishung.com/img/generated/portfolio/getcalfresh/gcf_design_review-2400by1417-6303e8.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;A design review session I led with food bank employees and the GetCalFresh product team.&lt;/p&gt;
@@ -599,8 +599,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 31 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://www.norrishung.com/project/2018/12/31/getcalfresh.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/project/2018/12/31/getcalfresh.html</guid>
+        <link>https://www.norrishung.com/project/2018/12/31/getcalfresh.html</link>
+        <guid isPermaLink="true">https://www.norrishung.com/project/2018/12/31/getcalfresh.html</guid>
         
         
         <category>project</category>
@@ -610,7 +610,7 @@
       <item>
         <title>How we found opportunities to help remote Alaskans access the safety net.</title>
         <description>&lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_synthesis-800by494-3b399b.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_synthesis-1200by741-3b399b.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_synthesis-2400by1482-3b399b.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_synthesis-800by494-3b399b.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_synthesis-1200by741-3b399b.png 1.0x, https://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_synthesis-2400by1482-3b399b.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Reseacher, Nicole Rappin and I, synthesizing our interviews and observations after spending two weeks in Alaska.&lt;/p&gt;
@@ -624,7 +624,7 @@
 &lt;p&gt;When it comes to public services, Alaska faces many challenges that differ from other parts of the United States. A large part of its population live in remote regions only accessible by plane or boat. Medical aid often requires being airlifted. Remote native communities in these regions rely primarily on sustainence hunting and fishing to survive. In the winter, weather conditions can cripple jobs and mail communication.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_remote-800by364-eaa628.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_remote-1200by547-eaa628.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_remote-2400by1093-eaa628.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_remote-800by364-eaa628.jpeg&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_remote-1200by547-eaa628.jpeg 1.0x, https://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_remote-2400by1093-eaa628.jpeg 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
@@ -637,7 +637,7 @@
 &lt;p&gt;After the discovery phase, I was brought on as a research designer to develop initial prototypes to test with the public as well as state employees.  By quickly creating something tangible based on our initial understanding, we had something that allowed us to collect more in-depth feedback and observations that deepened our understanding.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_ets-800by471-85798a.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_ets-1200by706-85798a.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_ets-2400by1412-85798a.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_ets-800by471-85798a.jpeg&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_ets-1200by706-85798a.jpeg 1.0x, https://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_ets-2400by1412-85798a.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Shadowing case workers in the Alaskan Department of Public Assistance&lt;/p&gt;
@@ -667,7 +667,7 @@
 &lt;p&gt;While our north star is improve social services for the public, it was also important that we set an example on how to work and share our learnings. To this end, we have involved our government partners and produced learning reports at every step.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_report-800by494-886764.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_report-1200by741-886764.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_report-2400by1482-886764.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_report-800by494-886764.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_report-1200by741-886764.png 1.0x, https://www.norrishung.com/img/generated/portfolio/cfa-alaska/alaska_report-2400by1482-886764.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Our goal is not only to build digital products but to help others understand how to design better services for the underserved.&lt;/p&gt;
@@ -677,8 +677,8 @@
 &lt;p&gt;Currently, we are in conversation with the state of Alaska to roll out a wider pilot version of our tools. In this stage, we will continue to use in-depth interviews as well as data collected to understand if our interventions are successful. &lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://www.norrishung.com/archived/2018/12/15/alaskan-safety-net.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/archived/2018/12/15/alaskan-safety-net.html</guid>
+        <link>https://www.norrishung.com/archived/2018/12/15/alaskan-safety-net.html</link>
+        <guid isPermaLink="true">https://www.norrishung.com/archived/2018/12/15/alaskan-safety-net.html</guid>
         
         
         <category>archived</category>
@@ -688,7 +688,7 @@
       <item>
         <title>How we created a campaign to help college students eat healthier.</title>
         <description>&lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/gcf_student_posters-800by494-9528d4.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/gcf_student_posters-1200by741-9528d4.png 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/gcf_student_posters-2400by1482-9528d4.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/gcf_student_posters-800by494-9528d4.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/gcf_student_posters-1200by741-9528d4.png 1.0x, https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/gcf_student_posters-2400by1482-9528d4.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
@@ -701,7 +701,7 @@
 &lt;h2&gt;Research&lt;/h2&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_research_2-800by516-b3e96c.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_research_2-1200by774-b3e96c.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_research_2-2400by1547-b3e96c.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_research_2-800by516-b3e96c.jpeg&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_research_2-1200by774-b3e96c.jpeg 1.0x, https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_research_2-2400by1547-b3e96c.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Intercepts with students at University of California, Berkeley&lt;/p&gt;
@@ -742,7 +742,7 @@
 &lt;/ul&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-800by494-3d9b4f.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-1200by741-3d9b4f.png 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-2400by1482-3d9b4f.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-800by494-3d9b4f.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-1200by741-3d9b4f.png 1.0x, https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_early_exlorations-2400by1482-3d9b4f.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
       &lt;p&gt;We explored a few ‘meme-able’ directions that played off the idea of a starving student.&lt;/p&gt;
@@ -752,7 +752,7 @@
 &lt;p&gt;The final direction was one that we thought set an appropriate optimistic tone with just the right level of cheekiness.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_posters-800by494-4cbb7a.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_posters-1200by741-4cbb7a.png 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_posters-2400by1482-4cbb7a.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_posters-800by494-4cbb7a.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_posters-1200by741-4cbb7a.png 1.0x, https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_posters-2400by1482-4cbb7a.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
       &lt;p&gt;Student CalFresh posters&lt;/p&gt;
@@ -760,7 +760,7 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_postcards-800by494-731f0f.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_postcards-1200by741-731f0f.png 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_postcards-2400by1482-731f0f.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_postcards-800by494-731f0f.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_postcards-1200by741-731f0f.png 1.0x, https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/student_postcards-2400by1482-731f0f.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
       &lt;p&gt;Student CalFresh postcards&lt;/p&gt;
@@ -789,7 +789,7 @@
 &lt;p&gt;We are proud to have played a part in making sure their work was the most impactful it could be.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-800by570-daa1ea.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-1200by856-daa1ea.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-2400by1711-daa1ea.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-800by570-daa1ea.jpeg&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-1200by856-daa1ea.jpeg 1.0x, https://www.norrishung.com/img/generated/portfolio/gcf-student-campaign/berkeley_food_pantry-2400by1711-daa1ea.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
       &lt;p&gt;Our client success specialist repping our posters at the UC Berkeley food pantry.&lt;/p&gt;
@@ -797,8 +797,8 @@
 &lt;/figure&gt;
 </description>
         <pubDate>Tue, 15 Aug 2017 00:00:00 -0700</pubDate>
-        <link>http://www.norrishung.com/project/2017/08/15/gcf-student-campaign.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/project/2017/08/15/gcf-student-campaign.html</guid>
+        <link>https://www.norrishung.com/project/2017/08/15/gcf-student-campaign.html</link>
+        <guid isPermaLink="true">https://www.norrishung.com/project/2017/08/15/gcf-student-campaign.html</guid>
         
         
         <category>project</category>
@@ -808,7 +808,7 @@
       <item>
         <title>How we gave products at Code for America a dignified, friendly, and unified style.</title>
         <description>&lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-800by494-4d9f43.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-1200by741-4d9f43.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-2400by1482-4d9f43.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-800by494-4d9f43.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-1200by741-4d9f43.png 1.0x, https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_hero-2400by1482-4d9f43.png 2.0x&quot;&gt;
 
 &lt;/figure&gt;
 
@@ -826,7 +826,7 @@
 &lt;/ul&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-800by494-72bc88.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-1200by741-72bc88.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-2400by1482-72bc88.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-800by494-72bc88.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-1200by741-72bc88.png 1.0x, https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_noncohesive-2400by1482-72bc88.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;The state of Code for America products in 2016 before we launched the styleguide.&lt;/p&gt;
@@ -852,7 +852,7 @@
 &lt;h2&gt;Design Explorations&lt;/h2&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-800by460-4a5652.jpeg&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-1200by690-4a5652.jpeg 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-2400by1381-4a5652.jpeg 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-800by460-4a5652.jpeg&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-1200by690-4a5652.jpeg 1.0x, https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_daniella-2400by1381-4a5652.jpeg 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;A fellow designer and I being very designer-y during the exploration phase.&lt;/p&gt;
@@ -871,7 +871,7 @@
 &lt;/ul&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-800by494-6bafa7.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-1200by741-6bafa7.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-2400by1482-6bafa7.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-800by494-6bafa7.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-1200by741-6bafa7.png 1.0x, https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_explorations-2400by1482-6bafa7.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Early visual explorations&lt;/p&gt;
@@ -885,7 +885,7 @@
 &lt;p&gt;As I worked on GetCalFresh wth our new styleguide, user-testing informed many iterative changes over the next year. After a successful implementation on GetCalFresh, other teams began to ask if they could use the styleguide on their projects. We would discuss the ramifications of a refactor and if it was the right time. If we decided the answer was yes, I would help onboard other teams onto using the styleguide.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-800by494-de8974.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-1200by741-de8974.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-2400by1482-de8974.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-800by494-de8974.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-1200by741-de8974.png 1.0x, https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_docs-2400by1482-de8974.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;A living styleguide documenting patterns and code examples.&lt;/p&gt;
@@ -897,7 +897,7 @@
 &lt;h2&gt;Adoption&lt;/h2&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-800by494-9ac71d.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-1200by741-9ac71d.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-2400by1482-9ac71d.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-800by494-9ac71d.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-1200by741-9ac71d.png 1.0x, https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_slack-2400by1482-9ac71d.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;Teammates making important decisions about the styleguide :)&lt;/p&gt;
@@ -919,7 +919,7 @@
 &lt;h2&gt;Impact&lt;/h2&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-800by494-35155e.png&quot; srcset=&quot;http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-1200by741-35155e.png 1.0x, http://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-2400by1482-35155e.png 2.0x&quot;&gt;
+  &lt;img src=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-800by494-35155e.png&quot; srcset=&quot;https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-1200by741-35155e.png 1.0x, https://www.norrishung.com/img/generated/portfolio/cfa-styleguide/cfa_styleguide_cohesive-2400by1482-35155e.png 2.0x&quot;&gt;
 
   &lt;figcaption&gt;
     &lt;p&gt;What Code for America projects look like today. Clockwise from top: ClearMyRecord, ReportChangesColorado, ClientComm, GetCalFresh.&lt;/p&gt;
@@ -935,8 +935,8 @@
 &lt;p&gt;The best part is that the styleguide is open-source. We encourage anyone working on public-benefit services to use it in their projects.&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jul 2016 00:00:00 -0700</pubDate>
-        <link>http://www.norrishung.com/project/2016/07/01/cfa-styleguide.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/project/2016/07/01/cfa-styleguide.html</guid>
+        <link>https://www.norrishung.com/project/2016/07/01/cfa-styleguide.html</link>
+        <guid isPermaLink="true">https://www.norrishung.com/project/2016/07/01/cfa-styleguide.html</guid>
         
         
         <category>project</category>
@@ -960,8 +960,8 @@
 &lt;p&gt;Our work is ongoing in a collaboration with the city of &lt;a href=&quot;http://beta.oaklandca.gov/&quot;&gt;Oakland, CA&lt;/a&gt; to bring this to life.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Oct 2015 07:50:30 -0700</pubDate>
-        <link>http://www.norrishung.com/cfa/2015/10/29/chime-starter.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/cfa/2015/10/29/chime-starter.html</guid>
+        <link>https://www.norrishung.com/cfa/2015/10/29/chime-starter.html</link>
+        <guid isPermaLink="true">https://www.norrishung.com/cfa/2015/10/29/chime-starter.html</guid>
         
         <category>HTML5</category>
         
@@ -992,8 +992,8 @@
 &lt;p&gt;My role on this project included user research, prototyping, interaction design, and front-end development.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Oct 2015 07:50:30 -0700</pubDate>
-        <link>http://www.norrishung.com/cfa/2015/10/29/chime.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/cfa/2015/10/29/chime.html</guid>
+        <link>https://www.norrishung.com/cfa/2015/10/29/chime.html</link>
+        <guid isPermaLink="true">https://www.norrishung.com/cfa/2015/10/29/chime.html</guid>
         
         <category>HTML5</category>
         
@@ -1051,8 +1051,8 @@
 &lt;p&gt;Phew. That’s it for now and I’m pretty proud of the technology stack that I’ve used to build this website. There’s no sign that the industry of web development is slowing down and I can’t wait to see what will change in the next four years. Personally, I’m hoping to see more of a convergence between web design and native app designs. I believe natively digital conceptual models like Material Design are here to stay and the capabilities of web design will need to catch up.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Mar 2015 00:00:00 -0700</pubDate>
-        <link>http://www.norrishung.com/essays/2015/03/25/what-happens-in-four-years.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/essays/2015/03/25/what-happens-in-four-years.html</guid>
+        <link>https://www.norrishung.com/essays/2015/03/25/what-happens-in-four-years.html</link>
+        <guid isPermaLink="true">https://www.norrishung.com/essays/2015/03/25/what-happens-in-four-years.html</guid>
         
         
         <category>essays</category>
@@ -1070,8 +1070,8 @@
 &lt;p&gt;Mindshare is built with Meteor, CoffeeScript, and Sass. It also includes a Chrome extension that allows users to easily share articles from the browser. Webfonts provided by Hoefler &amp;amp; Co.&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Mar 2015 07:50:30 -0700</pubDate>
-        <link>http://www.norrishung.com/personal/2015/03/18/mindshare.html</link>
-        <guid isPermaLink="true">http://www.norrishung.com/personal/2015/03/18/mindshare.html</guid>
+        <link>https://www.norrishung.com/personal/2015/03/18/mindshare.html</link>
+        <guid isPermaLink="true">https://www.norrishung.com/personal/2015/03/18/mindshare.html</guid>
         
         <category>UX/UI Design</category>
         
