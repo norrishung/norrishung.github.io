@@ -187,11 +187,11 @@ a:hover .link--arrow:after { color: #007AFC; padding-left: 1.5em; }
 
 .quote blockquote p:after { content: '\201D'; }
 
-.quote .text--detail { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; margin-bottom: 0; }
+.quote .text--detail { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; font-style: italic; margin-bottom: 0; }
 
 @media screen and (min-width: 768px) { .quote .text--detail { font-size: 1.5rem; line-height: 2.5rem; } }
 
-.text--credits { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 0.75rem; line-height: 1.25rem; color: #757575; }
+.text--credits { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 0.75rem; line-height: 1.25rem; color: #757575; font-style: italic; }
 
 @media screen and (min-width: 768px) { .text--credits { font-size: 1rem; line-height: 1.5rem; } }
 
@@ -391,15 +391,23 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 @media screen and (min-width: 768px) and (prefers-color-scheme: dark) { .post__title-container:before { border-top: 1px solid #E5E5E5; } }
 
-.post__title { font-family: "Roslindale-Deck-Narrow", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.5rem; line-height: 2.5rem; position: relative; top: -0.5rem; display: inline-block; background-color: #FFFFFF; padding-right: 1em; margin-bottom: 1.5rem; max-width: 12em; }
+.post__title { font-family: "Roslindale-Deck-Narrow", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.5rem; line-height: 2.5rem; position: relative; }
 
 @media screen and (min-width: 768px) { .post__title { font-size: 2rem; line-height: 3rem; } }
+
+@media screen and (min-width: 768px) { .post__title { top: -0.5rem; display: inline-block; background-color: #FFFFFF; padding-right: 1em; max-width: 12em; } }
 
 @media (prefers-color-scheme: dark) { .post__title { background-color: #111111; } }
 
 .post__detail { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; margin-bottom: 0; }
 
 @media screen and (min-width: 768px) { .post__detail { font-size: 1.5rem; line-height: 2.5rem; } }
+
+.post__detail:last-child { margin-bottom: 2rem; }
+
+.post__description { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
+
+@media screen and (min-width: 768px) { .post__description { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .post__info { margin-bottom: 2rem; }
 
@@ -441,7 +449,7 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 .post__content figure video { max-width: 100%; }
 
-.post__content figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; text-align: left; max-width: 40em; }
+.post__content figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; font-style: italic; text-align: left; max-width: 40em; }
 
 @media screen and (min-width: 768px) { .post__content figure figcaption { font-size: 1.5rem; line-height: 2.5rem; } }
 
