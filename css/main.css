@@ -143,15 +143,15 @@ body { margin: 0 auto; padding: 0; color: #111111; background-color: #FFFFFF; -w
 
 body { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; }
 
-@media screen and (min-width: 768px) { body { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { body { font-size: 1.5rem; line-height: 2.5rem; } }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.25rem; line-height: 2rem; }
 
-@media screen and (min-width: 768px) { h1, h2, h3, h4, h5, h6 { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { h1, h2, h3, h4, h5, h6 { font-size: 1.5rem; line-height: 2.5rem; } }
 
 p { margin-bottom: 2rem; }
 
-@media screen and (min-width: 768px) { p { margin-bottom: 2.5rem; } }
+@media screen and (min-width: 1000px) { p { margin-bottom: 2.5rem; } }
 
 a { transition: color .2s ease-out; color: #111111; text-decoration-color: #007AFC; }
 
@@ -171,17 +171,17 @@ a:hover .link--arrow:after { color: #007AFC; padding-left: 1.5em; }
 
 .quote { margin-top: 4.5rem; margin-bottom: 4.5rem; }
 
-@media screen and (min-width: 768px) { .quote { margin-top: 6rem; margin-bottom: 6rem; } }
+@media screen and (min-width: 1000px) { .quote { margin-top: 6rem; margin-bottom: 6rem; } }
 
 .quote blockquote { font-family: "Roslindale-Deck-Narrow", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.5rem; line-height: 2.5rem; color: #333333; }
 
-@media screen and (min-width: 768px) { .quote blockquote { font-size: 2rem; line-height: 3rem; } }
+@media screen and (min-width: 1000px) { .quote blockquote { font-size: 2rem; line-height: 3rem; } }
 
 @media (prefers-color-scheme: dark) { .quote blockquote { color: #E5E5E5; } }
 
 .quote blockquote p:last-of-type { margin-bottom: 1.25rem; }
 
-@media screen and (min-width: 768px) { .quote blockquote p:last-of-type { margin-bottom: 1.5rem; } }
+@media screen and (min-width: 1000px) { .quote blockquote p:last-of-type { margin-bottom: 1.5rem; } }
 
 .quote blockquote p:before { content: '\201C'; }
 
@@ -189,11 +189,11 @@ a:hover .link--arrow:after { color: #007AFC; padding-left: 1.5em; }
 
 .quote .text--detail { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; font-style: italic; margin-bottom: 0; }
 
-@media screen and (min-width: 768px) { .quote .text--detail { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .quote .text--detail { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .text--credits { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 0.75rem; line-height: 1.25rem; color: #757575; font-style: italic; }
 
-@media screen and (min-width: 768px) { .text--credits { font-size: 1rem; line-height: 1.5rem; } }
+@media screen and (min-width: 1000px) { .text--credits { font-size: 1rem; line-height: 1.5rem; } }
 
 .text--credits:before { content: "Photo credit: "; }
 
@@ -217,7 +217,7 @@ ul li:before { content: '—'; display: inline-block; width: .7em; font-weight: 
 
 hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; background-color: #E5E5E5; }
 
-@media screen and (min-width: 768px) { hr { margin-top: 6rem; margin-bottom: 6rem; } }
+@media screen and (min-width: 1000px) { hr { margin-top: 6rem; margin-bottom: 6rem; } }
 
 @media (prefers-color-scheme: dark) { hr { background-color: #333333; } }
 
@@ -231,11 +231,11 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 .main-header__title a { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; text-decoration: none; }
 
-@media screen and (min-width: 768px) { .main-header__title a { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .main-header__title a { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .main-header__subtitle { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; font-style: italic; }
 
-@media screen and (min-width: 768px) { .main-header__subtitle { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .main-header__subtitle { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .main-footer { max-width: 1600px; margin: 0 auto; padding: 0 1.5rem; margin-top: 6rem; margin-bottom: 4.5rem; }
 
@@ -247,13 +247,13 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 .main-footer__subtitle { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; font-style: italic; }
 
-@media screen and (min-width: 768px) { .main-footer__subtitle { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .main-footer__subtitle { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .main-links { margin-left: 1.5em; font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
 @media screen and (min-width: 768px) { .main-links { margin-left: 0; } }
 
-@media screen and (min-width: 768px) { .main-links { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .main-links { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .main-links a { transition: color .2s ease-out; display: block; color: #757575; text-decoration: none; display: inline-block; }
 
@@ -269,9 +269,31 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 .main-links .link--selected:before { opacity: 1; }
 
+figure { text-align: center; margin-top: 6rem; margin-bottom: 6rem; }
+
+@media screen and (min-width: 768px) { figure { margin-top: 8.5rem; margin-bottom: 8.5rem; } }
+
+figure.figure--with-border img { border: 2px solid #E5E5E5; }
+
+@media (prefers-color-scheme: dark) { figure.figure--with-border img { border: 2px solid #333333; } }
+
+figure.figure--no-round img { border-radius: 0; }
+
+figure img, figure video, figure iframe { border-radius: 1.5rem; max-width: 100%; margin-bottom: 0.75rem; }
+
+@media screen and (min-width: 768px) { figure img, figure video, figure iframe { border-radius: 3.25rem; } }
+
+@media screen and (min-width: 768px) { figure img, figure video, figure iframe { margin-bottom: 1rem; } }
+
+figure video { max-width: 100%; }
+
+figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; font-style: italic; text-align: left; max-width: 40em; }
+
+@media screen and (min-width: 1000px) { figure figcaption { font-size: 1.5rem; line-height: 2.5rem; } }
+
 .about__contact { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
-@media screen and (min-width: 768px) { .about__contact { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .about__contact { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .about__contact a { transition: color .2s ease-out; color: #757575; text-decoration: none; text-decoration-color: #007AFC; }
 
@@ -281,11 +303,11 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 @media screen and (min-width: 768px) { .about__selected-works { margin-bottom: 0; } }
 
-@media screen and (min-width: 768px) { .about__selected-works { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .about__selected-works { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .about__selected-works h2 { font-weight: normal; font-style: italic; font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
-@media screen and (min-width: 768px) { .about__selected-works h2 { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .about__selected-works h2 { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .about__selected-works ul { margin-top: 0; margin-bottom: 2.5rem; }
 
@@ -325,7 +347,7 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 .role__info p { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; margin-bottom: 0; }
 
-@media screen and (min-width: 768px) { .role__info p { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .role__info p { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .role__summary p { margin-bottom: 0; }
 
@@ -341,11 +363,11 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 .project__title { transition: color .2s ease-out; font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.25rem; line-height: 2rem; margin-bottom: 1.5rem; text-decoration: underline; text-decoration-color: #007AFC; }
 
-@media screen and (min-width: 768px) { .project__title { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .project__title { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .project__details { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
-@media screen and (min-width: 768px) { .project__details { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .project__details { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .project__details p { margin-bottom: 0; }
 
@@ -369,53 +391,53 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 .thought__date { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
-@media screen and (min-width: 768px) { .thought__date { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .thought__date { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .thought__title { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.25rem; line-height: 2rem; margin-bottom: 1.5rem; text-decoration: underline; text-decoration-color: #007AFC; }
 
-@media screen and (min-width: 768px) { .thought__title { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .thought__title { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .post__header { margin-bottom: 6rem; border-bottom: 2px solid #E5E5E5; }
 
-@media screen and (min-width: 768px) { .post__header { margin-bottom: 8.5rem; } }
+@media screen and (min-width: 1000px) { .post__header { margin-bottom: 8.5rem; } }
 
 @media (prefers-color-scheme: dark) { .post__header { border-bottom: 2px solid #333333; } }
 
 .post__header figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; text-align: left; max-width: 40em; }
 
-@media screen and (min-width: 768px) { .post__header figcaption { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .post__header figcaption { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .post__title-container { position: relative; }
 
-@media screen and (min-width: 768px) { .post__title-container { border-bottom: 0px; } .post__title-container:before { position: absolute; top: 1.25rem; left: 0; right: 2em; display: block; content: ''; border-top: 1px solid #111111; z-index: -1; } }
+@media screen and (min-width: 1000px) { .post__title-container { border-bottom: 0px; } .post__title-container:before { position: absolute; top: 1.25rem; left: 0; right: 2em; display: block; content: ''; border-top: 1px solid #111111; z-index: -1; } }
 
-@media screen and (min-width: 768px) and (prefers-color-scheme: dark) { .post__title-container:before { border-top: 1px solid #E5E5E5; } }
+@media screen and (min-width: 1000px) and (prefers-color-scheme: dark) { .post__title-container:before { border-top: 1px solid #E5E5E5; } }
 
 .post__title { font-family: "Roslindale-Deck-Narrow", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.5rem; line-height: 2.5rem; position: relative; }
 
-@media screen and (min-width: 768px) { .post__title { font-size: 2rem; line-height: 3rem; } }
+@media screen and (min-width: 1000px) { .post__title { font-size: 2rem; line-height: 3rem; } }
 
-@media screen and (min-width: 768px) { .post__title { top: -0.5rem; display: inline-block; background-color: #FFFFFF; padding-right: 1em; max-width: 12em; } }
+@media screen and (min-width: 1000px) { .post__title { top: -0.5rem; display: inline-block; background-color: #FFFFFF; padding-right: 1em; max-width: 12em; } }
 
 @media (prefers-color-scheme: dark) { .post__title { background-color: #111111; } }
 
 .post__detail { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; margin-bottom: 0; }
 
-@media screen and (min-width: 768px) { .post__detail { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .post__detail { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .post__detail:last-child { margin-bottom: 2rem; }
 
 .post__description { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
-@media screen and (min-width: 768px) { .post__description { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .post__description { font-size: 1.5rem; line-height: 2.5rem; } }
 
 .post__info { margin-bottom: 2rem; }
 
-@media screen and (min-width: 768px) { .post__info { margin-bottom: 8.5rem; } }
+@media screen and (min-width: 1000px) { .post__info { margin-bottom: 8.5rem; } }
 
 .post__hero { margin-bottom: 6rem; }
 
-@media screen and (min-width: 768px) { .post__hero { margin-bottom: 8.5rem; } }
+@media screen and (min-width: 1000px) { .post__hero { margin-bottom: 8.5rem; } }
 
 .post__hero img { max-width: 100%; border-radius: 1.5rem; }
 
@@ -427,39 +449,17 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 .post__content h2, .post__content h3 { font-family: "Roslindale-Deck-Narrow", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.5rem; line-height: 2.5rem; margin-top: 6rem; margin-bottom: 2rem; }
 
-@media screen and (min-width: 768px) { .post__content h2, .post__content h3 { font-size: 2rem; line-height: 3rem; } }
+@media screen and (min-width: 1000px) { .post__content h2, .post__content h3 { font-size: 2rem; line-height: 3rem; } }
 
-@media screen and (min-width: 768px) { .post__content h2, .post__content h3 { margin-top: 8.5rem; margin-bottom: 2.5rem; } }
-
-.post__content figure { text-align: center; margin-top: 6rem; margin-bottom: 6rem; }
-
-@media screen and (min-width: 768px) { .post__content figure { margin-top: 8.5rem; margin-bottom: 8.5rem; } }
-
-.post__content figure.figure--with-border img { border: 2px solid #E5E5E5; }
-
-@media (prefers-color-scheme: dark) { .post__content figure.figure--with-border img { border: 2px solid #333333; } }
-
-.post__content figure.figure--no-round img { border-radius: 0; }
-
-.post__content figure img, .post__content figure video, .post__content figure iframe { border-radius: 1.5rem; max-width: 100%; margin-bottom: 0.75rem; }
-
-@media screen and (min-width: 768px) { .post__content figure img, .post__content figure video, .post__content figure iframe { border-radius: 3.25rem; } }
-
-@media screen and (min-width: 768px) { .post__content figure img, .post__content figure video, .post__content figure iframe { margin-bottom: 1rem; } }
-
-.post__content figure video { max-width: 100%; }
-
-.post__content figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; font-style: italic; text-align: left; max-width: 40em; }
-
-@media screen and (min-width: 768px) { .post__content figure figcaption { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .post__content h2, .post__content h3 { margin-top: 8.5rem; margin-bottom: 2.5rem; } }
 
 .post__content .row { margin-top: 6rem; margin-bottom: 6rem; }
 
-@media screen and (min-width: 768px) { .post__content .row { margin-top: 8.5rem; margin-bottom: 8.5rem; } }
+@media screen and (min-width: 1000px) { .post__content .row { margin-top: 8.5rem; margin-bottom: 8.5rem; } }
 
 .post__content .row--no-spacing { margin-top: 0; }
 
-@media screen and (min-width: 768px) { .post__content .row--no-spacing { margin-top: 0; } }
+@media screen and (min-width: 1000px) { .post__content .row--no-spacing { margin-top: 0; } }
 
 .post__content .col-md-3 > *:first-child, .post__content .col-md-4 > *:first-child, .post__content .col-md-5 > *:first-child, .post__content .col-md-6 > *:first-child, .post__content .col-md-12 > *:first-child { margin-top: 0; }
 
