@@ -339,7 +339,7 @@ figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", ser
 
 @media screen and (min-width: 768px) { .role__logo { margin-bottom: 2rem; } }
 
-.role__logo img { max-width: 12rem; max-height: 8rem; }
+.role__logo img { max-width: 12rem; max-height: 10rem; }
 
 .role__info { margin-bottom: 1.5rem; }
 
@@ -403,9 +403,9 @@ figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", ser
 
 @media (prefers-color-scheme: dark) { .post__header { border-bottom: 2px solid #333333; } }
 
-.post__header figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; text-align: left; max-width: 40em; }
+.post__hero { margin-top: 0; margin-bottom: 6rem; }
 
-@media screen and (min-width: 1000px) { .post__header figcaption { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .post__hero { margin-bottom: 8.5rem; } }
 
 .post__title-container { position: relative; }
 
@@ -435,14 +435,6 @@ figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", ser
 
 @media screen and (min-width: 1000px) { .post__info { margin-bottom: 8.5rem; } }
 
-.post__hero { margin-bottom: 6rem; }
-
-@media screen and (min-width: 1000px) { .post__hero { margin-bottom: 8.5rem; } }
-
-.post__hero img { max-width: 100%; border-radius: 1.5rem; }
-
-@media screen and (min-width: 768px) { .post__hero img { border-radius: 3.25rem; } }
-
 .post__content { border-bottom: 2px solid #E5E5E5; }
 
 @media (prefers-color-scheme: dark) { .post__content { border-bottom: 2px solid #333333; } }
@@ -461,9 +453,9 @@ figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", ser
 
 @media screen and (min-width: 1000px) { .post__content .row--no-spacing { margin-top: 0; } }
 
-.post__content .col-md-3 > *:first-child, .post__content .col-md-4 > *:first-child, .post__content .col-md-5 > *:first-child, .post__content .col-md-6 > *:first-child, .post__content .col-md-12 > *:first-child { margin-top: 0; }
+.post__content .col-md-2 > *:first-child, .post__content .col-md-3 > *:first-child, .post__content .col-md-4 > *:first-child, .post__content .col-md-5 > *:first-child, .post__content .col-md-6 > *:first-child, .post__content .col-md-12 > *:first-child { margin-top: 0; }
 
-.post__content .col-md-3 > *:last-child, .post__content .col-md-4 > *:last-child, .post__content .col-md-5 > *:last-child, .post__content .col-md-6 > *:last-child, .post__content .col-md-12 > *:last-child { margin-bottom: 0; }
+.post__content .col-md-2 > *:last-child, .post__content .col-md-3 > *:last-child, .post__content .col-md-4 > *:last-child, .post__content .col-md-5 > *:last-child, .post__content .col-md-6 > *:last-child, .post__content .col-md-12 > *:last-child { margin-bottom: 0; }
 
 .post__content .row > *:first-child { margin-bottom: 6rem; }
 
