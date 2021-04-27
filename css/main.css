@@ -153,6 +153,18 @@ p { margin-bottom: 2rem; }
 
 @media screen and (min-width: 1000px) { p { margin-bottom: 2.5rem; } }
 
+.text--helper { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
+
+@media screen and (min-width: 1000px) { .text--helper { font-size: 1.5rem; line-height: 2.5rem; } }
+
+.text--helper a { color: #757575; }
+
+.text--detail { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 0.75rem; line-height: 1.25rem; color: #757575; }
+
+@media screen and (min-width: 1000px) { .text--detail { font-size: 1rem; line-height: 1.5rem; } }
+
+.text--detail a { color: #757575; }
+
 a { transition: color .2s ease-out; color: #111111; text-decoration-color: #007AFC; }
 
 @media (prefers-color-scheme: dark) { a { color: #E5E5E5; } }
@@ -191,9 +203,13 @@ a:hover .link--arrow:after { color: #007AFC; padding-left: 1.5em; }
 
 @media screen and (min-width: 1000px) { .quote .text--detail { font-size: 1.5rem; line-height: 2.5rem; } }
 
+.quote .text--detail a { color: #757575; }
+
 .text--credits { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 0.75rem; line-height: 1.25rem; color: #757575; font-style: italic; }
 
 @media screen and (min-width: 1000px) { .text--credits { font-size: 1rem; line-height: 1.5rem; } }
+
+.text--credits a { color: #757575; }
 
 .text--credits:before { content: "Photo credit: "; }
 
@@ -237,6 +253,8 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 @media screen and (min-width: 1000px) { .main-header__subtitle { font-size: 1.5rem; line-height: 2.5rem; } }
 
+.main-header__subtitle a { color: #757575; }
+
 .main-footer { max-width: 1600px; margin: 0 auto; padding: 0 1.5rem; margin-top: 6rem; margin-bottom: 4.5rem; }
 
 @media screen and (min-width: 768px) { .main-footer { padding-left: 3.25rem; padding-right: 3.25rem; } }
@@ -249,11 +267,15 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 @media screen and (min-width: 1000px) { .main-footer__subtitle { font-size: 1.5rem; line-height: 2.5rem; } }
 
+.main-footer__subtitle a { color: #757575; }
+
 .main-links { margin-left: 1.5em; font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
 @media screen and (min-width: 768px) { .main-links { margin-left: 0; } }
 
 @media screen and (min-width: 1000px) { .main-links { font-size: 1.5rem; line-height: 2.5rem; } }
+
+.main-links a { color: #757575; }
 
 .main-links a { transition: color .2s ease-out; display: block; color: #757575; text-decoration: none; display: inline-block; }
 
@@ -291,9 +313,13 @@ figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", ser
 
 @media screen and (min-width: 1000px) { figure figcaption { font-size: 1.5rem; line-height: 2.5rem; } }
 
+figure figcaption a { color: #757575; }
+
 .about__contact { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
 @media screen and (min-width: 1000px) { .about__contact { font-size: 1.5rem; line-height: 2.5rem; } }
+
+.about__contact a { color: #757575; }
 
 .about__contact a { transition: color .2s ease-out; color: #757575; text-decoration: none; text-decoration-color: #007AFC; }
 
@@ -305,9 +331,13 @@ figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", ser
 
 @media screen and (min-width: 1000px) { .about__selected-works { font-size: 1.5rem; line-height: 2.5rem; } }
 
+.about__selected-works a { color: #757575; }
+
 .about__selected-works h2 { font-weight: normal; font-style: italic; font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
 @media screen and (min-width: 1000px) { .about__selected-works h2 { font-size: 1.5rem; line-height: 2.5rem; } }
+
+.about__selected-works h2 a { color: #757575; }
 
 .about__selected-works ul { margin-top: 0; margin-bottom: 2.5rem; }
 
@@ -349,6 +379,8 @@ figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", ser
 
 @media screen and (min-width: 1000px) { .role__info p { font-size: 1.5rem; line-height: 2.5rem; } }
 
+.role__info p a { color: #757575; }
+
 .role__summary p { margin-bottom: 0; }
 
 .project { padding-bottom: 4.5rem; margin-bottom: 4.5rem; text-decoration: none; border-bottom: 2px solid #E5E5E5; }
@@ -368,6 +400,8 @@ figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", ser
 .project__details { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
 @media screen and (min-width: 1000px) { .project__details { font-size: 1.5rem; line-height: 2.5rem; } }
+
+.project__details a { color: #757575; }
 
 .project__details p { margin-bottom: 0; }
 
@@ -392,6 +426,8 @@ figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", ser
 .thought__date { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
 @media screen and (min-width: 1000px) { .thought__date { font-size: 1.5rem; line-height: 2.5rem; } }
+
+.thought__date a { color: #757575; }
 
 .thought__title { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.25rem; line-height: 2rem; margin-bottom: 1.5rem; text-decoration: underline; text-decoration-color: #007AFC; }
 
@@ -425,11 +461,15 @@ figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", ser
 
 @media screen and (min-width: 1000px) { .post__detail { font-size: 1.5rem; line-height: 2.5rem; } }
 
+.post__detail a { color: #757575; }
+
 .post__detail:last-child { margin-bottom: 2rem; }
 
 .post__description { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
 @media screen and (min-width: 1000px) { .post__description { font-size: 1.5rem; line-height: 2.5rem; } }
+
+.post__description a { color: #757575; }
 
 .post__info { margin-bottom: 2rem; }
 
