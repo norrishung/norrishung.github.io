@@ -21,7 +21,7 @@
 
 .spacing-below-20 { margin-bottom: 1.25rem !important; }
 
-.spacing-below-24 { margin-bottom: 1.5rem !important; }
+.spacing-below-24 { margin-bottom: 1.375rem !important; }
 
 .spacing-below-32 { margin-bottom: 2rem !important; }
 
@@ -131,7 +131,7 @@ body { margin: 0 auto; padding: 0; color: #111111; background-color: #FFFFFF; -w
 
 @media (prefers-color-scheme: dark) { body { color: #E5E5E5; background-color: #111111; } }
 
-.main-content { max-width: 1600px; margin: 0 auto; padding: 0 1.5rem; }
+.main-content { max-width: 1600px; margin: 0 auto; padding: 0 1.375rem; }
 
 @media screen and (min-width: 768px) { .main-content { padding-left: 3.25rem; padding-right: 3.25rem; } }
 
@@ -143,11 +143,11 @@ body { margin: 0 auto; padding: 0; color: #111111; background-color: #FFFFFF; -w
 
 body { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; }
 
-@media screen and (min-width: 1000px) { body { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { body { font-size: 1.375rem; line-height: 2.5rem; } }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.25rem; line-height: 2rem; }
 
-@media screen and (min-width: 1000px) { h1, h2, h3, h4, h5, h6 { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { h1, h2, h3, h4, h5, h6 { font-size: 1.375rem; line-height: 2.5rem; } }
 
 p { margin-bottom: 2rem; }
 
@@ -155,13 +155,13 @@ p { margin-bottom: 2rem; }
 
 .text--helper { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
-@media screen and (min-width: 1000px) { .text--helper { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .text--helper { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .text--helper a { color: #757575; }
 
 .text--detail { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 0.75rem; line-height: 1.25rem; color: #757575; }
 
-@media screen and (min-width: 1000px) { .text--detail { font-size: 1rem; line-height: 1.5rem; } }
+@media screen and (min-width: 1000px) { .text--detail { font-size: 1rem; line-height: 1.375rem; } }
 
 .text--detail a { color: #757575; }
 
@@ -185,15 +185,15 @@ a:hover .link--arrow:after { color: #007AFC; padding-left: 1.5em; }
 
 @media screen and (min-width: 1000px) { .quote { margin-top: 6rem; margin-bottom: 6rem; } }
 
-.quote blockquote { font-family: "Roslindale-Deck-Narrow", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.5rem; line-height: 2.5rem; color: #333333; }
+.quote blockquote { font-family: "Roslindale-Deck-Narrow", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 2rem; line-height: 3rem; color: #333333; }
 
-@media screen and (min-width: 1000px) { .quote blockquote { font-size: 2rem; line-height: 3rem; } }
+@media screen and (min-width: 1000px) { .quote blockquote { font-size: 2.5rem; line-height: 4rem; } }
 
 @media (prefers-color-scheme: dark) { .quote blockquote { color: #E5E5E5; } }
 
 .quote blockquote p:last-of-type { margin-bottom: 1.25rem; }
 
-@media screen and (min-width: 1000px) { .quote blockquote p:last-of-type { margin-bottom: 1.5rem; } }
+@media screen and (min-width: 1000px) { .quote blockquote p:last-of-type { margin-bottom: 1.375rem; } }
 
 .quote blockquote p:before { content: '\201C'; }
 
@@ -201,13 +201,13 @@ a:hover .link--arrow:after { color: #007AFC; padding-left: 1.5em; }
 
 .quote .text--detail { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; font-style: italic; margin-bottom: 0; }
 
-@media screen and (min-width: 1000px) { .quote .text--detail { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .quote .text--detail { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .quote .text--detail a { color: #757575; }
 
 .text--credits { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 0.75rem; line-height: 1.25rem; color: #757575; font-style: italic; }
 
-@media screen and (min-width: 1000px) { .text--credits { font-size: 1rem; line-height: 1.5rem; } }
+@media screen and (min-width: 1000px) { .text--credits { font-size: 1rem; line-height: 1.375rem; } }
 
 .text--credits a { color: #757575; }
 
@@ -237,7 +237,7 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 @media (prefers-color-scheme: dark) { hr { background-color: #333333; } }
 
-.main-header { max-width: 1600px; margin: 0 auto; padding: 0 1.5rem; margin-top: 2.5rem; margin-bottom: 4.5rem; }
+.main-header { max-width: 1600px; margin: 0 auto; padding: 0 1.375rem; margin-top: 2.5rem; margin-bottom: 4.5rem; }
 
 @media screen and (min-width: 768px) { .main-header { padding-left: 3.25rem; padding-right: 3.25rem; } }
 
@@ -247,15 +247,15 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 .main-header__title a { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; text-decoration: none; }
 
-@media screen and (min-width: 1000px) { .main-header__title a { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .main-header__title a { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .main-header__subtitle { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; font-style: italic; }
 
-@media screen and (min-width: 1000px) { .main-header__subtitle { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .main-header__subtitle { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .main-header__subtitle a { color: #757575; }
 
-.main-footer { max-width: 1600px; margin: 0 auto; padding: 0 1.5rem; margin-top: 6rem; margin-bottom: 4.5rem; }
+.main-footer { max-width: 1600px; margin: 0 auto; padding: 0 1.375rem; margin-top: 6rem; margin-bottom: 4.5rem; }
 
 @media screen and (min-width: 768px) { .main-footer { padding-left: 3.25rem; padding-right: 3.25rem; } }
 
@@ -265,7 +265,7 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 .main-footer__subtitle { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; font-style: italic; }
 
-@media screen and (min-width: 1000px) { .main-footer__subtitle { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .main-footer__subtitle { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .main-footer__subtitle a { color: #757575; }
 
@@ -273,7 +273,7 @@ hr { margin-top: 4.5rem; margin-bottom: 4.5rem; border: 0; height: 2px; backgrou
 
 @media screen and (min-width: 768px) { .main-links { margin-left: 0; } }
 
-@media screen and (min-width: 1000px) { .main-links { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .main-links { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .main-links a { color: #757575; }
 
@@ -301,7 +301,7 @@ figure.figure--with-border img { border: 2px solid #E5E5E5; }
 
 figure.figure--no-round img { border-radius: 0; }
 
-figure img, figure video, figure iframe { border-radius: 1.5rem; max-width: 100%; margin-bottom: 0.75rem; }
+figure img, figure video, figure iframe { border-radius: 1.375rem; max-width: 100%; margin-bottom: 0.75rem; }
 
 @media screen and (min-width: 768px) { figure img, figure video, figure iframe { border-radius: 3.25rem; } }
 
@@ -311,13 +311,13 @@ figure video { max-width: 100%; }
 
 figure figcaption { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; font-style: italic; text-align: left; max-width: 40em; }
 
-@media screen and (min-width: 1000px) { figure figcaption { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { figure figcaption { font-size: 1.375rem; line-height: 2.5rem; } }
 
 figure figcaption a { color: #757575; }
 
 .about__contact { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
-@media screen and (min-width: 1000px) { .about__contact { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .about__contact { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .about__contact a { color: #757575; }
 
@@ -329,13 +329,13 @@ figure figcaption a { color: #757575; }
 
 @media screen and (min-width: 768px) { .about__selected-works { margin-bottom: 0; } }
 
-@media screen and (min-width: 1000px) { .about__selected-works { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .about__selected-works { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .about__selected-works a { color: #757575; }
 
 .about__selected-works h2 { font-weight: normal; font-style: italic; font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
-@media screen and (min-width: 1000px) { .about__selected-works h2 { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .about__selected-works h2 { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .about__selected-works h2 a { color: #757575; }
 
@@ -365,19 +365,19 @@ figure figcaption a { color: #757575; }
 
 @media (prefers-color-scheme: dark) { .role { border-bottom: 2px solid #333333; } }
 
-.role__logo { margin-bottom: 1.5rem; }
+.role__logo { margin-bottom: 1.375rem; }
 
 @media screen and (min-width: 768px) { .role__logo { margin-bottom: 2rem; } }
 
 .role__logo img { max-width: 12rem; max-height: 10rem; }
 
-.role__info { margin-bottom: 1.5rem; }
+.role__info { margin-bottom: 1.375rem; padding-right: 1.375rem; }
 
 @media screen and (min-width: 768px) { .role__info { margin-bottom: 2rem; } }
 
 .role__info p { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; margin-bottom: 0; }
 
-@media screen and (min-width: 1000px) { .role__info p { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .role__info p { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .role__info p a { color: #757575; }
 
@@ -393,13 +393,13 @@ figure figcaption a { color: #757575; }
 
 @media (prefers-color-scheme: dark) { .project { border-bottom: 2px solid #333333; } }
 
-.project__title { transition: color .2s ease-out; font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.25rem; line-height: 2rem; margin-bottom: 1.5rem; text-decoration: underline; text-decoration-color: #007AFC; }
+.project__title { transition: color .2s ease-out; font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.25rem; line-height: 2rem; margin-bottom: 1.375rem; text-decoration: underline; text-decoration-color: #007AFC; }
 
-@media screen and (min-width: 1000px) { .project__title { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .project__title { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .project__details { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
-@media screen and (min-width: 1000px) { .project__details { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .project__details { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .project__details a { color: #757575; }
 
@@ -411,7 +411,7 @@ figure figcaption a { color: #757575; }
 
 .project__thumbnail::after { clear: both; }
 
-.project__thumbnail img { border-radius: 1.5rem; max-width: 100%; }
+.project__thumbnail img { border-radius: 1.375rem; max-width: 100%; }
 
 @media screen and (min-width: 768px) { .project__thumbnail img { border-radius: 3.25rem; } }
 
@@ -425,13 +425,13 @@ figure figcaption a { color: #757575; }
 
 .thought__date { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
-@media screen and (min-width: 1000px) { .thought__date { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .thought__date { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .thought__date a { color: #757575; }
 
-.thought__title { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.25rem; line-height: 2rem; margin-bottom: 1.5rem; text-decoration: underline; text-decoration-color: #007AFC; }
+.thought__title { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.25rem; line-height: 2rem; margin-bottom: 1.375rem; text-decoration: underline; text-decoration-color: #007AFC; }
 
-@media screen and (min-width: 1000px) { .thought__title { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .thought__title { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .post__header { margin-bottom: 6rem; border-bottom: 2px solid #E5E5E5; }
 
@@ -449,9 +449,9 @@ figure figcaption a { color: #757575; }
 
 @media screen and (min-width: 1000px) and (prefers-color-scheme: dark) { .post__title-container:before { border-top: 1px solid #E5E5E5; } }
 
-.post__title { font-family: "Roslindale-Deck-Narrow", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.5rem; line-height: 2.5rem; position: relative; }
+.post__title { font-family: "Roslindale-Deck-Narrow", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 2rem; line-height: 3rem; position: relative; }
 
-@media screen and (min-width: 1000px) { .post__title { font-size: 2rem; line-height: 3rem; } }
+@media screen and (min-width: 1000px) { .post__title { font-size: 2.5rem; line-height: 4rem; } }
 
 @media screen and (min-width: 1000px) { .post__title { top: -0.5rem; display: inline-block; background-color: #FFFFFF; padding-right: 1em; max-width: 12em; } }
 
@@ -459,7 +459,7 @@ figure figcaption a { color: #757575; }
 
 .post__detail { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; margin-bottom: 0; }
 
-@media screen and (min-width: 1000px) { .post__detail { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .post__detail { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .post__detail a { color: #757575; }
 
@@ -467,7 +467,7 @@ figure figcaption a { color: #757575; }
 
 .post__description { font-family: "Roslindale", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-size: 1.25rem; line-height: 2rem; color: #757575; }
 
-@media screen and (min-width: 1000px) { .post__description { font-size: 1.5rem; line-height: 2.5rem; } }
+@media screen and (min-width: 1000px) { .post__description { font-size: 1.375rem; line-height: 2.5rem; } }
 
 .post__description a { color: #757575; }
 
@@ -479,9 +479,9 @@ figure figcaption a { color: #757575; }
 
 @media (prefers-color-scheme: dark) { .post__content { border-bottom: 2px solid #333333; } }
 
-.post__content h2, .post__content h3 { font-family: "Roslindale-Deck-Narrow", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 1.5rem; line-height: 2.5rem; margin-top: 6rem; margin-bottom: 2rem; }
+.post__content h2, .post__content h3 { font-family: "Roslindale-Deck-Narrow", "Georgia", "Times New Roman", serif; letter-spacing: -.01em; font-weight: bold; font-size: 2rem; line-height: 3rem; margin-top: 6rem; margin-bottom: 2rem; }
 
-@media screen and (min-width: 1000px) { .post__content h2, .post__content h3 { font-size: 2rem; line-height: 3rem; } }
+@media screen and (min-width: 1000px) { .post__content h2, .post__content h3 { font-size: 2.5rem; line-height: 4rem; } }
 
 @media screen and (min-width: 1000px) { .post__content h2, .post__content h3 { margin-top: 8.5rem; margin-bottom: 2.5rem; } }
 
